@@ -1,0 +1,2 @@
+http://www.cl.ut.ee/korpused/morfliides/seletus - Morpho-syntactic categories
+http://www.cl.ut.ee/korpused/morfkorpus/myh01/ - morfkorpus/myh01/

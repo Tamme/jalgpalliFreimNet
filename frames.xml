@@ -1,0 +1,19 @@
+<frame name="Finish">
+    <LexicalUnits>
+      <lu lemma="lõpetama" pos="v-fin" />
+    </LexicalUnits>
+    <Elements>
+      <element name="lööja" optional="false" />
+      </element>
+      <element name="allikas" optional="false" />
+      </element>
+      <element name="käik" optional="false" />
+      </element>
+      <element name="kehaosa" optional="false" />
+      </element>
+	  <element name="sihtmärk" optional="false" />
+      </element>
+	  <element name="tee" optional="false" />
+      </element>
+    </Elements>
+</frame>
