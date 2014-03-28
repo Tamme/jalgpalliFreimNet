@@ -1,19 +1,162 @@
-<frame name="Finish">
+<framelexicon>
+  <frame name="Finish">
     <LexicalUnits>
-      <lu lemma="lõpetama" pos="v-fin" />
+      <lu lemma="lõpetama" kääne="verb" />
     </LexicalUnits>
     <Elements>
-      <element name="lööja" optional="false" />
+      <element name="Lööja" kääne="nimetav" />
       </element>
-      <element name="allikas" optional="false" />
+      <element name="Allikas" kääne="nimetav" />
       </element>
-      <element name="käik" optional="false" />
+      <element name="Käik" kääne="nimetav" />
       </element>
-      <element name="kehaosa" optional="false" />
+      <element name="Kehaosa" kääne="nimetav" />
       </element>
-	  <element name="sihtmärk" optional="false" />
+	  <element name="Sihtmärk" kääne="nimetav" />
       </element>
-	  <element name="tee" optional="false" />
+	  <element name="Tee" kääne="nimetav" />
       </element>
     </Elements>
-</frame>
+  </frame>
+  <frame name="Season">
+    <LexicalUnits>
+      <lu lemma="hooaeg" kääne="nimetav" />
+	</LexicalUnits>
+	<Elements>
+      <element name="aasta" kääne="nimetav" />
+      </element>
+	</Elements>
+  </frame>
+  <frame name="Match">
+    <LexicalUnits>
+      <lu lemma="mäng" kääne="nimetav" />
+	  <lu lemma="kohtumine" kääne="nimetav" />
+	  <lu lemma="vastasseis" kääne="nimetav" />
+	</LexicalUnits>
+	<Elements>
+      <element name="Meeskond2" kääne="nimetav" />
+      </element>
+	  <element name="Meeskond1" kääne="nimetav" />
+      </element>
+	  <element name="Väljak" kääne="nimetav" />
+      </element>
+	  <element name="Faas" kääne="nimetav" />
+      </element>
+	  <element name="Meeskonnad" kääne="m_nimetav" />
+      </element>
+	  <element name="Võistlus" kääne="nimetav" />
+      </element>
+	  <element name="Aeg" kääne="nimetav" />
+      </element>
+	  <element name="Mäng" kääne="nimetav" />
+      </element>
+	</Elements>
+  </frame>
+  <frame name="Debut">
+    <LexicalUnits>
+      <lu lemma="debüüt" kääne="nimetav" />
+	  <lu lemma="esmaesinemine" kääne="nimetav" />
+	</LexicalUnits>
+	<Elements>
+	  <element name="Mäng" kääne="nimetav" />
+      </element>
+      <element name="Aeg" kääne="nimetav" />
+      </element>
+	  <element name="Meeskonnad" kääne="nimetav" />
+      </element>
+	</Elements>
+  </frame>
+    <frame name="Defeat">
+    <LexicalUnits>
+      <lu lemma="kaotus" kääne="nimetav" />
+	  <lu lemma="lüüasaamine" kääne="nimetav" />
+	  <lu lemma="nurjumine" kääne="nimetav" />
+	</LexicalUnits>
+	<Elements>
+	  <element name="Kaotaja" kääne="nimetav" />
+      </element>
+      <element name="Lõppskoor" kääne="nimetav" />
+      </element>
+	  <element name="Võitja" kääne="nimetav" />
+      </element>
+	  <element name="Väljak" kääne="nimetav" />
+      </element>
+	  <element name="Mäng" kääne="nimetav" />
+      </element>
+	  <element name="Faas" kääne="nimetav" />
+      </element>
+	  <element name="Võistlus" kääne="nimetav" />
+      </element>
+	</Elements>
+  </frame>
+  <frame name="Home_game">
+    <LexicalUnits>
+      <lu lemma="kodumäng" kääne="nimetav" />
+	  <lu lemma="kodus" kääne="seesütlev" />
+	  <lu lemma="võõrustaja" kääne="nimetav" />
+	</LexicalUnits>
+	<Elements>
+	  <element name="Võõrustaja" kääne="nimetav" />
+      </element>
+      <element name="Külaline" kääne="nimetav" />
+      </element>
+	  <element name="Väljak" kääne="nimetav" />
+      </element>
+	  <element name="Asukoht" kääne="nimetav" />
+      </element>
+	  <element name="Aeg" kääne="nimetav" />
+      </element>
+	  <element name="Mäng" kääne="nimetav" />
+      </element>
+	</Elements>
+  </frame>
+  </frame>
+  <frame name="National_team">
+    <LexicalUnits>
+      <lu lemma="koondis" kääne="nimetav" />
+	</LexicalUnits>
+	<Elements>
+	  <element name="Treener" kääne="nimetav" />
+      </element>
+      <element name="Mängijad" kääne="m_nimetav" />
+      </element>
+	  <element name="Riik" kääne="nimetav" />
+      </element>
+	</Elements>
+  </frame>
+  <frame name="Shot">
+    <LexicalUnits>
+      <lu lemma="Löök" kääne="nimetav" />
+	  <lu lemma="Üritus" kääne="nimetav" />
+	  <lu lemma="Kannalöök" kääne="nimetav" />
+	  <lu lemma="Käärlöök" kääne="nimetav" />
+	  <lu lemma="Kõmmutus" kääne="nimetav" />
+	  <lu lemma="Pealöök" kääne="nimetav" />
+	</LexicalUnits>
+	<Elements>
+	  <element name="Lööja" kääne="nimetav" />
+      </element>
+      <element name="Sihtmärk" kääne="m_nimetav" />
+      </element>
+	  <element name="Allikas" kääne="nimetav" />
+      </element>
+	  <element name="Pall" kääne="nimetav" />
+      </element>
+	  <element name="Kehaosa" kääne="nimetav" />
+      </element>
+	  <element name="Liikuv_pall" kääne="nimetav" />
+      </element>
+	  <element name="Teekond" kääne="nimetav" />
+      </element>
+	  <element name="Vahelesekkuv_mängija" kääne="nimetav" />
+      </element>
+	  <element name="Saaja" kääne="nimetav" />
+      </element>
+	  <element name="Löök" kääne="nimetav" />
+      </element>
+	</Elements>
+  </frame>  
+</framelexicon>
+
+	
+	
