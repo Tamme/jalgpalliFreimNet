@@ -1,0 +1,28 @@
+http://www.cs.ut.ee/~kaili/juhendamised/kajastetreetagger.pdf
+
+_A_ omadussõna - algvõrre (adjektiiv - positiiv), nii käänduvad kui käändumatud, nt kallis või eht 
+_C_ omadussõna - keskvõrre (adjektiiv - komparatiiv), nt laiem 
+_D_ määrsõna (adverb), nt kõrvuti 
+_G_ genitiivatribuut (käändumatu omadussõna), nt balti 
+_H_ pärisnimi, nt Edgar
+_I_ hüüdsõna (interjektsioon), nt tere 
+_J_ sidesõna (konjunktsioon), nt ja 
+_K_ kaassõna (pre/postpositsioon), nt kaudu 
+_N_ põhiarvsõna (kardinaalnumeraal), nt kaks 
+_O_ järgarvsõna (ordinaalnumeraal), nt teine 
+_P_ asesõna (pronoomen), nt see 
+_S_ nimisõna (substantiiv), nt asi 
+_U_ omadussõna - ülivõrre (adjektiiv - superlatiiv), nt pikim 
+_V_ tegusõna (verb), nt lugema 
+_X_ verbi juurde kuuluv sõna, millel eraldi sõnaliigi tähistus puudub, nt plehku 
+_Y_ lühend, nt USA 
+_Z_ lausemärk, nt -, /, ... 
+_T_tundmatu sõna
+
+com - apellatiiv - üldnimi, nt jalg
+prop - prooprium - pärisnimi, nt Peeter
+main - indiktiiv - põhi
+indic - indiktiiv
+
+sg - singular - ainsus
+pl - pluural - mitmus

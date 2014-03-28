@@ -1,19 +1,28 @@
-<frame name="Finish">
-    <LexicalUnits>
-      <lu lemma="lõpetama" pos="v-fin" />
-    </LexicalUnits>
-    <Elements>
-      <element name="lööja" optional="false" />
-      </element>
-      <element name="allikas" optional="false" />
-      </element>
-      <element name="käik" optional="false" />
-      </element>
-      <element name="kehaosa" optional="false" />
-      </element>
-	  <element name="sihtmärk" optional="false" />
-      </element>
-	  <element name="tee" optional="false" />
-      </element>
-    </Elements>
-</frame>
+<Frames>
+	<frame name="Finish">
+		<LexicalUnits>
+		  <lu lemma="lõpetama" pos="v-fin" />
+		</LexicalUnits>
+		<Elements>
+		  <element name="lööja" optional="false" />
+		  <element name="allikas" optional="false" />
+		  <element name="käik" optional="false" />
+		  <element name="kehaosa" optional="false" />
+		  <element name="sihtmärk" optional="false" />
+		  <element name="tee" optional="false" />
+		</Elements>
+	</frame>
+	<frame name="End">
+		<LexicalUnits>
+		  <lu lemma="lõppema" pos="v-fin" />
+		</LexicalUnits>
+		<Elements>
+		  <element name="lööja" optional="false" />
+		  <element name="allikas" optional="false" />
+		  <element name="käik" optional="false" />
+		  <element name="kehaosa" optional="false" />
+		  <element name="sihtmärk" optional="false" />
+		  <element name="tee" optional="false" />
+		</Elements>
+	</frame>
+</Frames>
