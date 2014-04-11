@@ -1,159 +1,576 @@
 <framelexicon>
-  <frame name="Finish">
+  <frame name="finish">
     <LexicalUnits>
-      <lu lemma="lõpetama" kääne="verb" />
+      <lu lemma="lõpetama" />
     </LexicalUnits>
     <Elements>
-      <element name="Lööja" kääne="nimetav" />
-      </element>
-      <element name="Allikas" kääne="nimetav" />
-      </element>
-      <element name="Käik" kääne="nimetav" />
-      </element>
-      <element name="Kehaosa" kääne="nimetav" />
-      </element>
-	  <element name="Sihtmärk" kääne="nimetav" />
-      </element>
-	  <element name="Tee" kääne="nimetav" />
-      </element>
+      <element name="lööja" optional="false" />
+      <element name="allikas" optional="false" />
+      <element name="käik" optional="false" />
+      <element name="kehaosa" optional="false" />
+	  <element name="sihtmärk" optional="false" />
+	  <element name="teekond" optional="false" />
     </Elements>
   </frame>
-  <frame name="Season">
+  <frame name="start end match">
     <LexicalUnits>
-      <lu lemma="hooaeg" kääne="nimetav" />
+      <lu lemma="lõpuvile" />
+	  <lu lemma="avavile" />
+	  <lu lemma="avalöök" />
+	  <lu lemma="poolajavile" />
+	  <lu lemma="uuesti_alustama" />
+    </LexicalUnits>
+    <Elements>
+      <element name="kohtunik" optional="false" />
+      <element name="mäng" optional="false" />
+      <element name="meeskond" optional="false" />
+      <element name="põhjus" optional="false" />
+    </Elements>
+  </frame>
+  <frame name="season">
+    <LexicalUnits>
+      <lu lemma="hooaeg" />
 	</LexicalUnits>
 	<Elements>
-      <element name="aasta" kääne="nimetav" />
-      </element>
+      <element name="aasta" optional="false" />
 	</Elements>
   </frame>
-  <frame name="Match">
+  <frame name="match">
     <LexicalUnits>
-      <lu lemma="mäng" kääne="nimetav" />
-	  <lu lemma="kohtumine" kääne="nimetav" />
-	  <lu lemma="vastasseis" kääne="nimetav" />
+      <lu lemma="mäng" />
+	  <lu lemma="kohtumine" />
+	  <lu lemma="vastasseis" />
 	</LexicalUnits>
 	<Elements>
-      <element name="Meeskond2" kääne="nimetav" />
-      </element>
-	  <element name="Meeskond1" kääne="nimetav" />
-      </element>
-	  <element name="Väljak" kääne="nimetav" />
-      </element>
-	  <element name="Faas" kääne="nimetav" />
-      </element>
-	  <element name="Meeskonnad" kääne="m_nimetav" />
-      </element>
-	  <element name="Võistlus" kääne="nimetav" />
-      </element>
-	  <element name="Aeg" kääne="nimetav" />
-      </element>
-	  <element name="Mäng" kääne="nimetav" />
-      </element>
+      <element name="meeskond2" optional="false" />      
+	  <element name="meeskond1" optional="false" />      
+	  <element name="väljak" optional="false" />      
+	  <element name="faas" optional="false" />      
+	  <element name="meeskonnad" optional="false" />      
+	  <element name="võistlus" optional="false" />      
+	  <element name="aeg" optional="false" />      
+	  <element name="mäng" optional="false" />      
 	</Elements>
   </frame>
-  <frame name="Debut">
+  <frame name="debut">
     <LexicalUnits>
-      <lu lemma="debüüt" kääne="nimetav" />
-	  <lu lemma="esmaesinemine" kääne="nimetav" />
+      <lu lemma="debüüt" />
+	  <lu lemma="esmaesinemine" />
 	</LexicalUnits>
 	<Elements>
-	  <element name="Mäng" kääne="nimetav" />
-      </element>
-      <element name="Aeg" kääne="nimetav" />
-      </element>
-	  <element name="Meeskonnad" kääne="nimetav" />
-      </element>
+	  <element name="mäng" optional="false" />      
+      <element name="aeg" optional="false" />      
+	  <element name="meeskonnad" optional="false" />      
 	</Elements>
   </frame>
-    <frame name="Defeat">
+    <frame name="defeat">
     <LexicalUnits>
-      <lu lemma="kaotus" kääne="nimetav" />
-	  <lu lemma="lüüasaamine" kääne="nimetav" />
-	  <lu lemma="nurjumine" kääne="nimetav" />
+      <lu lemma="kaotus" />
+	  <lu lemma="lüüasaamine" />
+	  <lu lemma="nurjumine" />
 	</LexicalUnits>
 	<Elements>
-	  <element name="Kaotaja" kääne="nimetav" />
-      </element>
-      <element name="Lõppskoor" kääne="nimetav" />
-      </element>
-	  <element name="Võitja" kääne="nimetav" />
-      </element>
-	  <element name="Väljak" kääne="nimetav" />
-      </element>
-	  <element name="Mäng" kääne="nimetav" />
-      </element>
-	  <element name="Faas" kääne="nimetav" />
-      </element>
-	  <element name="Võistlus" kääne="nimetav" />
-      </element>
+	  <element name="kaotaja" optional="false" />      
+      <element name="lõppskoor" optional="false" />      
+	  <element name="võitja" optional="false" />      
+	  <element name="väljak" optional="false" />      
+	  <element name="mäng" optional="false" />      
+	  <element name="faas" optional="false" />      
+	  <element name="võistlus" optional="false" />      
 	</Elements>
   </frame>
-  <frame name="Home_game">
+  <frame name="home game">
     <LexicalUnits>
-      <lu lemma="kodumäng" kääne="nimetav" />
-	  <lu lemma="kodus" kääne="seesütlev" />
-	  <lu lemma="võõrustaja" kääne="nimetav" />
+      <lu lemma="kodumäng" />
+	  <lu lemma="kodus" />
+	  <lu lemma="võõrustaja" />
 	</LexicalUnits>
 	<Elements>
-	  <element name="Võõrustaja" kääne="nimetav" />
-      </element>
-      <element name="Külaline" kääne="nimetav" />
-      </element>
-	  <element name="Väljak" kääne="nimetav" />
-      </element>
-	  <element name="Asukoht" kääne="nimetav" />
-      </element>
-	  <element name="Aeg" kääne="nimetav" />
-      </element>
-	  <element name="Mäng" kääne="nimetav" />
-      </element>
+	  <element name="võõrustaja" optional="false" />      
+      <element name="külaline" optional="false" />      
+	  <element name="väljak" optional="false" />     
+	  <element name="asukoht" optional="false" />      
+	  <element name="aeg" optional="false" />      
+	  <element name="mäng" optional="false" />      
 	</Elements>
   </frame>
   </frame>
-  <frame name="National_team">
+  <frame name="national team">
     <LexicalUnits>
-      <lu lemma="koondis" kääne="nimetav" />
+      <lu lemma="koondis" />
 	</LexicalUnits>
 	<Elements>
-	  <element name="Treener" kääne="nimetav" />
-      </element>
-      <element name="Mängijad" kääne="m_nimetav" />
-      </element>
-	  <element name="Riik" kääne="nimetav" />
-      </element>
+	  <element name="treener" optional="false" />      
+      <element name="mängijad" optional="false" />      
+	  <element name="riik" optional="false" />      
+	</Elements>
+  </frame>
+  <frame name="score goal">
+    <LexicalUnits>
+      <lu lemma="tabama" />
+	  <lu lemma="skoorima" />
+	</LexicalUnits>
+	<Elements>
+	  <element name="värav" optional="false" />      
+      <element name="lööja" optional="false" />      
+	  <element name="löök" optional="false" />           
+	</Elements>
+  </frame>
+  <frame name="chance">
+    <LexicalUnits>
+      <lu lemma="võimalus" />
+	  <lu lemma="šanss" />
+	</LexicalUnits>
+	<Elements>
+	  <element name="meeskond" optional="false" />      
+      <element name="mängija" optional="false" />      
+	  <element name="värav" optional="false" />           
+	</Elements>
+  </frame>
+  <frame name="ball and goal">
+    <LexicalUnits>
+      <lu lemma="teravnurk" />
+	  <lu lemma="kaugel" />
+	  <lu lemma="lähedal" />
+	  <lu lemma="kitsas nurk" />
+	</LexicalUnits>
+	<Elements>
+	  <element name="värava osa" optional="false" />                
+	</Elements>
+  </frame>
+  <frame name="feign">
+    <LexicalUnits>
+      <lu lemma="teesklema" />
+	  <lu lemma="sukelduma" />
+	  <lu lemma="näitlema" />
+	</LexicalUnits>
+	<Elements>
+	  <element name="lööja" optional="false" />
+	  <element name="löök" optional="false" /> 
+	  <element name="liikuv_pall" optional="false" />
+	  <element name="kehaosa" optional="false" /> 	  
+	</Elements>
+  </frame>
+  <frame name="follow up">
+    <LexicalUnits>
+      <lu lemma="järg" />
+	  <lu lemma="tagasipõrge" />
+	</LexicalUnits>
+	<Elements>
+	  <element name="teine lööja" optional="false" />
+	  <element name="sihtmärk" optional="false" /> 
+	  <element name="löök" optional="false" />
+	  <element name="teine löök" optional="false" /> 	  
+	</Elements>
+  </frame>
+  <frame name="goal kickoff">
+    <LexicalUnits>
+      <lu lemma="lahtilöök" />
+	  <lu lemma="väljavise" />
+	</LexicalUnits>
+	<Elements>
+	  <element name="väravavaht" optional="false" />
+	  <element name="kaugus" optional="false" /> 
+	  <element name="pall" optional="false" />
+	  <element name="sihtmärk" optional="false" /> 	  
+	</Elements>
+  </frame>
+  <frame name="hit">
+    <LexicalUnits>
+      <lu lemma="lööma" />
+	</LexicalUnits>
+	<Elements>
+	  <element name="lööja" optional="false" />
+	  <element name="löök" optional="false" /> 
+	  <element name="sihtmärk" optional="false" />
+	  <element name="pall" optional="false" />
+	  <element name="allikas" optional="false" /> 
+	  <element name="lööja_meeskond" optional="false" />
+	  <element name="kehaosa" optional="false" />
+	</Elements>
+  </frame>
+  <frame name="intervene">
+    <LexicalUnits>
+      <lu lemma="blokeerima" />
+	  <lu lemma="puhastama" />
+	</LexicalUnits>
+	<Elements>
+	  <element name="sekkuv mängija" optional="false" />
+	  <element name="löök" optional="false" /> 
+	  <element name="pall" optional="false" />
+	  <element name="sekkumise tulemus" optional="false" />
+	  <element name="sekkumise sihtmärk" optional="false" /> 
+	  <element name="sekkumise asukoht" optional="false" />
+	  <element name="sekkumine" optional="false" />
+	  <element name="väravavaht" optional="false" />
+	  <element name="lööja" optional="false" />
+	  <element name="vastasmeeskond" optional="false" />
+	  <element name="teekond" optional="false" />
+	</Elements>
+  </frame>
+  <frame name="miss Goal">
+    <LexicalUnits>
+      <lu lemma="möödalöök" />
+	  <lu lemma="mööda lööma" />
+	</LexicalUnits>
+	<Elements>
+	  <element name="lööja" optional="false" />
+	  <element name="sihtmärk" optional="false" /> 
+	  <element name="löök" optional="false" />
+	  <element name="allikas" optional="false" />
+	  <element name="kaugus" optional="false" /> 
+	  <element name="pall" optional="false" />
+	</Elements>
+  </frame>
+  <frame name="save">
+    <LexicalUnits>
+      <lu lemma="püüdma" />
+	  <lu lemma="tõrjuma" />
+	  <lu lemma="päästma" />
+	</LexicalUnits>
+	<Elements>
+	  <element name="väravavaht" optional="false" />      
+      <element name="löök" optional="false" />      
+	  <element name="pall" optional="false" />
+	  <element name="sekkumise sihtmärk" optional="false" />
+	  <element name="lööja" optional="false" />
+	  <element name="sekkumise asukoht" optional="false" />
+	  <element name="allikas" optional="false" />
+	  <element name="kehaosa" optional="false" />
+	  <element name="sekkumine" optional="false" />	  
+	</Elements>
+  </frame>
+  <frame name="shoot at">
+    <LexicalUnits>
+      <lu lemma="vale jalg" />
+	</LexicalUnits>
+	<Elements>
+	  <element name="lööja" optional="false" />
+	  <element name="löök" optional="false" /> 
+	  <element name="sekkuv mängija" optional="false" />
+	  <element name="allikas" optional="false" />
+	  <element name="väravavaht" optional="false" /> 
 	</Elements>
   </frame>
   <frame name="Shot">
     <LexicalUnits>
-      <lu lemma="Löök" kääne="nimetav" />
-	  <lu lemma="Üritus" kääne="nimetav" />
-	  <lu lemma="Kannalöök" kääne="nimetav" />
-	  <lu lemma="Käärlöök" kääne="nimetav" />
-	  <lu lemma="Kõmmutus" kääne="nimetav" />
-	  <lu lemma="Pealöök" kääne="nimetav" />
+      <lu lemma="löök" />
+	  <lu lemma="üritus" />
+	  <lu lemma="kannalöök"/>
+	  <lu lemma="käärlöök" />
+	  <lu lemma="kõmmutus" />
+	  <lu lemma="pealöök" />
 	</LexicalUnits>
 	<Elements>
-	  <element name="Lööja" kääne="nimetav" />
-      </element>
-      <element name="Sihtmärk" kääne="m_nimetav" />
-      </element>
-	  <element name="Allikas" kääne="nimetav" />
-      </element>
-	  <element name="Pall" kääne="nimetav" />
-      </element>
-	  <element name="Kehaosa" kääne="nimetav" />
-      </element>
-	  <element name="Liikuv_pall" kääne="nimetav" />
-      </element>
-	  <element name="Teekond" kääne="nimetav" />
-      </element>
-	  <element name="Vahelesekkuv_mängija" kääne="nimetav" />
-      </element>
-	  <element name="Saaja" kääne="nimetav" />
-      </element>
-	  <element name="Löök" kääne="nimetav" />
-      </element>
+	  <element name="lööja" optional="false" />      
+      <element name="sihtmärk" optional="false" />      
+	  <element name="allikas" optional="false" />      
+	  <element name="pall" optional="false" />      
+	  <element name="kehaosa" optional="false" />      
+	  <element name="liikuv_pall" optional="false" />      
+	  <element name="teekond" optional="false" />      
+	  <element name="sekkuv mängija" optional="false" />      
+	  <element name="saaja" optional="false" />      
+	  <element name="löök" optional="false" />      
 	</Elements>
-  </frame>  
+  </frame>
+  <frame name="shot supports">
+    <LexicalUnits>
+      <lu lemma="vint" />
+	  <lu lemma="keerutama" />
+	</LexicalUnits>
+	<Elements>
+	  <element name="lööja" optional="false" />
+	  <element name="löök" optional="false" /> 
+	</Elements>
+  </frame>
+  <frame name="bad pass">
+    <LexicalUnits>
+      <lu lemma="halb sööt" />
+	</LexicalUnits>
+	<Elements>
+	  <element name="söötja" optional="false" />
+	  <element name="piirkond" optional="false" /> 
+	</Elements>
+  </frame>
+  <frame name="being free">
+    <LexicalUnits>
+      <lu lemma="vaba" />
+	  <lu lemma="katmata" />
+	</LexicalUnits>
+	<Elements>
+	  <element name="saaja" optional="false" />
+	  <element name="sihtmärk" optional="false" /> 
+	</Elements>
+  </frame>
+  <frame name="connect">
+    <LexicalUnits>
+      <lu lemma="ühenduses olema" />
+	  <lu lemma="ühendus" />
+	  <lu lemma="kohtuma" />
+	</LexicalUnits>
+	<Elements>
+	  <element name="saaja" optional="false" />
+	  <element name="sööt" optional="false" />
+	  <element name="löök" optional="false" />
+	  <element name="sihtmärk" optional="false" />
+	  <element name="kehaosa" optional="false" />
+	  <element name="pall" optional="false" />
+	</Elements>
+  </frame>
+  <frame name="control">
+    <LexicalUnits>
+      <lu lemma="rinnaga omaks" />
+	  <lu lemma="kontrollima" />
+	  <lu lemma="eksima" />
+	  <lu lemma="üles korjama" />
+	  <lu lemma="saama" />
+	</LexicalUnits>
+	<Elements>
+	  <element name="saaja" optional="false" />
+	  <element name="sööt" optional="false" />
+      <element name="pall" optional="false" />
+	  <element name="sihtmärk" optional="false" />
+	  <element name="kehaosa" optional="false" /> 
+	  <element name="söötja" optional="false" /> 
+	</Elements>
+  </frame>
+  <frame name="intercept">
+    <LexicalUnits>
+      <lu lemma="vahelt lõikama" />
+	  <lu lemma="vaheltlõige" />
+	</LexicalUnits>
+	<Elements>
+	  <element name="vaheltlõikaja" optional="false" />
+	  <element name="sööt" optional="false" /> 
+	  <element name="vaheltlõikamise asukoht" optional="false" />
+	  <element name="pall" optional="false" />
+	  <element name="sihtmärk" optional="false" />
+	</Elements>
+  </frame>
+  <frame name="pass">
+    <LexicalUnits>
+      <lu lemma="söötma" />
+	  <lu lemma="tsenderdama" />
+	  <lu lemma="läbisööt" />
+	  <lu lemma="pikk sööt" />
+	</LexicalUnits>
+	<Elements>
+	  <element name="söötja" optional="false" />
+	  <element name="saaja" optional="false" />
+	  <element name="sitmärk" optional="false" />
+	  <element name="allikas" optional="false" />
+	  <element name="suund" optional="false" />
+	  <element name="pall" optional="false" />
+	  <element name="kehaosa" optional="false" />
+	  <element name="sööt" optional="false" />
+	  <element name="kaugus" optional="false" />
+	  <element name="teekond" optional="false" />
+	  <element name="liikuv pall" optional="false" />
+	  <element name="löök" optional="false" />
+	</Elements>
+  </frame>
+  <frame name="pass back">
+    <LexicalUnits>
+      <lu lemma="tagasisööt" />
+	</LexicalUnits>
+	<Elements>
+	  <element name="söötja" optional="false" />
+	  <element name="väravavaht" optional="false" /> 
+	</Elements>
+  </frame>
+  <frame name="supply pass">
+    <LexicalUnits>
+      <lu lemma="tõstma" />
+	  <lu lemma="kohale toimetama" />
+	</LexicalUnits>
+	<Elements>
+	  <element name="sööt" optional="false" />
+	  <element name="söötja" optional="false" /> 
+	</Elements>
+  </frame>
+  <frame name="award goal">
+    <LexicalUnits>
+      <lu lemma="lugema värava" />
+	  <lu lemma="tühistama värava" />
+	</LexicalUnits>
+	<Elements>
+	  <element name="värav" optional="false" />
+	  <element name="kohtunik" optional="false" /> 
+	  <element name="korrapäratus" optional="false" /> 
+	  <element name="lööja" optional="false" /> 
+	</Elements>
+  </frame>
+  <frame name="celebrate goal">
+    <LexicalUnits>
+	  <lu lemma="tähistama" />
+	</LexicalUnits>
+	<Elements>
+	  <element name="värav" optional="false" />
+	  <element name="lööja" optional="false" />
+	  <element name="meeskonnakaaslane" optional="false" />
+	  <element name="lööja meeskond" optional="false" />
+	</Elements>
+  </frame>
+  <frame name="concede goal">
+    <LexicalUnits>
+      <lu lemma="sisse laskma" />
+	</LexicalUnits>
+	<Elements>
+	  <element name="värav" optional="false" />
+	  <element name="sisselaskev meeskond" optional="false" />
+	  <element name="väravavaht" optional="false" />	  
+	</Elements>
+  </frame>
+  <frame name="goal">
+    <LexicalUnits>
+      <lu lemma="värav" />
+	  <lu lemma="väravalööja" />
+	  <lu lemma="viigistama" />
+	  <lu lemma="avavärav" />
+	</LexicalUnits>
+	<Elements>
+	  <element name="lööja" optional="false" />
+	  <element name="lööja meeskond" optional="false" /> 
+	  <element name="löök" optional="false" /> 
+	  <element name="saadud tulemus" optional="false" /> 
+	  <element name="allikas" optional="false" /> 
+	  <element name="eelnev sündmus" optional="false" />
+	  <element name="eelnev tulemus" optional="false" />
+	  <element name="kehaosa" optional="false" /> 
+	  <element name="liikuv pall" optional="false" />
+	  <element name="sihtmärk" optional="false" /> 
+	  <element name="värav" optional="false" /> 
+	  <element name="sisselaskev meeskond" optional="false" /> 
+	  <element name="pall" optional="false" /> 
+	  <element name="teekond" optional="false" /> 
+	</Elements>
+  </frame>
+  <frame name="multiple goals">
+    <LexicalUnits>
+      <lu lemma="duubel" />
+	  <lu lemma="kübaratrikk" />
+	</LexicalUnits>
+	<Elements>
+	  <element name="lööja" optional="false" />
+	  <element name="lööja meeskond" optional="false" /> 
+	</Elements>
+  </frame>
+  <frame name="overcome goalkeeper">
+    <LexicalUnits>
+      <lu lemma="üle mängima" />
+	</LexicalUnits>
+	<Elements>
+	  <element name="väravavaht" optional="false" />
+	  <element name="lööja" optional="false" /> 
+	  <element name="löök" optional="false" /> 
+	  <element name="allikas" optional="false" /> 
+	  <element name="saadud tulemus" optional="false" />
+	  <element name="kehaosa" optional="false" />
+	</Elements>
+  </frame>
+  <frame name="own goal">
+    <LexicalUnits>
+      <lu lemma="omavärav" />
+	</LexicalUnits>
+	<Elements>
+	  <element name="lööja" optional="false" />
+	  <element name="eelnev sündmus" optional="false" /> 
+	</Elements>
+  </frame>
+  <frame name="score goal">
+    <LexicalUnits>
+      <lu lemma="vormistama" />
+	  <lu lemma="skoorima" />
+	</LexicalUnits>
+	<Elements>
+	  <element name="värav" optional="false" />
+	  <element name="väravalööja" optional="false" /> 
+	  <element name="löök" optional="false" /> 
+	</Elements>
+  </frame>
+  <frame name="beat">
+    <LexicalUnits>
+      <lu lemma="mööda mängima" />
+	  <lu lemma="üle jooksma" />
+	  <lu lemma="maha raputama" />
+	</LexicalUnits>
+	<Elements>
+	  <element name="vastasmängija" optional="false" />
+	  <element name="palliga mängija" optional="false" />
+	  <element name="ala" optional="false" /> 
+	  <element name="tegevus" optional="false" />
+      <element name="võitlus" optional="false" /> 	  
+	</Elements>
+  </frame>
+  <frame name="challenge">
+    <LexicalUnits>
+      <lu lemma="võitlema" />
+	  <lu lemma="võitlus" />
+	  <lu lemma="libistamine" />
+	</LexicalUnits>
+	<Elements>
+	  <element name="mängija palliga" optional="false" />
+	  <element name="vastasmängija" optional="false" /> 
+	  <element name="ala" optional="false" /> 
+	  <element name="võitlus" optional="false" /> 
+	  <element name="pall" optional="false" /> 
+	  <element name="mängijad" optional="false" /> 
+	  <element name="kaugus" optional="false" /> 
+	  <element name="vastasmängijad" optional="false" /> 
+	  <element name="sihtmärk" optional="false" /> 
+	</Elements>
+  </frame>
+  <frame name="lose ball">
+    <LexicalUnits>
+      <lu lemma="kaotama" />
+	</LexicalUnits>
+	<Elements>
+	  <element name="palliga mängija" optional="false" />
+	  <element name="ala" optional="false" /> 
+	  <element name="pall" optional="false" /> 
+	  <element name="palliga meeskond" optional="false" /> 
+	  <element name="vastasmängija" optional="false" /> 
+	  <element name="võitlus" optional="false" /> 
+	  <element name="vastasmeeskond" optional="false" /> 
+	  <element name="rünnak" optional="false" /> 
+	</Elements>
+  </frame>
+  <frame name="one on one">
+    <LexicalUnits>
+      <lu lemma="üks ühele" />
+	  <lu lemma="takerduma" />
+	  <lu lemma="õhuvõitlus" />
+	</LexicalUnits>
+	<Elements>
+	  <element name="mängija1" optional="false" />
+	  <element name="mängija2" optional="false" />
+	  <element name="mängijad" optional="false" /> 
+	  <element name="ala" optional="false" />
+      <element name="pall" optional="false" /> 
+	  <element name="liikuv pall" optional="false" />
+      <element name="löök" optional="false" />	  
+	</Elements>
+  </frame>
+  <frame name="take on">
+    <LexicalUnits>
+      <lu lemma="ette võtma" />
+	  <lu lemma="surve all" />
+	</LexicalUnits>
+	<Elements>
+	  <element name="palliga mängija" optional="false" />
+	  <element name="vastasmängija" optional="false" />
+	  <element name="ala" optional="false" />
+	</Elements>
+  </frame>
+  <frame name="trick">
+    <LexicalUnits>
+      <lu lemma="kõrvale astumine" />
+	  <lu lemma="üleastumine" />
+	</LexicalUnits>
+	<Elements>
+	  <element name="palliga mängija" optional="false" />
+	  <element name="ala" optional="false" />
+	</Elements>
+  </frame>
 </framelexicon>
