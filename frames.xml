@@ -4,12 +4,12 @@
       <lu lemma="lõpetama" />
     </LexicalUnits>
     <Elements>
-      <element name="lööja" optional="false" />
-      <element name="allikas" optional="false" />
-      <element name="käik" optional="false" />
-      <element name="kehaosa" optional="false" />
-	  <element name="sihtmärk" optional="false" />
-	  <element name="teekond" optional="false" />
+      <element name="lööja" optional="true" />
+      <element name="allikas" optional="true" />
+      <element name="käik" optional="true" />
+      <element name="kehaosa" optional="true" />
+	  <element name="sihtmärk" optional="true" />
+	  <element name="teekond" optional="true" />
     </Elements>
   </frame>
   <frame name="start end match">
@@ -18,13 +18,13 @@
 	  <lu lemma="avavile" />
 	  <lu lemma="avalöök" />
 	  <lu lemma="poolajavile" />
-	  <lu lemma="uuesti_alustama" />
+	  <lu lemma="uuesti alustama" />
     </LexicalUnits>
     <Elements>
-      <element name="kohtunik" optional="false" />
-      <element name="mäng" optional="false" />
-      <element name="meeskond" optional="false" />
-      <element name="põhjus" optional="false" />
+      <element name="kohtunik" optional="true" />
+      <element name="mäng" optional="true" />
+      <element name="meeskond" optional="true" />
+      <element name="põhjus" optional="true" />
     </Elements>
   </frame>
   <frame name="season">
@@ -32,7 +32,7 @@
       <lu lemma="hooaeg" />
 	</LexicalUnits>
 	<Elements>
-      <element name="aasta" optional="false" />
+      <element name="aasta" optional="true" />
 	</Elements>
   </frame>
   <frame name="match">
@@ -42,14 +42,14 @@
 	  <lu lemma="vastasseis" />
 	</LexicalUnits>
 	<Elements>
-      <element name="meeskond2" optional="false" />      
-	  <element name="meeskond1" optional="false" />      
-	  <element name="väljak" optional="false" />      
-	  <element name="faas" optional="false" />      
-	  <element name="meeskonnad" optional="false" />      
-	  <element name="võistlus" optional="false" />      
-	  <element name="aeg" optional="false" />      
-	  <element name="mäng" optional="false" />      
+      <element name="meeskond2" optional="true" />      
+	  <element name="meeskond1" optional="true" />      
+	  <element name="väljak" optional="true" />      
+	  <element name="faas" optional="true" />      
+	  <element name="meeskonnad" optional="true" />      
+	  <element name="võistlus" optional="true" />      
+	  <element name="aeg" optional="true" />      
+	  <element name="mäng" optional="true" />      
 	</Elements>
   </frame>
   <frame name="debut">
@@ -58,9 +58,9 @@
 	  <lu lemma="esmaesinemine" />
 	</LexicalUnits>
 	<Elements>
-	  <element name="mäng" optional="false" />      
-      <element name="aeg" optional="false" />      
-	  <element name="meeskonnad" optional="false" />      
+	  <element name="mäng" optional="true" />      
+      <element name="aeg" optional="true" />      
+	  <element name="meeskonnad" optional="true" />      
 	</Elements>
   </frame>
     <frame name="defeat">
@@ -70,13 +70,13 @@
 	  <lu lemma="nurjumine" />
 	</LexicalUnits>
 	<Elements>
-	  <element name="kaotaja" optional="false" />      
-      <element name="lõppskoor" optional="false" />      
-	  <element name="võitja" optional="false" />      
-	  <element name="väljak" optional="false" />      
-	  <element name="mäng" optional="false" />      
-	  <element name="faas" optional="false" />      
-	  <element name="võistlus" optional="false" />      
+	  <element name="kaotaja" optional="true" />      
+      <element name="lõppskoor" optional="true" />      
+	  <element name="võitja" optional="true" />      
+	  <element name="väljak" optional="true" />      
+	  <element name="mäng" optional="true" />      
+	  <element name="faas" optional="true" />      
+	  <element name="võistlus" optional="true" />      
 	</Elements>
   </frame>
   <frame name="home game">
@@ -86,12 +86,12 @@
 	  <lu lemma="võõrustaja" />
 	</LexicalUnits>
 	<Elements>
-	  <element name="võõrustaja" optional="false" />      
-      <element name="külaline" optional="false" />      
-	  <element name="väljak" optional="false" />     
-	  <element name="asukoht" optional="false" />      
-	  <element name="aeg" optional="false" />      
-	  <element name="mäng" optional="false" />      
+	  <element name="võõrustaja" optional="true" />      
+      <element name="külaline" optional="true" />      
+	  <element name="väljak" optional="true" />     
+	  <element name="asukoht" optional="true" />      
+	  <element name="aeg" optional="true" />      
+	  <element name="mäng" optional="true" />      
 	</Elements>
   </frame>
   </frame>
@@ -100,9 +100,9 @@
       <lu lemma="koondis" />
 	</LexicalUnits>
 	<Elements>
-	  <element name="treener" optional="false" />      
-      <element name="mängijad" optional="false" />      
-	  <element name="riik" optional="false" />      
+	  <element name="treener" optional="true" />      
+      <element name="mängijad" optional="true" />      
+	  <element name="riik" optional="true" />      
 	</Elements>
   </frame>
   <frame name="score goal">
@@ -111,9 +111,9 @@
 	  <lu lemma="skoorima" />
 	</LexicalUnits>
 	<Elements>
-	  <element name="värav" optional="false" />      
-      <element name="lööja" optional="false" />      
-	  <element name="löök" optional="false" />           
+	  <element name="värav" optional="true" />      
+      <element name="lööja" optional="true" />      
+	  <element name="löök" optional="true" />           
 	</Elements>
   </frame>
   <frame name="chance">
@@ -122,9 +122,9 @@
 	  <lu lemma="šanss" />
 	</LexicalUnits>
 	<Elements>
-	  <element name="meeskond" optional="false" />      
-      <element name="mängija" optional="false" />      
-	  <element name="värav" optional="false" />           
+	  <element name="meeskond" optional="true" />      
+      <element name="mängija" optional="true" />      
+	  <element name="värav" optional="true" />           
 	</Elements>
   </frame>
   <frame name="ball and goal">
@@ -135,7 +135,7 @@
 	  <lu lemma="kitsas nurk" />
 	</LexicalUnits>
 	<Elements>
-	  <element name="värava osa" optional="false" />                
+	  <element name="värava osa" optional="true" />                
 	</Elements>
   </frame>
   <frame name="feign">
@@ -145,10 +145,10 @@
 	  <lu lemma="näitlema" />
 	</LexicalUnits>
 	<Elements>
-	  <element name="lööja" optional="false" />
-	  <element name="löök" optional="false" /> 
-	  <element name="liikuv_pall" optional="false" />
-	  <element name="kehaosa" optional="false" /> 	  
+	  <element name="lööja" optional="true" />
+	  <element name="löök" optional="true" /> 
+	  <element name="liikuv_pall" optional="true" />
+	  <element name="kehaosa" optional="true" /> 	  
 	</Elements>
   </frame>
   <frame name="follow up">
@@ -157,10 +157,10 @@
 	  <lu lemma="tagasipõrge" />
 	</LexicalUnits>
 	<Elements>
-	  <element name="teine lööja" optional="false" />
-	  <element name="sihtmärk" optional="false" /> 
-	  <element name="löök" optional="false" />
-	  <element name="teine löök" optional="false" /> 	  
+	  <element name="teine lööja" optional="true" />
+	  <element name="sihtmärk" optional="true" /> 
+	  <element name="löök" optional="true" />
+	  <element name="teine löök" optional="true" /> 	  
 	</Elements>
   </frame>
   <frame name="goal kickoff">
@@ -169,10 +169,10 @@
 	  <lu lemma="väljavise" />
 	</LexicalUnits>
 	<Elements>
-	  <element name="väravavaht" optional="false" />
-	  <element name="kaugus" optional="false" /> 
-	  <element name="pall" optional="false" />
-	  <element name="sihtmärk" optional="false" /> 	  
+	  <element name="väravavaht" optional="true" />
+	  <element name="kaugus" optional="true" /> 
+	  <element name="pall" optional="true" />
+	  <element name="sihtmärk" optional="true" /> 	  
 	</Elements>
   </frame>
   <frame name="hit">
@@ -180,13 +180,13 @@
       <lu lemma="lööma" />
 	</LexicalUnits>
 	<Elements>
-	  <element name="lööja" optional="false" />
-	  <element name="löök" optional="false" /> 
-	  <element name="sihtmärk" optional="false" />
-	  <element name="pall" optional="false" />
-	  <element name="allikas" optional="false" /> 
-	  <element name="lööja_meeskond" optional="false" />
-	  <element name="kehaosa" optional="false" />
+	  <element name="lööja" optional="true" />
+	  <element name="löök" optional="true" /> 
+	  <element name="sihtmärk" optional="true" />
+	  <element name="pall" optional="true" />
+	  <element name="allikas" optional="true" /> 
+	  <element name="lööja_meeskond" optional="true" />
+	  <element name="kehaosa" optional="true" />
 	</Elements>
   </frame>
   <frame name="intervene">
@@ -195,17 +195,17 @@
 	  <lu lemma="puhastama" />
 	</LexicalUnits>
 	<Elements>
-	  <element name="sekkuv mängija" optional="false" />
-	  <element name="löök" optional="false" /> 
-	  <element name="pall" optional="false" />
-	  <element name="sekkumise tulemus" optional="false" />
-	  <element name="sekkumise sihtmärk" optional="false" /> 
-	  <element name="sekkumise asukoht" optional="false" />
-	  <element name="sekkumine" optional="false" />
-	  <element name="väravavaht" optional="false" />
-	  <element name="lööja" optional="false" />
-	  <element name="vastasmeeskond" optional="false" />
-	  <element name="teekond" optional="false" />
+	  <element name="sekkuv mängija" optional="true" />
+	  <element name="löök" optional="true" /> 
+	  <element name="pall" optional="true" />
+	  <element name="sekkumise tulemus" optional="true" />
+	  <element name="sekkumise sihtmärk" optional="true" /> 
+	  <element name="sekkumise asukoht" optional="true" />
+	  <element name="sekkumine" optional="true" />
+	  <element name="väravavaht" optional="true" />
+	  <element name="lööja" optional="true" />
+	  <element name="vastasmeeskond" optional="true" />
+	  <element name="teekond" optional="true" />
 	</Elements>
   </frame>
   <frame name="miss Goal">
@@ -214,12 +214,12 @@
 	  <lu lemma="mööda lööma" />
 	</LexicalUnits>
 	<Elements>
-	  <element name="lööja" optional="false" />
-	  <element name="sihtmärk" optional="false" /> 
-	  <element name="löök" optional="false" />
-	  <element name="allikas" optional="false" />
-	  <element name="kaugus" optional="false" /> 
-	  <element name="pall" optional="false" />
+	  <element name="lööja" optional="true" />
+	  <element name="sihtmärk" optional="true" /> 
+	  <element name="löök" optional="true" />
+	  <element name="allikas" optional="true" />
+	  <element name="kaugus" optional="true" /> 
+	  <element name="pall" optional="true" />
 	</Elements>
   </frame>
   <frame name="save">
@@ -229,15 +229,15 @@
 	  <lu lemma="päästma" />
 	</LexicalUnits>
 	<Elements>
-	  <element name="väravavaht" optional="false" />      
-      <element name="löök" optional="false" />      
-	  <element name="pall" optional="false" />
-	  <element name="sekkumise sihtmärk" optional="false" />
-	  <element name="lööja" optional="false" />
-	  <element name="sekkumise asukoht" optional="false" />
-	  <element name="allikas" optional="false" />
-	  <element name="kehaosa" optional="false" />
-	  <element name="sekkumine" optional="false" />	  
+	  <element name="väravavaht" optional="true" />      
+      <element name="löök" optional="true" />      
+	  <element name="pall" optional="true" />
+	  <element name="sekkumise sihtmärk" optional="true" />
+	  <element name="lööja" optional="true" />
+	  <element name="sekkumise asukoht" optional="true" />
+	  <element name="allikas" optional="true" />
+	  <element name="kehaosa" optional="true" />
+	  <element name="sekkumine" optional="true" />	  
 	</Elements>
   </frame>
   <frame name="shoot at">
@@ -245,11 +245,11 @@
       <lu lemma="vale jalg" />
 	</LexicalUnits>
 	<Elements>
-	  <element name="lööja" optional="false" />
-	  <element name="löök" optional="false" /> 
-	  <element name="sekkuv mängija" optional="false" />
-	  <element name="allikas" optional="false" />
-	  <element name="väravavaht" optional="false" /> 
+	  <element name="lööja" optional="true" />
+	  <element name="löök" optional="true" /> 
+	  <element name="sekkuv mängija" optional="true" />
+	  <element name="allikas" optional="true" />
+	  <element name="väravavaht" optional="true" /> 
 	</Elements>
   </frame>
   <frame name="Shot">
@@ -262,16 +262,16 @@
 	  <lu lemma="pealöök" />
 	</LexicalUnits>
 	<Elements>
-	  <element name="lööja" optional="false" />      
-      <element name="sihtmärk" optional="false" />      
-	  <element name="allikas" optional="false" />      
-	  <element name="pall" optional="false" />      
-	  <element name="kehaosa" optional="false" />      
-	  <element name="liikuv_pall" optional="false" />      
-	  <element name="teekond" optional="false" />      
-	  <element name="sekkuv mängija" optional="false" />      
-	  <element name="saaja" optional="false" />      
-	  <element name="löök" optional="false" />      
+	  <element name="lööja" optional="true" />      
+      <element name="sihtmärk" optional="true" />      
+	  <element name="allikas" optional="true" />      
+	  <element name="pall" optional="true" />      
+	  <element name="kehaosa" optional="true" />      
+	  <element name="liikuv_pall" optional="true" />      
+	  <element name="teekond" optional="true" />      
+	  <element name="sekkuv mängija" optional="true" />      
+	  <element name="saaja" optional="true" />      
+	  <element name="löök" optional="true" />      
 	</Elements>
   </frame>
   <frame name="shot supports">
@@ -280,8 +280,8 @@
 	  <lu lemma="keerutama" />
 	</LexicalUnits>
 	<Elements>
-	  <element name="lööja" optional="false" />
-	  <element name="löök" optional="false" /> 
+	  <element name="lööja" optional="true" />
+	  <element name="löök" optional="true" /> 
 	</Elements>
   </frame>
   <frame name="bad pass">
@@ -289,8 +289,8 @@
       <lu lemma="halb sööt" />
 	</LexicalUnits>
 	<Elements>
-	  <element name="söötja" optional="false" />
-	  <element name="piirkond" optional="false" /> 
+	  <element name="söötja" optional="true" />
+	  <element name="piirkond" optional="true" /> 
 	</Elements>
   </frame>
   <frame name="being free">
@@ -299,8 +299,8 @@
 	  <lu lemma="katmata" />
 	</LexicalUnits>
 	<Elements>
-	  <element name="saaja" optional="false" />
-	  <element name="sihtmärk" optional="false" /> 
+	  <element name="saaja" optional="true" />
+	  <element name="sihtmärk" optional="true" /> 
 	</Elements>
   </frame>
   <frame name="connect">
@@ -310,12 +310,12 @@
 	  <lu lemma="kohtuma" />
 	</LexicalUnits>
 	<Elements>
-	  <element name="saaja" optional="false" />
-	  <element name="sööt" optional="false" />
-	  <element name="löök" optional="false" />
-	  <element name="sihtmärk" optional="false" />
-	  <element name="kehaosa" optional="false" />
-	  <element name="pall" optional="false" />
+	  <element name="saaja" optional="true" />
+	  <element name="sööt" optional="true" />
+	  <element name="löök" optional="true" />
+	  <element name="sihtmärk" optional="true" />
+	  <element name="kehaosa" optional="true" />
+	  <element name="pall" optional="true" />
 	</Elements>
   </frame>
   <frame name="control">
@@ -327,12 +327,12 @@
 	  <lu lemma="saama" />
 	</LexicalUnits>
 	<Elements>
-	  <element name="saaja" optional="false" />
-	  <element name="sööt" optional="false" />
-      <element name="pall" optional="false" />
-	  <element name="sihtmärk" optional="false" />
-	  <element name="kehaosa" optional="false" /> 
-	  <element name="söötja" optional="false" /> 
+	  <element name="saaja" optional="true" />
+	  <element name="sööt" optional="true" />
+      <element name="pall" optional="true" />
+	  <element name="sihtmärk" optional="true" />
+	  <element name="kehaosa" optional="true" /> 
+	  <element name="söötja" optional="true" /> 
 	</Elements>
   </frame>
   <frame name="intercept">
@@ -341,11 +341,11 @@
 	  <lu lemma="vaheltlõige" />
 	</LexicalUnits>
 	<Elements>
-	  <element name="vaheltlõikaja" optional="false" />
-	  <element name="sööt" optional="false" /> 
-	  <element name="vaheltlõikamise asukoht" optional="false" />
-	  <element name="pall" optional="false" />
-	  <element name="sihtmärk" optional="false" />
+	  <element name="vaheltlõikaja" optional="true" />
+	  <element name="sööt" optional="true" /> 
+	  <element name="vaheltlõikamise asukoht" optional="true" />
+	  <element name="pall" optional="true" />
+	  <element name="sihtmärk" optional="true" />
 	</Elements>
   </frame>
   <frame name="pass">
@@ -356,18 +356,18 @@
 	  <lu lemma="pikk sööt" />
 	</LexicalUnits>
 	<Elements>
-	  <element name="söötja" optional="false" />
-	  <element name="saaja" optional="false" />
-	  <element name="sitmärk" optional="false" />
-	  <element name="allikas" optional="false" />
-	  <element name="suund" optional="false" />
-	  <element name="pall" optional="false" />
-	  <element name="kehaosa" optional="false" />
-	  <element name="sööt" optional="false" />
-	  <element name="kaugus" optional="false" />
-	  <element name="teekond" optional="false" />
-	  <element name="liikuv pall" optional="false" />
-	  <element name="löök" optional="false" />
+	  <element name="söötja" optional="true" />
+	  <element name="saaja" optional="true" />
+	  <element name="sitmärk" optional="true" />
+	  <element name="allikas" optional="true" />
+	  <element name="suund" optional="true" />
+	  <element name="pall" optional="true" />
+	  <element name="kehaosa" optional="true" />
+	  <element name="sööt" optional="true" />
+	  <element name="kaugus" optional="true" />
+	  <element name="teekond" optional="true" />
+	  <element name="liikuv pall" optional="true" />
+	  <element name="löök" optional="true" />
 	</Elements>
   </frame>
   <frame name="pass back">
@@ -375,8 +375,8 @@
       <lu lemma="tagasisööt" />
 	</LexicalUnits>
 	<Elements>
-	  <element name="söötja" optional="false" />
-	  <element name="väravavaht" optional="false" /> 
+	  <element name="söötja" optional="true" />
+	  <element name="väravavaht" optional="true" /> 
 	</Elements>
   </frame>
   <frame name="supply pass">
@@ -385,8 +385,8 @@
 	  <lu lemma="kohale toimetama" />
 	</LexicalUnits>
 	<Elements>
-	  <element name="sööt" optional="false" />
-	  <element name="söötja" optional="false" /> 
+	  <element name="sööt" optional="true" />
+	  <element name="söötja" optional="true" /> 
 	</Elements>
   </frame>
   <frame name="award goal">
@@ -395,10 +395,10 @@
 	  <lu lemma="tühistama värava" />
 	</LexicalUnits>
 	<Elements>
-	  <element name="värav" optional="false" />
-	  <element name="kohtunik" optional="false" /> 
-	  <element name="korrapäratus" optional="false" /> 
-	  <element name="lööja" optional="false" /> 
+	  <element name="värav" optional="true" />
+	  <element name="kohtunik" optional="true" /> 
+	  <element name="korrapäratus" optional="true" /> 
+	  <element name="lööja" optional="true" /> 
 	</Elements>
   </frame>
   <frame name="celebrate goal">
@@ -406,10 +406,10 @@
 	  <lu lemma="tähistama" />
 	</LexicalUnits>
 	<Elements>
-	  <element name="värav" optional="false" />
-	  <element name="lööja" optional="false" />
-	  <element name="meeskonnakaaslane" optional="false" />
-	  <element name="lööja meeskond" optional="false" />
+	  <element name="värav" optional="true" />
+	  <element name="lööja" optional="true" />
+	  <element name="meeskonnakaaslane" optional="true" />
+	  <element name="lööja meeskond" optional="true" />
 	</Elements>
   </frame>
   <frame name="concede goal">
@@ -417,9 +417,9 @@
       <lu lemma="sisse laskma" />
 	</LexicalUnits>
 	<Elements>
-	  <element name="värav" optional="false" />
-	  <element name="sisselaskev meeskond" optional="false" />
-	  <element name="väravavaht" optional="false" />	  
+	  <element name="värav" optional="true" />
+	  <element name="sisselaskev meeskond" optional="true" />
+	  <element name="väravavaht" optional="true" />	  
 	</Elements>
   </frame>
   <frame name="goal">
@@ -430,20 +430,20 @@
 	  <lu lemma="avavärav" />
 	</LexicalUnits>
 	<Elements>
-	  <element name="lööja" optional="false" />
-	  <element name="lööja meeskond" optional="false" /> 
-	  <element name="löök" optional="false" /> 
-	  <element name="saadud tulemus" optional="false" /> 
-	  <element name="allikas" optional="false" /> 
-	  <element name="eelnev sündmus" optional="false" />
-	  <element name="eelnev tulemus" optional="false" />
-	  <element name="kehaosa" optional="false" /> 
-	  <element name="liikuv pall" optional="false" />
-	  <element name="sihtmärk" optional="false" /> 
-	  <element name="värav" optional="false" /> 
-	  <element name="sisselaskev meeskond" optional="false" /> 
-	  <element name="pall" optional="false" /> 
-	  <element name="teekond" optional="false" /> 
+	  <element name="lööja" optional="true" />
+	  <element name="lööja meeskond" optional="true" /> 
+	  <element name="löök" optional="true" /> 
+	  <element name="saadud tulemus" optional="true" /> 
+	  <element name="allikas" optional="true" /> 
+	  <element name="eelnev sündmus" optional="true" />
+	  <element name="eelnev tulemus" optional="true" />
+	  <element name="kehaosa" optional="true" /> 
+	  <element name="liikuv pall" optional="true" />
+	  <element name="sihtmärk" optional="true" /> 
+	  <element name="värav" optional="true" /> 
+	  <element name="sisselaskev meeskond" optional="true" /> 
+	  <element name="pall" optional="true" /> 
+	  <element name="teekond" optional="true" /> 
 	</Elements>
   </frame>
   <frame name="multiple goals">
@@ -452,8 +452,8 @@
 	  <lu lemma="kübaratrikk" />
 	</LexicalUnits>
 	<Elements>
-	  <element name="lööja" optional="false" />
-	  <element name="lööja meeskond" optional="false" /> 
+	  <element name="lööja" optional="true" />
+	  <element name="lööja meeskond" optional="true" /> 
 	</Elements>
   </frame>
   <frame name="overcome goalkeeper">
@@ -461,12 +461,12 @@
       <lu lemma="üle mängima" />
 	</LexicalUnits>
 	<Elements>
-	  <element name="väravavaht" optional="false" />
-	  <element name="lööja" optional="false" /> 
-	  <element name="löök" optional="false" /> 
-	  <element name="allikas" optional="false" /> 
-	  <element name="saadud tulemus" optional="false" />
-	  <element name="kehaosa" optional="false" />
+	  <element name="väravavaht" optional="true" />
+	  <element name="lööja" optional="true" /> 
+	  <element name="löök" optional="true" /> 
+	  <element name="allikas" optional="true" /> 
+	  <element name="saadud tulemus" optional="true" />
+	  <element name="kehaosa" optional="true" />
 	</Elements>
   </frame>
   <frame name="own goal">
@@ -474,8 +474,8 @@
       <lu lemma="omavärav" />
 	</LexicalUnits>
 	<Elements>
-	  <element name="lööja" optional="false" />
-	  <element name="eelnev sündmus" optional="false" /> 
+	  <element name="lööja" optional="true" />
+	  <element name="eelnev sündmus" optional="true" /> 
 	</Elements>
   </frame>
   <frame name="score goal">
@@ -484,9 +484,9 @@
 	  <lu lemma="skoorima" />
 	</LexicalUnits>
 	<Elements>
-	  <element name="värav" optional="false" />
-	  <element name="väravalööja" optional="false" /> 
-	  <element name="löök" optional="false" /> 
+	  <element name="värav" optional="true" />
+	  <element name="väravalööja" optional="true" /> 
+	  <element name="löök" optional="true" /> 
 	</Elements>
   </frame>
   <frame name="beat">
@@ -496,11 +496,11 @@
 	  <lu lemma="maha raputama" />
 	</LexicalUnits>
 	<Elements>
-	  <element name="vastasmängija" optional="false" />
-	  <element name="palliga mängija" optional="false" />
-	  <element name="ala" optional="false" /> 
-	  <element name="tegevus" optional="false" />
-      <element name="võitlus" optional="false" /> 	  
+	  <element name="vastasmängija" optional="true" />
+	  <element name="palliga mängija" optional="true" />
+	  <element name="ala" optional="true" /> 
+	  <element name="tegevus" optional="true" />
+      <element name="võitlus" optional="true" /> 	  
 	</Elements>
   </frame>
   <frame name="challenge">
@@ -510,15 +510,15 @@
 	  <lu lemma="libistamine" />
 	</LexicalUnits>
 	<Elements>
-	  <element name="mängija palliga" optional="false" />
-	  <element name="vastasmängija" optional="false" /> 
-	  <element name="ala" optional="false" /> 
-	  <element name="võitlus" optional="false" /> 
-	  <element name="pall" optional="false" /> 
-	  <element name="mängijad" optional="false" /> 
-	  <element name="kaugus" optional="false" /> 
-	  <element name="vastasmängijad" optional="false" /> 
-	  <element name="sihtmärk" optional="false" /> 
+	  <element name="mängija palliga" optional="true" />
+	  <element name="vastasmängija" optional="true" /> 
+	  <element name="ala" optional="true" /> 
+	  <element name="võitlus" optional="true" /> 
+	  <element name="pall" optional="true" /> 
+	  <element name="mängijad" optional="true" /> 
+	  <element name="kaugus" optional="true" /> 
+	  <element name="vastasmängijad" optional="true" /> 
+	  <element name="sihtmärk" optional="true" /> 
 	</Elements>
   </frame>
   <frame name="lose ball">
@@ -526,14 +526,14 @@
       <lu lemma="kaotama" />
 	</LexicalUnits>
 	<Elements>
-	  <element name="palliga mängija" optional="false" />
-	  <element name="ala" optional="false" /> 
-	  <element name="pall" optional="false" /> 
-	  <element name="palliga meeskond" optional="false" /> 
-	  <element name="vastasmängija" optional="false" /> 
-	  <element name="võitlus" optional="false" /> 
-	  <element name="vastasmeeskond" optional="false" /> 
-	  <element name="rünnak" optional="false" /> 
+	  <element name="palliga mängija" optional="true" />
+	  <element name="ala" optional="true" /> 
+	  <element name="pall" optional="true" /> 
+	  <element name="palliga meeskond" optional="true" /> 
+	  <element name="vastasmängija" optional="true" /> 
+	  <element name="võitlus" optional="true" /> 
+	  <element name="vastasmeeskond" optional="true" /> 
+	  <element name="rünnak" optional="true" /> 
 	</Elements>
   </frame>
   <frame name="one on one">
@@ -543,13 +543,13 @@
 	  <lu lemma="õhuvõitlus" />
 	</LexicalUnits>
 	<Elements>
-	  <element name="mängija1" optional="false" />
-	  <element name="mängija2" optional="false" />
-	  <element name="mängijad" optional="false" /> 
-	  <element name="ala" optional="false" />
-      <element name="pall" optional="false" /> 
-	  <element name="liikuv pall" optional="false" />
-      <element name="löök" optional="false" />	  
+	  <element name="mängija1" optional="true" />
+	  <element name="mängija2" optional="true" />
+	  <element name="mängijad" optional="true" /> 
+	  <element name="ala" optional="true" />
+      <element name="pall" optional="true" /> 
+	  <element name="liikuv pall" optional="true" />
+      <element name="löök" optional="true" />	  
 	</Elements>
   </frame>
   <frame name="take on">
@@ -558,9 +558,9 @@
 	  <lu lemma="surve all" />
 	</LexicalUnits>
 	<Elements>
-	  <element name="palliga mängija" optional="false" />
-	  <element name="vastasmängija" optional="false" />
-	  <element name="ala" optional="false" />
+	  <element name="palliga mängija" optional="true" />
+	  <element name="vastasmängija" optional="true" />
+	  <element name="ala" optional="true" />
 	</Elements>
   </frame>
   <frame name="trick">
@@ -569,8 +569,8 @@
 	  <lu lemma="üleastumine" />
 	</LexicalUnits>
 	<Elements>
-	  <element name="palliga mängija" optional="false" />
-	  <element name="ala" optional="false" />
+	  <element name="palliga mängija" optional="true" />
+	  <element name="ala" optional="true" />
 	</Elements>
   </frame>
 </framelexicon>

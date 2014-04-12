@@ -1,4 +1,10 @@
 <?php
+
+/*
+TODO:
+if lemma consists of two words then they can be separately
+*/
+
 error_reporting(-1);
 //No ö, ä, ü, õ allowed in path
 $morphedText = file_get_contents('C:\Users\Lauri\Desktop\Baka asjad\gitBaka\jalgpalliFreimNet\testkorpus.kym');
