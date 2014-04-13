@@ -2,6 +2,7 @@
   <frame name="finish">
     <LexicalUnits>
       <lu lemma="lõpetama" />
+	  <lu lemma="saatma" morf="_V_ main" />
     </LexicalUnits>
     <Elements>
       <element name="lööja" optional="true" />
