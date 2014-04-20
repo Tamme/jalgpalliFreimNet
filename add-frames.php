@@ -18,6 +18,8 @@ $textRows = explode("\n", $morphedText);
 //print_r($textRows);die;
 $sentenceArray = readTextToArray($textRows);
 //print_r($sentenceArray);die;
+$test = '';
+
 
 if (!empty($sentenceArray)) {
 	
@@ -64,8 +66,8 @@ if (!empty($sentenceArray)) {
 				$textRows = $returnData['textRows'];
 				//Element adding
 				if ($frameAdded === true) {
-					foreach ($frame['elements'] as $elementName => $elementMorf) {
-						$returnData = analysiseSentenceWithFrameData($sentence, $elementName, $elementMorf, $textRows, $sentenceArray, $elementName, $key, false);
+					foreach ($frame['elements'] as $elementName => $elementNamesAndMorfArray) {
+						$returnData = analysiseSentenceWithFrameData($sentence, $elementName, $elementNamesAndMorfArray, $textRows, $sentenceArray, $elementName, $key, false);
 						$textRows = $returnData['textRows'];
 					}
 				}
@@ -96,149 +98,188 @@ exit;
 /**
 	Main function that 
 */
-function analysiseSentenceWithFrameData($sentence, $lemma, $lemmaMorphAndNamesArray, $textRows, $sentenceArray, $frameName, $key, $isForLemma) {
+function analysiseSentenceWithFrameData($sentence, $lemma, $baseWordArray, $textRows, $sentenceArray, $frameName, $key, $isForLemma) {
+	$added = 0;
 	global $addedFrames;
 	global $addedElements;
 	$frameAdded = false;
 	$elementAdded = false;
-	$lemmaMorph = $lemmaMorphAndNamesArray['morf'];
-	unset($lemmaMorphAndNamesArray['morf']);
-	//print_r($lemmaMorphAndNamesArray);die;
-	foreach ($lemmaMorphAndNamesArray as $lemmaKey => $lemmaSelection) {
+	$wordMorph = $baseWordArray['morf'];
+	unset($baseWordArray['morf']);
+	foreach ($baseWordArray as $baseWordOptionsSelection) {
 	
-		if (strpos($lemmaMorph, '*') !== false) {
-			$lemmaMorph = substr($lemmaMorph, 1);
-			$lemmaMorphWithStar = true;
+		if (strpos($wordMorph, '*') !== false) {
+			$wordMorph = substr($wordMorph, 1);
+			$morphWithStar = true;
 		}
 		else {
-			$lemmaMorphWithStar = false;
+			$morphWithStar = false;
 		}
-		if (strpos($lemmaMorph, '|||') !== false) {
-			$lemmaPieces = explode('|||', $lemmaMorph);
-			$lemmaSyntax = $lemmaPieces[1];
-			$lemmaMorph = $lemmaPieces[0];
+		if (strpos($wordMorph, '|||') !== false) {
+			$pieces = explode('|||', $wordMorph);
+			$syntax = $pieces[1];
+			$wordMorph = $pieces[0];
 		}
-		if (strpos($lemmaMorph, '||') !== false) {
-			$lemmaMorphPieces = explode('||', $lemmaMorph);
-			$lemmaPieces = explode(' ', $lemmaSelection);
-			$lemmaWordsAmount = count($lemmaPieces);
+		if (strpos($wordMorph, '||') !== false) {
+			$wordMorphPieces = explode('||', $wordMorph);
+			$wordPieces = explode(' ', $baseWordOptionsSelection);
+			$wordsAmount = count($wordPieces);
 		}
 		else {
-			$lemmaMorphPieces = array($lemmaMorph);
-			$lemmaPieces = array($lemmaSelection);
-			$lemmaWordsAmount = 1;
+			$wordMorphPieces = array($wordMorph);
+			$wordPieces = array($baseWordOptionsSelection);
+			$wordsAmount = 1;
 		}
-		/*if ($lemmaWordsAmount == 2) {
-			print_r($lemmaPieces);
-		}*/
-		$wordsMatched = 0;
-		for ($lemmaPieceKey = 0; $lemmaPieceKey < $lemmaWordsAmount; $lemmaPieceKey++) {
+		foreach ($wordMorphPieces as $tmpKey => $wordMorphPiece) {
+			if (strpos($wordMorphPiece, '|') !== false) {
+				$wordMorphPieces[$tmpKey] = explode('|', $wordMorphPiece);
+			}
+			else {
+				$wordMorphPieces[$tmpKey] = array($wordMorphPiece);
+			}
+		}
+		
+		
+		for ($pieceKey = 0; $pieceKey < $wordsAmount; $pieceKey++) {
 			foreach ($sentence as $wordKey => $word) {
+				$wordsMatched = 0;
+				$wordsAndMorphMatched = 0;
 				foreach ($word['alg'] as $meaningKey => $wordMeaning) {
 					//Adding frames
 					
-					if (!empty($lemmaSyntax) && $lemmaSyntax != false && strpos($word['morf'][$meaningKey], ' ' . $lemmaSyntax . ' ') === false) {
+					
+					if (!empty($syntax) && $syntax != false && strpos($word['morf'][$meaningKey], ' ' . $syntax . ' ') === false) {
 						continue;
 					}
+					
+					
+					foreach ($wordMorphPieces[$pieceKey] as $optionKey => $wordMorphOneOption) {
+					
+					
+						$oneWordMorphPieces = (!empty($wordMorphPieces[$pieceKey][$optionKey]) ? explode(' ', $wordMorphPieces[$pieceKey][$optionKey]) : array());
 						
-					$oneLemmaMorphPieces = explode(' ', $lemmaMorphPieces[$lemmaPieceKey]);
-					if ($lemmaMorphWithStar === true) { /* looda morfi peale */
-						//if lemma = wordmeaing VÕI morph = wordmorph, lisa freim kahtlusega
+						if ($morphWithStar === true) {
 						
-						if ($lemmaPieces[$lemmaPieceKey] == $wordMeaning) {
-							$wordsMatched++; 
-							if ($wordsMatched == $lemmaWordsAmount) {
-								echo ++$addedFrames . '    ' .  $lemmaPieces[$lemmaPieceKey] . PHP_EOL;
-								$sentenceArray[$key][$wordKey]['freimiInfo'] = $frameName;
-								if (substr($textRows[$word['nr']], -1) == "\r") {
-									$textRows[$word['nr']] = substr($textRows[$word['nr']], 0, -2);
+							
+							//if lemma = wordmeaing OR morph = wordmorph, add freim/element with luck
+							
+							if ($wordPieces[$pieceKey] == $wordMeaning) {
+								$wordsMatched++;
+								if (!empty($oneWordMorphPieces)) {
+									$allIncluded = true;
+									foreach ($oneWordMorphPieces as $piece) {
+										if (strpos($word['morf'][$meaningKey], ' ' . $piece . ' ') === false) {
+											$allIncluded = false;
+											break;
+										}
+									}
+									if ($allIncluded === true) {
+										$wordsAndMorphMatched++;
+									}
 								}
-								$textRows[$word['nr']] = substr($textRows[$word['nr']], 0) . '// Freim õnnega2 ' . $frameName;
-								$frameAdded = true;
-							}
-						}
-						else {
-							$allIncluded = true;
-							foreach ($oneLemmaMorphPieces as $piece) {
-								if (strpos($word['morf'][$meaningKey], ' ' . $piece . ' ') === false) {
-									$allIncluded = false;
-									break;
-								}
-							}
-							if (!empty($allIncluded) && $allIncluded === true) {
-								$wordsMatched++; 
-								if ($wordsMatched == $lemmaWordsAmount) {
+								if ($wordsMatched == $wordsAmount) {
 									$sentenceArray[$key][$wordKey]['freimiInfo'] = $frameName;
-									//var_dump(substr($textRows[$word['nr']], -2));
-									//print_r(strpos($textRows[$word['nr']], "\r") !== false);die;
 									if (substr($textRows[$word['nr']], -1) == "\r") {
-										//print_r('eeeeee');die;
 										$textRows[$word['nr']] = substr($textRows[$word['nr']], 0, -2);
 									}
+									$withLuck = ($wordsAndMorphMatched == $wordsAmount ? '' : 'õnnega2 ');
 									if ($isForLemma === true) {
-										echo ++$addedFrames . '    ' .  $lemmaPieces[$lemmaPieceKey] . PHP_EOL;
-										$textRows[$word['nr']] = substr($textRows[$word['nr']], 0) . ' // Freim õnnega1 ' . $frameName;
+										echo ++$addedFrames . '    ' .  $wordPieces[$pieceKey] . PHP_EOL;
+										$textRows[$word['nr']] = substr($textRows[$word['nr']], 0) . ' // Freim ' . $withLuck . $frameName;
 										$frameAdded = true;
 									}
 									else {
-										echo ++$addedElements . '    ' .  $lemmaPieces[$lemmaPieceKey] . PHP_EOL;
+										echo ++$addedElements . '    ' .  $wordPieces[$pieceKey] . PHP_EOL;
 										//print_r(utf8_encode(' // Element  õnnega1 '));die;
-										$textRows[$word['nr']] = substr($textRows[$word['nr']], 0) . ' // Element  õnnega1 ' . $frameName;
+										$textRows[$word['nr']] = substr($textRows[$word['nr']], 0) . ' // Element ' . $withLuck . $frameName;
+										$added++;
 										$elementAdded = true;
 									}
+								}
+							}
+							else if (!empty($oneWordMorphPieces)) {
+							
+								//print_r($oneLemmaMorphPieces);
+								$allIncluded = true;
+								foreach ($oneWordMorphPieces as $piece) {
+									if (strpos($word['morf'][$meaningKey], ' ' . $piece . ' ') === false) {
+										$allIncluded = false;
+										break;
+									}
+								}
+								if (!empty($allIncluded) && $allIncluded === true) {
+									$wordsMatched++; 
+									if ($wordsMatched == $wordsAmount) {
+										$sentenceArray[$key][$wordKey]['freimiInfo'] = $frameName;
+										if (substr($textRows[$word['nr']], -1) == "\r") {
+											$textRows[$word['nr']] = substr($textRows[$word['nr']], 0, -2);
+										}
+										if ($isForLemma === true) {
+											echo ++$addedFrames . '    ' .  $wordPieces[$pieceKey] . PHP_EOL;
+											$textRows[$word['nr']] = substr($textRows[$word['nr']], 0) . ' // Freim õnnega1 ' . $frameName;
+											$frameAdded = true;
+										}
+										else {
+											echo ++$addedElements . '    ' .  $wordPieces[$pieceKey] . PHP_EOL;
+											$textRows[$word['nr']] = substr($textRows[$word['nr']], 0) . ' // Element õnnega1 ' . $frameName;
+											$added++;
+											$elementAdded = true;
+										}
+									}
+								}
+								else {
+									continue;
+								}
+							}
+						}
+						else {//if lemma/element = word AND morph = wordmorph, add with certainty
+							if ($wordPieces[$pieceKey] == $wordMeaning) {
+								//print_r($wordMeaning);
+								//print_r(++$counter . '---' .  PHP_EOL);
+								$allIncluded = true;
+								foreach ($oneWordMorphPieces as $piece) {
+	//									print_r($oneLemmaMorphPieces);
+	//										print_r($word['morf'][$meaningKey]);
+									if (strpos($word['morf'][$meaningKey], ' ' . $piece . ' ') === false) {
+										$allIncluded = false;
+										break;
+									}
+								}
+								if ($allIncluded === true) {
+									//print_r($counter . '---' . PHP_EOL);
+									$wordsMatched++; 
+									if ($wordsMatched == $wordsAmount) {
+										$sentenceArray[$key][$wordKey]['freimiInfo'] = $frameName;
+										if (substr($textRows[$word['nr']], -1) == "\r") {
+											$textRows[$word['nr']] = substr($textRows[$word['nr']], 0, strlen($textRows[$word['nr']]) - 2);
+										}
+										if ($isForLemma === true) {
+											echo ++$addedFrames . '    ' .  $wordPieces[$pieceKey] . PHP_EOL;
+											$textRows[$word['nr']] = substr($textRows[$word['nr']], 0) . ' // Freim ' . $frameName;
+											$frameAdded = true;
+										}
+										else {
+											echo ++$addedElements . '    ' .  $wordPieces[$pieceKey] . PHP_EOL;
+											$textRows[$word['nr']] = substr($textRows[$word['nr']], 0) . ' // Element  ' . $frameName;
+											$elementAdded = true;
+											$added++;
+										}
+									}
+								}
+								else {
+									continue;
 								}
 							}
 							else {
 								continue;
 							}
-						}
-					}
-					else { /*exact match*/
-						//if lemma = word JA morph = wordmorpüh
-						if ($lemmaPieces[$lemmaPieceKey] == $wordMeaning) {
-							print_r($wordMeaning);
-							//print_r(++$counter . '---' .  PHP_EOL);
-							$allIncluded = true;
-							foreach ($oneLemmaMorphPieces as $piece) {
-//									print_r($oneLemmaMorphPieces);
-//										print_r($word['morf'][$meaningKey]);
-								if (strpos($word['morf'][$meaningKey], ' ' . $piece . ' ') === false) {
-									$allIncluded = false;
-									break;
-								}
-							}
-							if ($allIncluded === true) {
-								//print_r($counter . '---' . PHP_EOL);
-								$wordsMatched++; 
-								if ($wordsMatched == $lemmaWordsAmount) {
-									$sentenceArray[$key][$wordKey]['freimiInfo'] = $frameName;
-									if (substr($textRows[$word['nr']], -1) == "\r") {
-										$textRows[$word['nr']] = substr($textRows[$word['nr']], 0, strlen($textRows[$word['nr']]) - 2);
-									}
-									if ($isForLemma === true) {
-										echo ++$addedFrames . '    ' .  $lemmaPieces[$lemmaPieceKey] . PHP_EOL;
-										$textRows[$word['nr']] = substr($textRows[$word['nr']], 0) . ' // Freim ' . $frameName;
-										$frameAdded = true;
-									}
-									else {
-										echo ++$addedElements . '    ' .  $lemmaPieces[$lemmaPieceKey] . PHP_EOL;
-										$textRows[$word['nr']] = substr($textRows[$word['nr']], 0) . ' // Element  ' . $frameName;
-										$elementAdded = true;
-									}
-								}
-							}
-							else {
-								continue;
-							}
-						}
-						else {
-							continue;
 						}
 					}
 				}
 			}
 		}
 	}
+	
 	return array(
 		'added' => $frameAdded,
 		'textRows' => $textRows,
@@ -283,7 +324,7 @@ function readTextToArray($textRows) {
 					$wordAndAnalysingParts = explode('+', $pieces[$i]);
 					if (count($wordAndAnalysingParts) == 1) {
 						$wordAndAnalysingParts = explode(' //', $pieces[$i]);
-						$morphPart = $wordAndAnalysingParts[1];
+						$morphPart = $wordAndAnalysingParts[1] . ' ';
 					}
 					else {						
 						$morphPart = substr($wordAndAnalysingParts[1], strpos($wordAndAnalysingParts[1], ' //') + 3);			
@@ -293,7 +334,7 @@ function readTextToArray($textRows) {
 					$mainVerb = str_replace($replace, '', $mainVerb);
 					$mainVerb .= (strpos($morphPart, '_V_ main') !== false ? 'ma' : '');
 					$base[] = utf8_encode($mainVerb);
-					$morph[] = $morphPart;
+					$morph[] = $morphPart . ' ';
 				}
 				/*
 				$startPos = strpos($row, '    ') + 4;
