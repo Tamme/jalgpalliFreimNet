@@ -2,7 +2,9 @@
 
 /*
 TODO:
-if lemma consists of two words then they can be separately
+if selection also consists of two words
+if several words have syntax
+several possibilities for syntax
 */
 
 error_reporting(-1);

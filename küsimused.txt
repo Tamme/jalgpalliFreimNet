@@ -1,1 +1,33 @@
 Kui ma otsin elemendi nime järgi tekstidts, mida see morf üldse annab, naguii langevad kokku või halvemal juhul rikuvad midagi ära?
+kas eesti ja inglise wordneti vahele on mingi seos ka tehtud?
+kui lasues on kellgi poolt viga tegema, siis see sama nagu alus põhimõtteliselt?
+kus jookseb snatähendustel piir, kas võitma nurgalööki ja võitma mängu ka erinev nt?
+
+$LA$
+    #### **CLB @???
+Võimalus
+    võimalus+0 //_S_ com sg nom  #cap // **CLB  @OBJ 
+loodi
+    loodi+0 //_V_ main imper pres ps2 sg ps af  #FinV //  @+FMV
+    loo+di //_V_ main indic impf imps af  #FinV #NGP-P //  @+FMV
+mängija
+    mängija+0 //_S_ com sg gen //  @P> 
+poolt
+    poolt+0 //_K_ post #gen //  @ADVL 
+$.
+    . //_Z_ Fst // 
+$LL$
+    #### @???
+$LA$
+    #### @???
+Mängija
+    mängija+0 //_S_ com sg nom #cap // **CLB  @SUBJ 
+lõi
+    loo+i //_V_ main indic impf ps3 sg ps af  #FinV #NGP-P //  @+FMV
+    löö+i //_V_ main indic impf ps3 sg ps af  #FinV #NGP-P //  @+FMV
+võimaluse
+    võimalus+0 //_S_ com sg gen  //  @OBJ 
+$.
+    . //_Z_ Fst // 
+$LL$
+    #### @???
