@@ -5,6 +5,9 @@ TODO:
 if selection also consists of two words
 if several words have syntax
 several possibilities for syntax
+if name has several and morf one or vice versa tehn allow it!! last spot should be left empty
+if several then || in syntax
+syntaxile minig märk, et ta ei ole kohustuslik vaid soovitatav
 */
 
 error_reporting(-1);
