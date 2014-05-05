@@ -22,7 +22,7 @@ $morphedText = file_get_contents(TEXT_PATH);
 $textRows = explode("\n", $morphedText);
 //print_r($textRows);die;
 $sentenceArray = readTextToArray($textRows);
-//print_r($sentenceArray);die;
+print_r($sentenceArray);die;
 $test = '';
 
 
@@ -341,18 +341,6 @@ function readTextToArray($textRows) {
 					$base[] = utf8_encode($mainVerb);
 					$morph[] = $morphPart . ' ';
 				}
-				/*
-				$startPos = strpos($row, '    ') + 4;
-				$len = (strpos($row, '+') != 0 ? strpos($row, '+'): strpos($row, '//') - 1) - $startPos;
-				$mainVerb = substr($row, $startPos, $len);
-				$startOfMorph = strpos($row, '//') + 2;
-				$morphSub = substr($row, $startOfMorph);
-				$firstOcc = strpos($morphSub, ' ') + 1;
-				$morphSub2 = substr($morphSub, $firstOcc);
-				$secondOcc = strpos($morphSub2, ' ');
-				$morphPart = substr($morphSub, 0, $secondOcc + $firstOcc);
-				*/
-				//$mainVerb .= ($morphPart == '_V_ main' ? 'ma' : '');
 				
 				$sentenceArray[$counter][] = array(
 					'alg' => $base,

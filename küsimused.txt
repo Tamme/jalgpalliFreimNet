@@ -31,3 +31,5 @@ $.
     . //_Z_ Fst // 
 $LL$
     #### @???
+	
+Äkki peaks freimide juures morf asemele kirjutama info vms, kui seal on süntaktiline info ka tegelikult?

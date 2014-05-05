@@ -8,7 +8,7 @@
 	</LexicalUnits>
 	<Elements>
 		<element name="lööja" selection="mängija, väravaht, ründaja, kaitsja, poolkaitsja" optional="true" morf="*_S_|||@SUBJ"/>
-		<element name="allikas" optional="true" morf="*" />
+		<element name="allikas" optional="true" morf="*_S_ abl|_S_ nom"/>
 		<element name="käik" optional="true" morf="*" />
 		<element name="kehaosa" resource="true" optional="true" morf="*_S_ com" />
 		<element name="sihtmärk" optional="true" morf="*_S_ all|_S_ ill|_S_ abl" />

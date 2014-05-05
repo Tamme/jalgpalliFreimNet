@@ -23,7 +23,10 @@ Unitedile    United+le //_S_ prop sg all //
 alla    alla+0 //_D_ //
 0    0+0 //_N_ card ? digit //
 :    : //_Z_ Col //
-2.    2.+0 //_N_ ord ? digit //
+2    2+0 //_N_ ord ? digit //
+.    . //_Z_ Fst //
+</s>
+<s>
 Eesti    Eesti+0 //_S_ prop sg gen //
 koondise    koondis+0 //_S_ com sg gen //
 ja    ja+0 //_J_ crd //
@@ -2313,7 +2316,7 @@ lõppu    lõpp+0 //_S_ com sg part //
 tõi    too+i //_V_ main indic impf ps3 sg ps af //
 Emile    Emile+0 //_S_ prop sg nom //
 Heskey    Heskey+0 //_S_ prop sg gen //
-pealelöök    peale_löök+0 //_S_ com sg nom //
+pealelöök    pealelöök+0 //_S_ com sg nom //
 aga    aga+0 //_J_ crd //
 taas    taas+0 //_D_ //
 viiginumbrid    viigi_number+d //_S_ com pl nom //
