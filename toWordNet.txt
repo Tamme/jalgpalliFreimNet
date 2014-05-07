@@ -1,96 +1,95 @@
-Lisada wordnetti:
-käärlöök
-kübaratrikk
+Lisada Wordnetti. Kujul mõiste, seletus, näide:
+käärlöök - löök, kus mängija lööb palli üle enda pea võimalikult madalale, kasutades selleks jalgadega kääridena vibutusest tulenevat hoogu
+kübaratrikk - ühe mänmgija poolt kolm väravat ühes mängus
 silm - punkt
-noorteakadeemia
-spodiakadeemia
-mängujärgne
+noorteakadeemia - kooli taoline koht, kus ka õpetatakse noori, kuid põhirõhk on spordil
+spodiakadeemia - noortakadeemia
+mängujärgne - pärast mängu toimuv
 ülevaade - mängujärgne analüüs/kokkuvõte
-avapoolaeg
-kolmveerandtund
-lõppskoor
-omavärav
-lõpuvile
-avavile
-tsoon, piirkond, kus kohalikud mängivad, nt. lõunatsoon
+avapoolaeg - jalgpalli esimene poolaeg
+kolmveerandtund - avapoolaeg
+lõppskoor - lõpptulemus
+omavärav - mängoja lööb tahtmatult endale värava
+lõpuvile - mängu lõppu signaliseeriv vile
+avavile - mängu algust signaliseeriv vile
+tsoon - piirkond, kus kohalikud mängivad, nt. lõunatsoon
 tööandja - ei ole tähendusega varem
 võidupunkt, nt. kolm võidupunkti läksid Tammekale
-tabelirida, koht tabelis
+tabelirida - koht tabelis
 sööt - palli veeretamine väljakut mööda kaasmängijale
 meeskonnakaaslane
-liigatabel
-koduväljak
-vigastuspaus
-karikafinaal
+liigatabel - liiga meeskonade järjestuse tabel
+koduväljak - väljak, kus mängib kodumeeskond
+vigastuspaus - periood, kus mängija ei saa mängida vigastuse tõttu
+karikafinaal - karikaturniiri finaalmäng
 karikasari
-esiliigameeskond
+esiliigameeskond - meeskond, kes mängib esiliigas
 täiskäik
-külalismeeskond
-sats, meeskond
-eeltöö
+külalismeeskond - meeskond, kes mängib võõrsil
+sats - meeskond
+eeltöö - töö, mis tehakse enne mingi asja saavutamist
 kõrgliigameeskond
-üleminut
-väravakütt, ründaja
-tipuründaja
-luhtama, võimalust raiskama, võimalust mitte realiseerima
-väravasööt
-liigahooaeg
-hoolealune, treeneri hoole all olev võistkond
-viigipunkt
-varuväravavaht
-suurklubi
-linnarivaal
-omavärav
-libastuma, punkte kaotama
-avavärav
-tsenderdus
+üleminut - minutid, mis lisatakse põhiajale korvamaks põhiajal olnud katkestusi
+väravakütt - ründaja
+tipuründaja - ründaja
+luhtama - võimalust raiskama, võimalust mitte realiseerima
+väravasööt - sööt, mille järel söödu saanud mängija lööb värava
+liigahooaeg - periood, mille jooksul kestab üks liiga aasta
+hoolealune - treeneri hoole all olev võistkond/mängija
+viigipunkt - viigi korral antav üks punkt
+varuväravavaht - varumängija, kelle poolt mängitav positsioon on väravavaht
+suurklubi - klubi, kes on utntud ing on palju võitnud
+linnarivaal - meeskonna rivaal, kes asub samas linnas
+libastuma - punkte kaotama või platsil libisema
+avavärav - mängu või meeskonna esimene värav
 tabamus - värava löömine
 auvärav - kaotusele vaatamata ühe värava saamine
 eelring - mingi turniiri kvalifikatsiooni voor
 konkurent - täpsustus, võib olla ka meeskond mitte üksikisik
-liiderkolmik
+liiderkolmik - turniiri esimesed kolm võistkonda
 võõrsil - vastase kodustaadionil mängima
-pooltund
-liider, võistluse esimene
-meeskonnakaaslane
-võiduvärav, värav, mis tagab võidu
-võidumäng
-leivaisa, tööandja
-väravasuu, väravaesine
-täismäng, terve mäng
-eelviimane
-põhiturniir
-avalöök, algus mängule või turniirile
-koduklubi
+pooltund - pool tundi kestev periood mängus
+liider - võistluse esimene
+meeskonnakaaslane - mängijaga samas meeskonnas olev mängija
+võiduvärav - värav, mis tagab võidu
+võidumäng - mäng, mis võidetakse
+leivaisa - tööandja
+väravasuu - väravaesine
+täismäng - terve mäng
+eelviimane - turniiritabelis eelviimasel kohal olev võistkond
+põhiturniir - turniiri osa mis mängitakse enne play-offe
+avalöök - algus mängule või turniirile
+koduklubi - klubi, mida mängija esindab
 liidristaatus
-väravavõrk
-tabeliliider
-rivistus, teine tähendus koosseis
-jalgpalliklubi
-vigastama, teine tähendus, ennast vigastama
-põlvevigastus
-MM, lühend maailmameistrivõistlustest
-lähirivaal
-kapten, täpsustus, võib ka olla meeskonna liider sportmängus
-mängupäev
+väravavõrk - võrk, mis on kinnitatud väravaraamile
+tabeliliider - turniiritabelit juhtiv meeskond/võistleja
+rivistus - teine tähendus koosseis
+jalgpalliklubi - jalgpallimeeskond
+vigastama - teine tähendus, ennast vigastama
+põlvevigastus - vigastus, mis on seotud põlvepiirkonnaga
+MM - lühend maailmameistrivõistlustest
+lähirivaal -  meeskond, mis on turniiritabelis lähedal
+kapten - täpsustus, võib ka olla meeskonna liider sportmängus
+mängupäev - päev kui toimub mäng
 jalgpallikarikavõistlus
 poolfinaalkohtumine
-tabelijuht
-võõrustama, spordis koduväljakul/staadionil võistlema
-poolajavile
-üleaeg
-punane kaart
-turniiritabel
-avamäng, esimene mäng
-viigiseis
-igirivaal
-vastasseis
-mängima, sportmängu mängima
-mäng
-esmaesinemine
-kodumäng
+tabelijuht - tabeliliider
+võõrustama - spordis koduväljakul/staadionil võistlema
+poolajavile -  vile, mis märgib poolaja lõppu
+üleaeg - üleminutid
+punane kaart - kaart, mille tõttu peab mängija platsilt lahkuma, tavaliselt teise mängija tõsise vigastamise tõttu
+turniiritabel - turniiri meeskonande paremusjärjestus
+avamäng - esimene mäng
+viigiseis - kui seis on viigiline
+igirivaal  - meeskond, kes on ajalooliselt suur rivaal
+vastasseis - mäng
+mängima - sportmängu mängima
+mäng - mingi spordiala kohtumine
+esmaesinemine - 
+kodumäng - mäng, kus meeskond saab mängida koduväljakul
+kodumatš - kodumäng
 tabama - skoorima
-skoorima
+skoorima - väravasse palli lööma
 sukelduma - teesklema, et mängijale on tehtud viga
 näitlema  - teesklema, et mängijale on tehtud viga
 väljavise - mängija viskab auti sisse
@@ -106,9 +105,92 @@ vint ka vintpall - löök, mis õhus muudab kaarjalt suunda
 keerutama - lööma viisil, kus pall saab vindi sisse
 katma - vastasmeekonna mängijat peale võtma, kaitsma
 vaba - mängijat ei kaeta vastasmeeskonna mängijate poolt
+vaheltlõige - vastasmängijate söötu poole pealt endale võtma
+läbisööt - sööt, mis ei lähe täpselt kaasmängijale vaid ettepoole, et ta joostes selleni jõuaks
+tagasisööt
+tõstma - aeglase hooga õhust tulev tsenderdus...
+lugema - arvestama, kohtunik luges värava ära
+sisse laskma - väravat sisse laskma
+väravalööja
+penaltilööja
+duubel - 2 väravat
+üle kombineerima - liiga palju kombinatsioone tegema, millest tuleneb ebaõnnestumine
+vormistama - skoorima
+üle jooksma  - kiiremini jooksma kui vastane, teda edestama
+libistama - ennast maad mööda libistama, et kiiremini pallini jõuda
+õhuvõitlus - mitu mängijat hüppavad õhtu, et pall peaga kätte saada
+üks ühele - mänguolukord, kus mõlemast meeskonnast on palli läheduses vaid üks mängija ning üritatakse seda mängijat edestada
+üleaste - trikk, kus mängija liigutab jala kiiresti üle palli, viidates sellele, et ta hakkaks sinna poole palliga liikuma, kuid siis teeb äkkilise liigutuse ing läheb hoopis teises suunas(ing k step over)
+apelleerima - otsust vaidlustama
+maha tõmbama - vastasmängijat maha kukutama, viga tegema
+eemaldama - platsilt minema saatma punase kaardi tõttu
+müür - mängijatest moodustatud sein, karistuslöögi ajal
+kaistemüür - mängijatest moodustatud sein, karistuslöögi ajal
+vedama - joostes palli endaga kaasas hoidama 
+väravavahiala - värava ümber olev joontega märgitud piirkond suurusega  5.5 x 18.32 m, mille seest peab tegema lahtilööke
+viiekast - väravavahiala
+ära tooma/ära võtma - mängijat välja vahetama
+vasturünnak - kui ühe meeskonna rünnak asendub teise meeskonna rünnakuga
+kontrarünnak - vasturünnak
+rüselus - kerge kaklus
+kinnitama - kindlamaks tegema, nt eduseisu
+tasavägine - võrdne
+välja vilistama - vlistamise teel ebasoosingut näitama
+võistlusfaas
+väljalangemine
+vastu võtma - võõrustama
+derbi - rivaalide kohtumine
+korduskohtumine
+lisaeg - viigilise tulemuse puhul võitja selgiamiseks mängitav aeg mõne turniiri puhul
+edasipääs
+alagrupifaas
+puhkama võtma - välja vahetatud mängijad võetakse puhkama
+putsa - jalgpallijalats
+kedra - jalgpallisokk
+kaptenipael
+keskkaitsja
+ründaja, täpsustus
+kaitsja, täpsustus
+vasakkaitsja
+paremkaitsja
+vasak poolkaitsja
+parem poolkaitsja
+vasakäär - ehk vasak poolkaitsja
+paremäär
+keskpoolkaitsja
+põhimees
+resermeeskond - klubi tugevuselt teine meeskond
+duubelmeeskond - revermeeskond
+varumees
+äärekaitsja
+ääremängija
+vastasmängija - vastasmeeskonna mängija
+abikohtunik
+otsakohtunik
+neljas kohtnuik - kohtunik, kes vahetab välja teisi kohtunikke, kui need peaksid ennast vigastama, ning näitab lisaaega ja vahetab mängijaid
+ründeliin
+kaitseliin
+poolkaitseliin
+keskväli
+keskring
+nurgalipp
+väravaala - väravavahiala
+penaltipunkt
+küljeaut
+latt - värava horontaalne osa
+põiklatt - posti ja lati ristumiskoht jalgpallis
+küljevõrk - jalgpalliväraval postide taga olev võrk
+väravaraam
+maha raputama - tegema midagi nii hästi, et vastane ei suuda järel püsida
 
 
 Kahtlased:
+kaarti korjama - teenis kollase kaardi
+hiline viga - viga mis on tehtud väravale lähedal
+mööda mängima - vastasest mööduma
+
+jooksu/hoo peale andma
+üles korjama - palli enda valdusesse võtma
 terve kohtumine
 külla sõitma
 enda ees nägema - nägi enda ees punast kaarti
@@ -125,6 +207,7 @@ tabloole tooma
 juppideks võtma
 kinni hoidma nt. eduseisust kinni hoidma
 kollast kaarti teenima
+kollast kaarti andma
 võõras väljak
 ette minema
 täpne olema - skoorima

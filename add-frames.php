@@ -64,7 +64,7 @@ if (!empty($sentenceArray)) {
 	foreach ($sentenceArray as $key => $sentence) {
 		foreach ($frames as $frameName => $frame) {
 			foreach ($frame['lexicalUnits'] as $lemma => $lemmaMorphAndNamesArray) {
-				
+				//print_r($lemmaMorphAndNamesArray);die;
 				$returnData = analysiseSentenceWithFrameData($sentence, $lemma, $lemmaMorphAndNamesArray, $textRows, $sentenceArray, $frameName, $key, true);
 				$frameAdded = $returnData['added'];
 				$textRows = $returnData['textRows'];
