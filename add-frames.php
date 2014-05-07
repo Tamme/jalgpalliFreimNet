@@ -16,19 +16,18 @@ mb_internal_encoding("UTF-8");
 const FRAMES_PATH = 'C:\Users\Lauri\Desktop\Baka asjad\gitBaka\jalgpalliFreimNet\frames_with_morf.xml';
 const TEXT_PATH = 'C:\Users\Lauri\Desktop\Baka asjad\gitBaka\jalgpalliFreimNet\korpused\soccernet.snx';
 const OVERALL_PATH = 'C:\Users\Lauri\Desktop\Baka asjad\gitBaka\jalgpalliFreimNet';
+const RETURN_PATH = 'C:\Users\Lauri\Desktop\Baka asjad\gitBaka\jalgpalliFreimNet\laused.kym';
 const DO_WORD_DISAMBIGUATION = false;
 //No ö, ä, ü, õ allowed in path
 $morphedText = file_get_contents(TEXT_PATH);
 $textRows = explode("\n", $morphedText);
 //print_r($textRows);die;
 $sentenceArray = readTextToArray($textRows);
-print_r($sentenceArray);die;
+//print_r($sentenceArray);die;
 $test = '';
 
 
 if (!empty($sentenceArray)) {
-	
-	
 	
 	$frames = readFramesToArray(FRAMES_PATH);
 	//print_r($frames);die;
@@ -85,7 +84,7 @@ if (!empty($sentenceArray)) {
 	$morphedText = implode("\n", $textRows);
 	echo 'Lisati ' . $addedFrames . ' freim(i).';
 	echo 'Lisati ' . $addedElements . ' element(i).';
-	file_put_contents('C:\Users\Lauri\Desktop\Baka asjad\gitBaka\jalgpalliFreimNet\laused.kym', $morphedText);
+	file_put_contents(RETURN_PATH, $morphedText);
 	die;
 }
 else {
@@ -307,7 +306,6 @@ function addFrameInfoToText($textPath) {
 */
 function readTextToArray($textRows) {
 	
-		
 		//$textRows = explode("\n", $morphedText);
 		$sentenceArray = array();
 		$counter = 0;
@@ -399,6 +397,7 @@ function readFramesToArray($framesPath) {
 			}
 			else if ($resource == true){
 				$frames[$frameName]['lexicalUnits'][$lemma] = array();
+				//TODO kontrolli, kas OVERALL_PATH lõpeb /-ga
 				$frames[$frameName]['lexicalUnits'][$lemma] = array_merge(array('morf' => $xml->getAttribute('morf')), getResource(OVERALL_PATH . '\\' . $name . '.txt'));
 				$frames[$frameName]['lexicalUnits'][$lemma][] = $lemma;
 			}

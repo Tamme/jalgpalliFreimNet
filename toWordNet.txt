@@ -1,3 +1,161 @@
 Lisada wordnetti:
 käärlöök
 kübaratrikk
+silm - punkt
+noorteakadeemia
+spodiakadeemia
+mängujärgne
+ülevaade - mängujärgne analüüs/kokkuvõte
+avapoolaeg
+kolmveerandtund
+lõppskoor
+omavärav
+lõpuvile
+avavile
+tsoon, piirkond, kus kohalikud mängivad, nt. lõunatsoon
+tööandja - ei ole tähendusega varem
+võidupunkt, nt. kolm võidupunkti läksid Tammekale
+tabelirida, koht tabelis
+sööt - palli veeretamine väljakut mööda kaasmängijale
+meeskonnakaaslane
+liigatabel
+koduväljak
+vigastuspaus
+karikafinaal
+karikasari
+esiliigameeskond
+täiskäik
+külalismeeskond
+sats, meeskond
+eeltöö
+kõrgliigameeskond
+üleminut
+väravakütt, ründaja
+tipuründaja
+luhtama, võimalust raiskama, võimalust mitte realiseerima
+väravasööt
+liigahooaeg
+hoolealune, treeneri hoole all olev võistkond
+viigipunkt
+varuväravavaht
+suurklubi
+linnarivaal
+omavärav
+libastuma, punkte kaotama
+avavärav
+tsenderdus
+tabamus - värava löömine
+auvärav - kaotusele vaatamata ühe värava saamine
+eelring - mingi turniiri kvalifikatsiooni voor
+konkurent - täpsustus, võib olla ka meeskond mitte üksikisik
+liiderkolmik
+võõrsil - vastase kodustaadionil mängima
+pooltund
+liider, võistluse esimene
+meeskonnakaaslane
+võiduvärav, värav, mis tagab võidu
+võidumäng
+leivaisa, tööandja
+väravasuu, väravaesine
+täismäng, terve mäng
+eelviimane
+põhiturniir
+avalöök, algus mängule või turniirile
+koduklubi
+liidristaatus
+väravavõrk
+tabeliliider
+rivistus, teine tähendus koosseis
+jalgpalliklubi
+vigastama, teine tähendus, ennast vigastama
+põlvevigastus
+MM, lühend maailmameistrivõistlustest
+lähirivaal
+kapten, täpsustus, võib ka olla meeskonna liider sportmängus
+mängupäev
+jalgpallikarikavõistlus
+poolfinaalkohtumine
+tabelijuht
+võõrustama, spordis koduväljakul/staadionil võistlema
+poolajavile
+üleaeg
+punane kaart
+turniiritabel
+avamäng, esimene mäng
+viigiseis
+igirivaal
+vastasseis
+mängima, sportmängu mängima
+mäng
+esmaesinemine
+kodumäng
+tabama - skoorima
+skoorima
+sukelduma - teesklema, et mängijale on tehtud viga
+näitlema  - teesklema, et mängijale on tehtud viga
+väljavise - mängija viskab auti sisse
+puhastama - vastase rünnakut katkestama, lüües palli eemale
+sekkuma - mängu tulema vahetusest või mingisse olukorda lisanduma
+vastasmeeskond
+möödalöök
+tõrjuma - väravavaht tõrjub löögi
+kannalöök
+pealöök
+kõmmutama - lööma värava suunas
+vint ka vintpall - löök, mis õhus muudab kaarjalt suunda
+keerutama - lööma viisil, kus pall saab vindi sisse
+katma - vastasmeekonna mängijat peale võtma, kaitsma
+vaba - mängijat ei kaeta vastasmeeskonna mängijate poolt
+
+
+Kahtlased:
+terve kohtumine
+külla sõitma
+enda ees nägema - nägi enda ees punast kaarti
+hilisõhtune
+tegi otsad???
+puhkust andma
+ära kindlustama
+tõrjetöö
+skoori avama
+püsima jääma
+alla jääma
+koheselt vastama
+tabloole tooma
+juppideks võtma
+kinni hoidma nt. eduseisust kinni hoidma
+kollast kaarti teenima
+võõras väljak
+ette minema
+täpne olema - skoorima
+paremini alustama
+tuliseks minema
+läbi James Murphy jala ühe tagasi lüüa
+lukku panema - võitma
+võitjana väljuma
+mängu astuma
+hoogu sattuma
+tabamuse eest hoolitsema
+jala valgeks saama
+samade punktide peal olema
+värav ei sündinud
+palli värava selja taha suunama
+täpne olema
+positsiooni kindlustama
+tiitlile lähemale jüudma
+sammu tiitli suunas astuma
+hea hoogu leidma, edukas väravate löömisest või lihtsalt läheb mäng hästi
+väravat puhtana hoidma
+väravat kaitsema
+väravateta viik
+kuues olema jne
+pingile vahetama
+läbi mängima
+teineteise
+väravas seisma, väravaht olema
+vahetusest sekkuma
+ohutu/ohtlik tsoon, väljakukkumistsoon
+väljakule jooksma
+pingil istuma
+suurt sammu astuma
+konkurensist langema
