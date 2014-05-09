@@ -113,6 +113,7 @@
 	<LexicalUnits>
 		<lu lemma="tabama" morf="_V_ main" />
 		<lu lemma="skoorima" morf="_V_ main" />
+		<lu lemma="värav" morf="_S_" />
 	</LexicalUnits>
 	<Elements>
 		<element name="värav" optional="true" morf="_S_ com" />
@@ -216,7 +217,7 @@
   <frame name="miss goal">
 	<LexicalUnits>
 		<lu lemma="möödalöök" morf="_S_ com" />
-		<lu lemma="mööda lööma" morf="*_V_ main" />
+		<lu lemma="mööda lööma" morf="_V_ main" />
 	</LexicalUnits>
 	<Elements>
 		<element name="lööja" selection="mängija, väravaht, ründaja, kaitsja, poolkaitsja" optional="true" morf="*_S_|||@SUBJ"/>
@@ -232,6 +233,7 @@
 		<lu lemma="püüdma" morf="_V_ main" />
 		<lu lemma="tõrjuma" morf="_V_ main" />
 		<lu lemma="päästma" morf="_V_ main" />
+		<lu lemma="tõrjetöö" morf="_S_ com" />
 	</LexicalUnits>
 	<Elements>
 		<element name="väravavaht" optional="true" morf="*_S_" />
@@ -783,7 +785,8 @@
 	<LexicalUnits>
 	  <lu lemma="eksima" morf="_V_ main" />
 	  <lu lemma="raiskama" morf="_V_ main"/>
-	  <lu lemma="luhtama" morf="V main"/>
+	  <lu lemma="luhtama" morf="_V_ main"/>
+	  <lu lemma="ei õnnestuma" morf="_V_||_V_ main"/>
 	</LexicalUnits>
 	<Elements>
 	  <element name="võimalus" optional="true" morf="_S_"/>
@@ -1247,6 +1250,9 @@
 	  <lu lemma="võitma" />
 	  <lu lemma="võitjad" />
 	  <lu lemma="üle olema" />
+	  <lu lemma="tegema otsad" />
+	  <lu lemma="toime tulema" />
+	  <lu lemma="ära kindlustama" />
 	</LexicalUnits>
 	<Elements>
 	  <element name="võitja" optional="true" />
@@ -1281,6 +1287,7 @@
 	  <lu lemma="poolfinaalid" />
 	</LexicalUnits>
 	<Elements>
+	<Elements>
 	  <element name="võistlus" optional="true" />
 	  <element name="täpsustaja" optional="true" />
 	</Elements>
@@ -1290,7 +1297,7 @@
       <lu lemma="sisse tooma" />
 	  <lu lemma="valima" />
 	  <lu lemma="puhkama" />
-	  <lu lemma="alustama" />
+	  <lu lemma="puhkus" />
 	</LexicalUnits>
 	<Elements>
 	  <element name="mängija" optional="true" />

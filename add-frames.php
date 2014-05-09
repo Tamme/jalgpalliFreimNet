@@ -11,7 +11,6 @@ syntaxile minig märk, et ta ei ole kohustuslik vaid soovitatav
 */
 
 error_reporting(-1);
-//default_charset("utf-8");
 mb_internal_encoding("UTF-8");
 const FRAMES_PATH = 'C:\Users\Lauri\Desktop\Baka asjad\gitBaka\jalgpalliFreimNet\frames_with_morf.xml';
 const TEXT_PATH = 'C:\Users\Lauri\Desktop\Baka asjad\gitBaka\jalgpalliFreimNet\korpused\soccernet.snx';
@@ -21,50 +20,18 @@ const DO_WORD_DISAMBIGUATION = false;
 //No ö, ä, ü, õ allowed in path
 $morphedText = file_get_contents(TEXT_PATH);
 $textRows = explode("\n", $morphedText);
-//print_r($textRows);die;
 $sentenceArray = readTextToArray($textRows);
-//print_r($sentenceArray);die;
-$test = '';
 
 
 if (!empty($sentenceArray)) {
-	
-	$frames = readFramesToArray(FRAMES_PATH);
-	//print_r($frames);die;
-		
-	//$textRows = explode("\n", $morphedText);
-	
-	/*
-	pseudo:
-	käi läbi laused
-		käi läbi freimid
-			käi läbi lemmad
-				käi läbi sõnad lauses, mille morf = lemma morf TODO lemma kaheosaline, morfis tärn, || vms
-					
-					kui sõna = lemma ja/või morfid ~sarnased
-							kutsub mingi freimid välja, vaja kindlaks teha millise
-							
-							käi läbi elemendid ja vaata, mitu sobiks (ebatäpne)
-								TODO hiljem optional false check
-								
-								kui _S_
-									vaata kas leidub üldnimi
-									vaata kas mõni pärisnimi
-								
-						
-						
-	
-	*/
-	
-	
+	$frames = readFramesToArray(FRAMES_PATH);	
 	$addedFrames = 0;
 	$addedElements = 0;
-	//print_r($sentenceArray);die;
 	$counter = 0;
+	
 	foreach ($sentenceArray as $key => $sentence) {
 		foreach ($frames as $frameName => $frame) {
 			foreach ($frame['lexicalUnits'] as $lemma => $lemmaMorphAndNamesArray) {
-				//print_r($lemmaMorphAndNamesArray);die;
 				$returnData = analysiseSentenceWithFrameData($sentence, $lemma, $lemmaMorphAndNamesArray, $textRows, $sentenceArray, $frameName, $key, true);
 				$frameAdded = $returnData['added'];
 				$textRows = $returnData['textRows'];
@@ -78,9 +45,8 @@ if (!empty($sentenceArray)) {
 			}
 		}	
 	}
-	//print_r($sentenceArray);die;
-	//add frames back to text
 	
+	//add frames back to text
 	$morphedText = implode("\n", $textRows);
 	echo 'Lisati ' . $addedFrames . ' freim(i).';
 	echo 'Lisati ' . $addedElements . ' element(i).';
@@ -94,13 +60,8 @@ else {
 exit;
 
 
-
-
-
-
-
 /**
-	Main function that 
+	Main function that analyses sentece and frame
 */
 function analysiseSentenceWithFrameData($sentence, $lemma, $baseWordArray, $textRows, $sentenceArray, $frameName, $key, $isForLemma) {
 	$added = 0;
@@ -127,6 +88,7 @@ function analysiseSentenceWithFrameData($sentence, $lemma, $baseWordArray, $text
 		if (strpos($wordMorph, '||') !== false) {
 			$wordMorphPieces = explode('||', $wordMorph);
 			$wordPieces = explode(' ', $baseWordOptionsSelection);
+			//$wordPieces something like array([] =>  pall, [] => kaotama)
 			$wordsAmount = count($wordPieces);
 		}
 		else {
@@ -143,28 +105,25 @@ function analysiseSentenceWithFrameData($sentence, $lemma, $baseWordArray, $text
 			}
 		}
 		
-		
 		for ($pieceKey = 0; $pieceKey < $wordsAmount; $pieceKey++) {
 			foreach ($sentence as $wordKey => $word) {
 				$wordsMatched = 0;
 				$wordsAndMorphMatched = 0;
 				foreach ($word['alg'] as $meaningKey => $wordMeaning) {
-					//Adding frames
-					
-					
+					//wordMeaning something like võitis
+
+					//If syntac not the same then continue
 					if (!empty($syntax) && $syntax != false && strpos($word['morf'][$meaningKey], ' ' . $syntax . ' ') === false) {
 						continue;
 					}
 					
-					
 					foreach ($wordMorphPieces[$pieceKey] as $optionKey => $wordMorphOneOption) {
-					
-					
+						// $wordMorphOneOption something like _V_ main
+						
 						$oneWordMorphPieces = (!empty($wordMorphPieces[$pieceKey][$optionKey]) ? explode(' ', $wordMorphPieces[$pieceKey][$optionKey]) : array());
+						//Something like Array([] => _V_, [] => main)
 						
 						if ($morphWithStar === true) {
-						
-							
 							//if lemma = wordmeaing OR morph = wordmorph, add freim/element with luck
 							
 							if ($wordPieces[$pieceKey] == $wordMeaning) {
@@ -203,7 +162,7 @@ function analysiseSentenceWithFrameData($sentence, $lemma, $baseWordArray, $text
 							}
 							else if (!empty($oneWordMorphPieces)) {
 							
-								//print_r($oneLemmaMorphPieces);
+								//print_r($oneWordMorphPieces);die;
 								$allIncluded = true;
 								foreach ($oneWordMorphPieces as $piece) {
 									if (strpos($word['morf'][$meaningKey], ' ' . $piece . ' ') === false) {
@@ -236,21 +195,17 @@ function analysiseSentenceWithFrameData($sentence, $lemma, $baseWordArray, $text
 								}
 							}
 						}
-						else {//if lemma/element = word AND morph = wordmorph, add with certainty
+						else {
+							//if lemma/element = word AND morph = wordmorph, add with certainty
 							if ($wordPieces[$pieceKey] == $wordMeaning) {
-								//print_r($wordMeaning);
-								//print_r(++$counter . '---' .  PHP_EOL);
 								$allIncluded = true;
 								foreach ($oneWordMorphPieces as $piece) {
-	//									print_r($oneLemmaMorphPieces);
-	//										print_r($word['morf'][$meaningKey]);
 									if (strpos($word['morf'][$meaningKey], ' ' . $piece . ' ') === false) {
 										$allIncluded = false;
 										break;
 									}
 								}
 								if ($allIncluded === true) {
-									//print_r($counter . '---' . PHP_EOL);
 									$wordsMatched++; 
 									if ($wordsMatched == $wordsAmount) {
 										$sentenceArray[$key][$wordKey]['freimiInfo'] = $frameName;
@@ -290,15 +245,6 @@ function analysiseSentenceWithFrameData($sentence, $lemma, $baseWordArray, $text
 	);
 }
 
-function addFrameInfoToText($textPath) {
-	$morphedText = file_get_contents($textPath);
-	if ($morphedText !== false) {
-		
-		$textRows = explode("\n", $morphedText);
-	
-
-	}
-}
 
 /**
  * Morphtext to arrayobject

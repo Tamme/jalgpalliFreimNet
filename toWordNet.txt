@@ -22,9 +22,9 @@ liigatabel - liiga meeskonade järjestuse tabel
 koduväljak - väljak, kus mängib kodumeeskond
 vigastuspaus - periood, kus mängija ei saa mängida vigastuse tõttu
 karikafinaal - karikaturniiri finaalmäng
-karikasari
+karikasari - karikavõstlus
 esiliigameeskond - meeskond, kes mängib esiliigas
-täiskäik
+täiskäik - meeskond mängib nii kõvasti kui võimalik
 külalismeeskond - meeskond, kes mängib võõrsil
 sats - meeskond
 eeltöö - töö, mis tehakse enne mingi asja saavutamist
@@ -60,7 +60,7 @@ eelviimane - turniiritabelis eelviimasel kohal olev võistkond
 põhiturniir - turniiri osa mis mängitakse enne play-offe
 avalöök - algus mängule või turniirile
 koduklubi - klubi, mida mängija esindab
-liidristaatus
+liidristaatus - meeskond juhib
 väravavõrk - võrk, mis on kinnitatud väravaraamile
 tabeliliider - turniiritabelit juhtiv meeskond/võistleja
 rivistus - teine tähendus koosseis
@@ -71,8 +71,8 @@ MM - lühend maailmameistrivõistlustest
 lähirivaal -  meeskond, mis on turniiritabelis lähedal
 kapten - täpsustus, võib ka olla meeskonna liider sportmängus
 mängupäev - päev kui toimub mäng
-jalgpallikarikavõistlus
-poolfinaalkohtumine
+jalgpallikarikavõistlus - jalgpallivõistlus, kus võija saab karika
+poolfinaalkohtumine - kohtumine, mille võitjad edenevad finaali
 tabelijuht - tabeliliider
 võõrustama - spordis koduväljakul/staadionil võistlema
 poolajavile -  vile, mis märgib poolaja lõppu
@@ -85,7 +85,7 @@ igirivaal  - meeskond, kes on ajalooliselt suur rivaal
 vastasseis - mäng
 mängima - sportmängu mängima
 mäng - mingi spordiala kohtumine
-esmaesinemine - 
+esmaesinemine - esimest korda esinemine (üldiselt)
 kodumäng - mäng, kus meeskond saab mängida koduväljakul
 kodumatš - kodumäng
 tabama - skoorima
@@ -95,11 +95,11 @@ näitlema  - teesklema, et mängijale on tehtud viga
 väljavise - mängija viskab auti sisse
 puhastama - vastase rünnakut katkestama, lüües palli eemale
 sekkuma - mängu tulema vahetusest või mingisse olukorda lisanduma
-vastasmeeskond
-möödalöök
+vastasmeeskond - meeskond, kelle vastu mängitakse
+möödalöök - löök, mis läheb väravast mööda
 tõrjuma - väravavaht tõrjub löögi
-kannalöök
-pealöök
+kannalöök - löök, mis tehakse kannaga
+pealöök - löök, mis tehakse peaga
 kõmmutama - lööma värava suunas
 vint ka vintpall - löök, mis õhus muudab kaarjalt suunda
 keerutama - lööma viisil, kus pall saab vindi sisse
@@ -107,12 +107,12 @@ katma - vastasmeekonna mängijat peale võtma, kaitsma
 vaba - mängijat ei kaeta vastasmeeskonna mängijate poolt
 vaheltlõige - vastasmängijate söötu poole pealt endale võtma
 läbisööt - sööt, mis ei lähe täpselt kaasmängijale vaid ettepoole, et ta joostes selleni jõuaks
-tagasisööt
-tõstma - aeglase hooga õhust tulev tsenderdus...
+tagasisööt - sööt, mille suund on enda värava poole
+tõstma - aeglase hooga õhust tulev tsenderdus
 lugema - arvestama, kohtunik luges värava ära
 sisse laskma - väravat sisse laskma
-väravalööja
-penaltilööja
+väravalööja - mängija, kes lõi värava
+penaltilööja - mängija, kes lööb penaltit
 duubel - 2 väravat
 üle kombineerima - liiga palju kombinatsioone tegema, millest tuleneb ebaõnnestumine
 vormistama - skoorima
@@ -136,51 +136,51 @@ rüselus - kerge kaklus
 kinnitama - kindlamaks tegema, nt eduseisu
 tasavägine - võrdne
 välja vilistama - vlistamise teel ebasoosingut näitama
-võistlusfaas
-väljalangemine
+võistlusfaas - mingi võistluse etapp
+väljalangemine - turniiri reeglitest tulenev otsus, mis lõpetab võistkonna võimlause veel mänge pidada
 vastu võtma - võõrustama
 derbi - rivaalide kohtumine
-korduskohtumine
+korduskohtumine - teine kohtumine, kus sama meeskonnaga on juba samas võistlusfaasis mängitud
 lisaeg - viigilise tulemuse puhul võitja selgiamiseks mängitav aeg mõne turniiri puhul
-edasipääs
-alagrupifaas
+edasipääs - edenemine järgmisesse ringi
+alagrupifaas - turniiri faas, kus meeskonnad on jaotatud alagruppidesse ning kõik mängivad kõikidega läbi
 puhkama võtma - välja vahetatud mängijad võetakse puhkama
 putsa - jalgpallijalats
 kedra - jalgpallisokk
-kaptenipael
-keskkaitsja
+kaptenipael - pael, mida kannab kapten ümber õlavarre
+keskkaitsja - kaitsja, kelle positsioon asub keskel
 ründaja, täpsustus
 kaitsja, täpsustus
 vasakkaitsja
 paremkaitsja
 vasak poolkaitsja
 parem poolkaitsja
-vasakäär - ehk vasak poolkaitsja
-paremäär
+vasakäär - vasak poolkaitsja
+paremäär - parem poolkaitsja
 keskpoolkaitsja
-põhimees
+põhimees - mängija kes põhikoosseisus või kes mängib suurt rolli meeskonna edus
 resermeeskond - klubi tugevuselt teine meeskond
 duubelmeeskond - revermeeskond
-varumees
-äärekaitsja
+varumees - mängija, kes ei alusta põhikoosseisus
+äärekaitsja - kaitsja, kes ei ole keskaitsja
 ääremängija
 vastasmängija - vastasmeeskonna mängija
-abikohtunik
-otsakohtunik
+abikohtunik - äärekohunik
+otsakohtunik - kohtunik, kes on otsajoone taga ning kelle ülesanne on jälgida, kas pall ületas väravajoont
 neljas kohtnuik - kohtunik, kes vahetab välja teisi kohtunikke, kui need peaksid ennast vigastama, ning näitab lisaaega ja vahetab mängijaid
-ründeliin
-kaitseliin
-poolkaitseliin
-keskväli
-keskring
-nurgalipp
+ründeliin - grupp, mille moodustavad ründajad
+kaitseliin - grupp, mille moodustavad kaitsjad
+poolkaitseliin  - grupp, mille moodustavad poolkaitsjad
+keskväli - piirkond väljaku keskel, samas ka üldistavalt poolkaitsjate kohta
+keskring - ringi kujuline joon keskväljal
+nurgalipp - lipp, mis tähistab väljaku nurka
 väravaala - väravavahiala
-penaltipunkt
-küljeaut
+penaltipunkt - koht väljakul, kust lüüakse penalteid
+küljeaut - kahe käe vahel üle pea palli väljakule sisseviskamine
 latt - värava horontaalne osa
 põiklatt - posti ja lati ristumiskoht jalgpallis
 küljevõrk - jalgpalliväraval postide taga olev võrk
-väravaraam
+väravaraam - väravakonstruktsioon, mille moodustavad postid ja latt
 maha raputama - tegema midagi nii hästi, et vastane ei suuda järel püsida
 
 
@@ -192,19 +192,19 @@ mööda mängima - vastasest mööduma
 jooksu/hoo peale andma
 üles korjama - palli enda valdusesse võtma
 terve kohtumine
-külla sõitma
+külla sõitma - võõrale platsile mängima minema
 enda ees nägema - nägi enda ees punast kaarti
 hilisõhtune
-tegi otsad???
-puhkust andma
-ära kindlustama
-tõrjetöö
+tegi otsad - võitis suurelt
+puhkust andma - 
+ära kindlustama - tagama võidu vms
+tõrjetöö - väravavahi ülesanne tõrjuda
 skoori avama
 püsima jääma
-alla jääma
+alla jääma - kaotama
 koheselt vastama
-tabloole tooma
-juppideks võtma
+tabloole tooma - skoorima
+juppideks võtma - kõvasti võitma või vastase positsioone ning mängijaid segadusse ajama
 kinni hoidma nt. eduseisust kinni hoidma
 kollast kaarti teenima
 kollast kaarti andma
