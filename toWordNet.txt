@@ -1,4 +1,4 @@
-Lisada Wordnetti. Kujul mõiste, seletus, näide:
+Lisada Wordnetti. Kujul mõiste - seletus(, näide):
 käärlöök - löök, kus mängija lööb palli üle enda pea võimalikult madalale, kasutades selleks jalgadega kääridena vibutusest tulenevat hoogu
 kübaratrikk - ühe mänmgija poolt kolm väravat ühes mängus
 silm - punkt
@@ -14,10 +14,10 @@ lõpuvile - mängu lõppu signaliseeriv vile
 avavile - mängu algust signaliseeriv vile
 tsoon - piirkond, kus kohalikud mängivad, nt. lõunatsoon
 tööandja - ei ole tähendusega varem
-võidupunkt, nt. kolm võidupunkti läksid Tammekale
+võidupunkt - punkt, mille saab võitja, sõltuvalt alast on punktide arv erinev, nt. kolm võidupunkti läksid Tammekale
 tabelirida - koht tabelis
 sööt - palli veeretamine väljakut mööda kaasmängijale
-meeskonnakaaslane
+meeskonnakaaslane - samas meeskonna mängija 
 liigatabel - liiga meeskonade järjestuse tabel
 koduväljak - väljak, kus mängib kodumeeskond
 vigastuspaus - periood, kus mängija ei saa mängida vigastuse tõttu
@@ -151,19 +151,19 @@ kaptenipael - pael, mida kannab kapten ümber õlavarre
 keskkaitsja - kaitsja, kelle positsioon asub keskel
 ründaja, täpsustus
 kaitsja, täpsustus
-vasakkaitsja
-paremkaitsja
-vasak poolkaitsja
-parem poolkaitsja
+vasakkaitsja - kaitsja, kes kaitseb vasakul äärel
+paremkaitsja - kaitsja, kes kaitseb paremal äärel
+vasak poolkaitsja - poolkaitsja, kes mängib vasakul äärel
+parem poolkaitsja - poolkaitsja, kes mängib paremal äärel
 vasakäär - vasak poolkaitsja
 paremäär - parem poolkaitsja
-keskpoolkaitsja
+keskpoolkaitsja - poolkaitsja, kes mängib keskväljakul
 põhimees - mängija kes põhikoosseisus või kes mängib suurt rolli meeskonna edus
 resermeeskond - klubi tugevuselt teine meeskond
 duubelmeeskond - revermeeskond
 varumees - mängija, kes ei alusta põhikoosseisus
 äärekaitsja - kaitsja, kes ei ole keskaitsja
-ääremängija
+ääremängija - mängija, kes mängib äärel
 vastasmängija - vastasmeeskonna mängija
 abikohtunik - äärekohunik
 otsakohtunik - kohtunik, kes on otsajoone taga ning kelle ülesanne on jälgida, kas pall ületas väravajoont
@@ -188,57 +188,54 @@ Kahtlased:
 kaarti korjama - teenis kollase kaardi
 hiline viga - viga mis on tehtud väravale lähedal
 mööda mängima - vastasest mööduma
-
-jooksu/hoo peale andma
+jooksu/hoo peale andma - söötma palli kaasmängijast ettepoole, et tal oleks võimalik kiiremini palliga teekonda jätkata
 üles korjama - palli enda valdusesse võtma
-terve kohtumine
 külla sõitma - võõrale platsile mängima minema
 enda ees nägema - nägi enda ees punast kaarti
-hilisõhtune
 tegi otsad - võitis suurelt
-puhkust andma - 
+puhkust andma - mängijat välja vahetama või üldse mängule mitte kaasama, et puhkust anda
 ära kindlustama - tagama võidu vms
-tõrjetöö - väravavahi ülesanne tõrjuda
-skoori avama
-püsima jääma
+tõrjetöö - väravavahi oma ülesannet tegemas
+skoori avama - esimest väravat lööma
+püsima jääma - mängija ei kukkunud maha või meeskond ei  kukkunud liigast välja
 alla jääma - kaotama
-koheselt vastama
+koheselt vastama - hrl. kohe vastu värava lööma
 tabloole tooma - skoorima
 juppideks võtma - kõvasti võitma või vastase positsioone ning mängijaid segadusse ajama
-kinni hoidma nt. eduseisust kinni hoidma
-kollast kaarti teenima
-kollast kaarti andma
-võõras väljak
-ette minema
+kinni hoidma - mingit abstrakstet olukorda säilitama, nt. eduseisust kinni hoidma
+kollast kaarti teenima - kui kohtunk näitab mängijale kollast kaarti
+kollast kaarti andma  - kui kohtunk annab mängijale kollase kaardi
+võõras väljak - kui meeskond ei mängi koduväljakul
+ette minema - värava löömise abil juhtima minema
 täpne olema - skoorima
-paremini alustama
-tuliseks minema
-läbi James Murphy jala ühe tagasi lüüa
-lukku panema - võitma
-võitjana väljuma
-mängu astuma
-hoogu sattuma
-tabamuse eest hoolitsema
-jala valgeks saama
-samade punktide peal olema
-värav ei sündinud
-palli värava selja taha suunama
-täpne olema
-positsiooni kindlustama
-tiitlile lähemale jüudma
-sammu tiitli suunas astuma
-hea hoogu leidma, edukas väravate löömisest või lihtsalt läheb mäng hästi
-väravat puhtana hoidma
-väravat kaitsema
-väravateta viik
-kuues olema jne
-pingile vahetama
-läbi mängima
-teineteise
-väravas seisma, väravaht olema
-vahetusest sekkuma
-ohutu/ohtlik tsoon, väljakukkumistsoon
-väljakule jooksma
-pingil istuma
-suurt sammu astuma
-konkurensist langema
+paremini alustama - paremini mängima kui vastasmeeskond mängu algfaasis
+tuliseks minema - kui mäng on pingeline või agressiivne
+läbi jala - skoorima kellegi poolt või väravavhi jalgade vahelt, nt. läbi James Murphy jala ühe tagasi lüüa
+lukku panema - võitma või väga hästi kaitsma
+võitjana väljuma - võitma mängu, mis võis olla tasavägine
+mängu astuma - sekkuma
+hoogu sattuma - hästi mängima, võib-olla ka palju väravaid lööma või tõrjuma
+tabamuse eest hoolitsema - skoorima
+jala valgeks saama - skoorima
+samade punktide peal olema - viigis liigatabelis olema
+värav ei sündinud - toimus pealelöök, mis tõrjuti vms
+palli väravavahi selja taha suunama - skoorima
+täpne olema - skoorima
+positsiooni kindlustama - liigatabeli kohta kindlustama, hrl. võiduga
+tiitlile lähemale jõudma - hrl. võitma, olles liigatabeli liider 
+sammu tiitli suunas astuma - hrl. võitma, olles liigatabeli liider 
+head hoogu leidma - edukas väravate löömises või lihtsalt läheb mäng hästi
+väravat puhtana hoidma - saama tulemust, kus endale ei lastud ühtegi väravat lüüa 
+väravat kaitsma - tegema kaitsetööd
+väravateta viik - mäng, mis jääb 0:0
+kuues olema jne - liigatabelis koht
+pingile vahetama - mängijat platsilt välja vahetama
+läbi mängima - vastasest mööduma
+väravas seisma - väravaht olema
+vahetusest sekkuma - kui mängija vahetatakse sisse
+ohtlik tsoon - väljakukkumistsoon
+ohutu tsoon - kui liigatabelis ei ohtusta väljakukkumine 
+väljakule jooksma - mängu minema, kas põhikoosseisus või vahetusest
+pingil istuma - varumees olema
+suurt sammu astuma - saama tulemuse, mis aitab kõvasti soovitud suunas liikumisks, nt. astus suure sammu finaali suunad
+konkurensist langema - kaotama, mille tulemusel ei saa enam edasi võistelda turniiril
