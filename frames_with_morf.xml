@@ -1,1535 +1,1516 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <framelexicon>
-  <frame name="finish">
-	<LexicalUnits>
-		<lu lemma="lõpetama" morf="_V_ main" />
-		<lu lemma="saatma" morf="_V_ main" />
-	</LexicalUnits>
-	<Elements>
-		<element name="lööja" selection="mängija, väravaht, ründaja, kaitsja, poolkaitsja" optional="true" morf="*_S_|||@SUBJ"/>
-		<element name="allikas" optional="true" morf="*_S_ abl|_S_ nom"/>
-		<element name="käik" optional="true" morf="*" />
-		<element name="kehaosa" resource="true" optional="true" morf="*_S_ com" />
-		<element name="sihtmärk" optional="true" morf="*_S_ all|_S_ ill|_S_ abl" />
-		<element name="teekond" optional="true" morf="*" />
-	</Elements>
-  </frame>
-  <frame name="start/end match">
-	<LexicalUnits>
-		<lu lemma="lõpuvile" morf="_S_ com" />
-		<lu lemma="avavile" morf="_S_ com" />
-		<lu lemma="avalöök" morf="_S_ com" />
-		<lu lemma="poolajavile" morf="_S_ com" />
-		<lu lemma="uuesti alustama" morf="_D_||_V_ main" />
-		<lu lemma="lõppema" morf="_V_ main" />
-	</LexicalUnits>
-  	<Elements>
-		<element name="kohtunik" selection="vilemees" optional="true" morf="*_S_|||@SUBJ" />
-		<element name="mäng" optional="true" morf="_S_ com" />
-		<element name="meeskond" selection="võistkond" optional="true" morf="*_S_" />
-		<element name="põhjus" optional="true" morf="*" />
-	</Elements>
-  </frame>
-  <frame name="season">
-	<LexicalUnits>
-		<lu lemma="hooaeg" morf="_S_" />
-	</LexicalUnits>
-	<Elements>
-		<element name="aasta" optional="true" morf="_S_" />
-	</Elements>
-  </frame>
-  <frame name="match">
-	<LexicalUnits>
-		<lu lemma="mäng" selection="võistlus" morf="_S_ com" />
-		<lu lemma="kohtumine" morf="_S_ com" />
-		<lu lemma="vastasseis" morf="_S_ com" />
-		<lu lemma="mängima" morf="_V_ main" />
-		<lu lemma="võistlema" morf="_V_ main" />
-	</LexicalUnits>
-	<Elements>
-		<element name="meeskond" selection="võistkond, tiim" optional="true" morf="*_S_" />
-		<element name="väljak" selection="staadion, areen" optional="true" morf="*_S_" />
-		<element name="faas" optional="true" morf="*_S_" />
-		<element name="meeskonnad" optional="true" morf="*_S_" />
-		<element name="võistlus" optional="true" morf="_S_" />
-		<element name="aeg" optional="true" morf="*_S_|_N_" />
-		<element name="mäng" optional="true" morf="_S_" />
-	</Elements>
-  </frame>
-  <frame name="debut">
-	<LexicalUnits>
-		<lu lemma="debüüt" morf="_S_ com" />
-		<lu lemma="esmaesinemine" morf="_S_ com" />
-	</LexicalUnits>
-	<Elements>
-		<element name="mäng" optional="true" morf="_S_" />
-		<element name="aeg" optional="true" morf="_S_|_N_" />
-		<element name="meeskonnad" optional="true" morf="*_S_" />
-	</Elements>
-  </frame>
-  <frame name="defeat">
-	<LexicalUnits>
-		<lu lemma="kaotus" morf="_S_ com" />
-		<lu lemma="kaotama" morf="_V_ main" />
-		<lu lemma="lüüasaamine" morf="_S_ com" />
-		<lu lemma="nurjumine" morf="_S_ com" />
-	</LexicalUnits>
-	<Elements>
-		<element name="kaotaja" optional="true" morf="_S_" />
-		<element name="lõppskoor" optional="true" morf="*_S_ com|_N_" />
-		<element name="võitja" optional="true" morf="_S_" />
-		<element name="väljak" optional="true" morf="_S_ com" />
-		<element name="mäng" optional="true" morf="_S_" />
-		<element name="faas" optional="true" morf="*" />
-		<element name="võistlus" optional="true" morf="*" />
-	</Elements>
-  </frame>
-  <frame name="home game">
-	<LexicalUnits>
-		<lu lemma="kodumäng" morf="_S_ com"/>
-		<lu lemma="kodu" morf="_S_ in"/>
-		<lu lemma="võõrustaja" morf="_S_ com"/>
-	</LexicalUnits>
-	<Elements>
-		<element name="võõrustaja" selection="kodumeeskond" optional="true" morf="_S_" />
-		<element name="külaline" optional="true" morf="_S_" />
-		<element name="väljak" optional="true" morf="_S_" />
-		<element name="asukoht" optional="true" morf="_S_" />
-		<element name="aeg" optional="true" morf="_S_|_N_" />
-		<element name="mäng" optional="true" morf="_S_" />
-	</Elements>
-  </frame>
-  <frame name="national team">
-	<LexicalUnits>
-		<lu lemma="koondis" morf="_S_" />
-	</LexicalUnits>
-	<Elements>
-		<element name="treener" optional="true" morf="*_S_" />
-		<element name="mängija" selection="väravaht, ründaja, kaitsja, poolkaitsja" optional="true" morf="*_S_" />
-		<element name="riik" optional="true" morf="*_S_" />
-	</Elements>
-  </frame>
-  <frame name="score goal">
-	<LexicalUnits>
-		<lu lemma="tabama" morf="_V_ main" />
-		<lu lemma="skoorima" morf="_V_ main" />
-		<lu lemma="värav" morf="_S_" />
-	</LexicalUnits>
-	<Elements>
-		<element name="värav" optional="true" morf="_S_ com" />
-		<element name="lööja" selection="mängija, väravaht, ründaja, kaitsja, poolkaitsja" optional="true" morf="*_S_|||@SUBJ"/>
-		<element name="löök" optional="true" morf="_S_ com" />
-	</Elements>
-  </frame>
-  <frame name="chance">
-	<LexicalUnits>
-		<lu lemma="võimalus" morf="_S_ com" />
-		<lu lemma="šanss" morf="_S_ com" />
-	</LexicalUnits>
-	<Elements>
-		<element name="meeskond" optional="true" morf="_S_" />
-		<element name="mängija" optional="true" morf="_S_" />
-		<element name="värav" optional="true" morf="_S_ com" />
-	</Elements>
-  </frame>
-  <frame name="ball and goal">
-	<LexicalUnits>
-		<lu lemma="teravnurk" morf="*" />
-		<lu lemma="kaugel" morf="_A_" />
-		<lu lemma="lähedal" morf="_A_" />
-		<lu lemma="kitsas nurk" morf="*" />
-	</LexicalUnits>
-	<Elements>
-		<element name="värava osa" optional="true" morf="*_S_" />
-	</Elements>
-  </frame>
-  <frame name="feign">
-	<LexicalUnits>
-		<lu lemma="teesklema" morf="_V_ main" />
-		<lu lemma="sukelduma" morf="_V_ main" />
-		<lu lemma="näitlema" morf="_V_ main" />
-	</LexicalUnits>
-	<Elements>
-		<element name="lööja" selection="mängija, väravaht, ründaja, kaitsja, poolkaitsja" optional="true" morf="*_S_|||@SUBJ"/>
-		<element name="löök" optional="true" morf="_S_ com" />
-		<element name="liikuv pall" optional="true" morf="*_S_" />
-		<element name="kehaosa" resource="true" optional="true" morf="*_S_ com" />
-	</Elements>
-  </frame>
-  <frame name="follow up">
-	<LexicalUnits>
-		<lu lemma="järg" morf="_S_ com" />
-		<lu lemma="tagasipõrge" morf="_S_ com" />
-	</LexicalUnits>
-	<Elements>
-		<element name="teine lööja" optional="true" morf="*_S_" />
-		<element name="sihtmärk" optional="true" morf="*_S_" />
-		<element name="löök" optional="true" morf="_S_ com" />
-		<element name="teine löök" optional="true" morf="*_S_" />
-	</Elements>
-  </frame>
-  <frame name="goal kickoff">
-	<LexicalUnits>
-		<lu lemma="lahtilöök" morf="_S_ com" />
-		<lu lemma="väljavise" morf="_S_ com" />
-	</LexicalUnits>
-	<Elements>
-		<element name="väravavaht" optional="true" morf="_S_" />
-		<element name="kaugus" optional="true" morf="_S_|_A_|_N_" />
-		<element name="pall" optional="true" morf="_S_" />
-		<element name="sihtmärk" optional="true" morf="*_S_" />
-	</Elements>
-  </frame>
-  <frame name="hit">
-	<LexicalUnits>
-		<lu lemma="lööma" morf="_V_ main" />
-	</LexicalUnits>
-	<Elements>
-		<element name="lööja" selection="mängija, väravaht, ründaja, kaitsja, poolkaitsja" optional="true" morf="*_S_|||@SUBJ"/>
-		<element name="löök" optional="true" morf="_S_ com" />
-		<element name="sihtmärk" optional="true" morf="*_S_" />
-		<element name="pall" optional="true" morf="*_S_" />
-		<element name="allikas" optional="true" morf="*" />
-		<element name="lööja meeskond" optional="true" morf="*_S_" />
-		<element name="kehaosa" resource="true" optional="true" morf="*_S_ com" />
-	</Elements>
-  </frame>
-  <frame name="intervene">
-	<LexicalUnits>
-		<lu lemma="blokeerima" morf="_V_ main" />
-		<lu lemma="puhastama" morf="_V_ main" />
-		<lu lemma="sekkuma" morf="_V_ main" />
-	</LexicalUnits>
-	<Elements>
-		<element name="sekkuv mängija" optional="true" morf="*_S_" />
-		<element name="löök" optional="true" morf="_S_ com" />
-		<element name="pall" optional="true" morf="*_S_" />
-		<element name="sekkumise tulemus" optional="true" morf="*_S_" />
-		<element name="sekkumise sihtmärk" optional="true" morf="*_S_" />
-		<element name="sekkumise asukoht" optional="true" morf="*_S_" />
-		<element name="sekkumine" optional="true" morf="_S_" />
-		<element name="väravavaht" optional="true" morf="*_S_" />
-		<element name="lööja" selection="mängija, väravaht, ründaja, kaitsja, poolkaitsja" optional="true" morf="*_S_|||@SUBJ"/>
-		<element name="vastasmeeskond" optional="true" morf="*_S_" />
-		<element name="teekond" optional="true" morf="*" />
-	</Elements>
-  </frame>
-  <frame name="miss goal">
-	<LexicalUnits>
-		<lu lemma="möödalöök" morf="_S_ com" />
-		<lu lemma="mööda lööma" morf="_V_ main" />
-	</LexicalUnits>
-	<Elements>
-		<element name="lööja" selection="mängija, väravaht, ründaja, kaitsja, poolkaitsja" optional="true" morf="*_S_|||@SUBJ"/>
-		<element name="sihtmärk" optional="true" morf="*_S_" />
-		<element name="löök" optional="true" morf="_S_ com" />
-		<element name="allikas" optional="true" morf="*" />
-		<element name="kaugus" optional="true" morf="*_S_|_A_" />
-		<element name="pall" optional="true" morf="*_S_" />
-	</Elements>
-  </frame>
-  <frame name="save">
-	<LexicalUnits>
-		<lu lemma="püüdma" morf="_V_ main" />
-		<lu lemma="tõrjuma" morf="_V_ main" />
-		<lu lemma="päästma" morf="_V_ main" />
-		<lu lemma="tõrjetöö" morf="_S_ com" />
-	</LexicalUnits>
-	<Elements>
-		<element name="väravavaht" optional="true" morf="*_S_" />
-		<element name="löök" optional="true" morf="_S_ com" />
-	 	<element name="pall" optional="true" morf="*_S_" />
-		<element name="sekkumise sihtmärk" optional="true" morf="*_S_" />
-		<element name="lööja" selection="mängija, väravaht, ründaja, kaitsja, poolkaitsja" optional="true" morf="*_S_|||@SUBJ"/>
-		<element name="sekkumise asukoht" optional="true" morf="*" />
-		<element name="allikas" optional="true" morf="*" />
-		<element name="kehaosa" resource="true" optional="true" morf="*_S_ com" />
-		<element name="sekkumine" optional="true" morf="_S_" />
-	</Elements>
-  </frame>
-  <frame name="shoot at">
-	<LexicalUnits>
-		<lu lemma="vale jalg" morf="*" />
-	</LexicalUnits>
-	<Elements>
-		<element name="lööja" selection="mängija, väravaht, ründaja, kaitsja, poolkaitsja" optional="true" morf="*_S_|||@SUBJ"/>
-		<element name="löök" optional="true" morf="_S_ com" />
-		<element name="sekkuv mängija" optional="true" morf="*_S_" />
-		<element name="allikas" optional="true" morf="*" />
-		<element name="väravavaht" optional="true" morf="*_S_" />
-	</Elements>
-  </frame>
-  <frame name="shot">
-	<LexicalUnits>
-		<lu lemma="pealelöök" morf="_S_ com" />
-		<lu lemma="löök" morf="_S_ com" />
-		<lu lemma="üritus" morf="_S_ com" />
-		<lu lemma="üritamine" morf="_S_ com" />
-		<lu lemma="kannalöök" morf="_S_ com" />
-		<lu lemma="käärlöök" morf="_S_ com" />
-		<lu lemma="kõmmutus" morf="_S_ com" />
-		<lu lemma="kõmmutus" morf="_S_ com" />
-		<lu lemma="pealöök" morf="_S_ com" />
-	</LexicalUnits>
-	<Elements>
-		<element name="lööja" selection="mängija, väravaht, ründaja, kaitsja, poolkaitsja" optional="true" morf="*_S_|||@SUBJ"/>
-		<element name="sihtmärk" optional="true" morf="*_S_" />
-		<element name="allikas" optional="true" morf="*" />
-		<element name="pall" optional="true" morf="*_S_" />
-		<element name="kehaosa" resource="true" optional="true" morf="*_S_ com" />
-		<element name="liikuv_pall" optional="true" morf="*" />
-		<element name="teekond" optional="true" morf="*" />
-		<element name="sekkuv mängija" optional="true" morf="_S_" />
-		<element name="saaja" optional="true" morf="*_S_" />
-		<element name="löök" optional="true" morf="_S_ com" />
-	</Elements>
-  </frame>
-  <frame name="shot supports">
-	<LexicalUnits>
-		<lu lemma="vint" morf="_S_ com" />
-		<lu lemma="keerutama" morf="_V_ main" />
-	</LexicalUnits>
-	<Elements>
-		<element name="lööja" selection="mängija, väravaht, ründaja, kaitsja, poolkaitsja" optional="true" morf="*_S_|||@SUBJ"/>
-		<element name="löök" optional="true" morf="_S_ com" />
-	</Elements>
-  </frame>
-  <frame name="bad pass">
-	<LexicalUnits>
-		<lu lemma="halb sööt" morf="_A_||_S_ com" />
-	</LexicalUnits>
-	<Elements>
-		<element name="söötja" optional="true" morf="*_S_" />
-		<element name="piirkond" optional="true" morf="*" />
-	</Elements>
-  </frame>
-  <frame name="being free">
-	<LexicalUnits>
-		<lu lemma="vaba" morf="_A_" />
-		<lu lemma="katmata" morf="_A_" />
-	</LexicalUnits>
-	<Elements>
-		<element name="saaja" optional="true" morf="*_S_" />
-		<element name="sihtmärk" optional="true" morf="*_S_" />
-	</Elements>
-  </frame>
-  <frame name="connect">
-	<LexicalUnits>
-		<lu lemma="ühenduses olema" morf="_S_ com||_V_ main" />
-		<lu lemma="ühendus" morf="_S_ com" />
-		<lu lemma="kohtuma" morf="_V_ main" />
-	</LexicalUnits>
-	<Elements>
-		<element name="saaja" optional="true" morf="*_S_" />
-		<element name="sööt" optional="true" morf="_S_ com" />
-		<element name="löök" optional="true" morf="_S_ com" />
-		<element name="sihtmärk" optional="true" morf="*_S_" />
-		<element name="kehaosa" resource="true" optional="true" morf="*_S_ com" />
-	 	<element name="pall" optional="true" morf="*_S_" />
-	</Elements>
-  </frame>
-  <frame name="control">
-	<LexicalUnits>
-		<lu lemma="rinnaga võtma" morf="_S_||_V_ main" />
-		<lu lemma="kontrollima" morf="_V_ main" />
-		<lu lemma="eksima" morf="_V_ main" />
-		<lu lemma="üles korjama" morf="_S_||_V_ main" />
-		<lu lemma="ülesse korjama" morf="_S_||_V_ main" />
-		<lu lemma="saama" morf="_V_ main" />
-	</LexicalUnits>
-	<Elements>
-		<element name="saaja" optional="true" morf="*_S_" />
-		<element name="sööt" optional="true" morf="_S_ com" />
-	 	<element name="pall" optional="true" morf="*_S_" />
-		<element name="sihtmärk" optional="true" morf="*_S_" />
-		<element name="kehaosa" resource="true" optional="true" morf="*_S_ com" />
-		<element name="söötja" optional="true" morf="*_S_" />
-	</Elements>
-  </frame>
-  <frame name="intercept">
-	<LexicalUnits>
-		<lu lemma="vahelt lõikama" morf="???||_V_ main" />
-		<lu lemma="vaheltlõige" morf="_S_ com" />
-	</LexicalUnits>
-	<Elements>
-		<element name="vaheltlõikaja" optional="true" morf="*_S_" />
-		<element name="sööt" optional="true" morf="_S_ com" />
-		<element name="vaheltlõikamise asukoht" optional="true" morf="*" />
-	 	<element name="pall" optional="true" morf="*_S_" />
-		<element name="sihtmärk" optional="true" morf="*_S_" />
-	</Elements>
-  </frame>
-  <frame name="pass">
-	<LexicalUnits>
-		<lu lemma="söötma" morf="_V_ main" />
-		<lu lemma="tsenderdama" morf="_V_ main" />
-		<lu lemma="läbisööt" morf="_S_ com" />
-		<lu lemma="pikk sööt" morf="_A_||_S_ com" />
-	</LexicalUnits>
-	<Elements>
-		<element name="söötja" optional="true" morf="*_S_" />
-		<element name="saaja" optional="true" morf="*_S_" />
-		<element name="sihtmärk" optional="true" morf="*" />
-		<element name="allikas" optional="true" morf="*" />
-		<element name="suund" optional="true" morf="*_S_" />
-	 	<element name="pall" optional="true" morf="*_S_" />
-		<element name="kehaosa" resource="true" optional="true" morf="*_S_ com" />
-		<element name="sööt" optional="true" morf="_S_ com" />
-		<element name="kaugus" optional="true" morf="_A_|_N_|_S_" />
-		<element name="teekond" optional="true" morf="*" />
-		<element name="liikuv pall" optional="true" morf="_A_||_S_ com" />
-		<element name="löök" optional="true" morf="_S_ com" />
-	</Elements>
-  </frame>
-  <frame name="pass back">
-	<LexicalUnits>
-		<lu lemma="tagasisööt" morf="_S_ com" />
-	</LexicalUnits>
-	<Elements>
-		<element name="söötja" optional="true" morf="*_S_" />
-		<element name="väravavaht" optional="true" morf="*_S_" />
-	</Elements>
-  </frame>
-  <frame name="supply pass">
-	<LexicalUnits>
-		<lu lemma="tõstma" morf="_V_ main" />
-		<lu lemma="kohale toimetama" morf="_S_ com||_V_ main" />
-	</LexicalUnits>
-	<Elements>
-		<element name="sööt" optional="true" morf="_S_ com" />
-		<element name="söötja" optional="true" morf="*_S_" />
-	</Elements>
-  </frame>
-  <frame name="award goal">
-	<LexicalUnits>
-		<lu lemma="lugema väravat" morf="_V_ main||_S_ com" />
-		<lu lemma="tühistama väravat" morf="_V_ main||_S_ com" />
-	</LexicalUnits>
-	<Elements>
-		<element name="värav" optional="true" morf="_S_ com" />
-		<element name="kohtunik" selection="vilemees" optional="true" morf="*_S_|||@SUBJ" />
-		<element name="korrapäratus" optional="true" morf="_S_" />
-		<element name="lööja" selection="mängija, väravaht, ründaja, kaitsja, poolkaitsja" optional="true" morf="*_S_|||@SUBJ"/>
-	</Elements>
-  </frame>
-  <frame name="celebrate goal">
-	<LexicalUnits>
-		<lu lemma="tähistama" morf="_V_ main" />
-	</LexicalUnits>
-	<Elements>
-		<element name="värav" optional="true" morf="_S_ com" />
-		<element name="lööja" selection="mängija, väravaht, ründaja, kaitsja, poolkaitsja" optional="true" morf="*_S_|||@SUBJ"/>
-		<element name="meeskonnakaaslane" optional="true" morf="*_S_" />
-		<element name="lööja meeskond" optional="true" morf="*_S_||*_S_" />
-	</Elements>
-  </frame>
-  <frame name="concede goal">
-	<LexicalUnits>
-		<lu lemma="sisse laskma" morf="_S_ com||_V_ main" />
-	</LexicalUnits>
-	<Elements>
-		<element name="värav" optional="true" morf="_S_ com" />
-		<element name="sisselaskev meeskond" optional="true" morf="_A_||*_S_" />
-		<element name="väravavaht" optional="true" morf="*_S_" />
-	</Elements>
-  </frame>
-  <frame name="goal">
-	<LexicalUnits>
-		<lu lemma="värav" morf="_S_ com" />
-		<lu lemma="väravalööja" morf="*_S_" />
-		<lu lemma="viigistama" morf="_V_ main" />
-		<lu lemma="avavärav" morf="_S_ com" />
-	</LexicalUnits>
-	<Elements>
-		<element name="lööja" selection="mängija, väravaht, ründaja, kaitsja, poolkaitsja" optional="true" morf="*_S_|||@SUBJ"/>
-		<element name="lööja meeskond" optional="true" morf="*_S_||*_S_" />
-		<element name="löök" optional="true" morf="_S_ com" />
-		<element name="saadud tulemus" optional="true" morf="_S_ com|_N_" />
-		<element name="allikas" optional="true" morf="*" />
-		<element name="eelnev sündmus" optional="true" morf="*" />
-		<element name="eelnev tulemus" optional="true" morf="_S_ com|_N_" />
-		<element name="kehaosa" resource="true" optional="true" morf="*_S_ com" />
-		<element name="liikuv pall" optional="true" morf="*" />
-		<element name="sihtmärk" optional="true" morf="*_S_" />
-		<element name="värav" optional="true" morf="_S_ com" />
-		<element name="sisselaskev meeskond" optional="true" morf="*_S_" />
-	 	<element name="pall" optional="true" morf="*_S_" />
-		<element name="teekond" optional="true" morf="*" />
-	</Elements>
-  </frame>
-  <frame name="multiple goals">
-	<LexicalUnits>
-		<lu lemma="duubel" />
-		<lu lemma="kübaratrikk" />
-	</LexicalUnits>
-	<Elements>
-		<element name="lööja" selection="mängija, väravaht, ründaja, kaitsja, poolkaitsja" optional="true" morf="*_S_|||@SUBJ"/>
-		<element name="lööja meeskond" optional="true" />
-	</Elements>
-  </frame>
-  <frame name="overcome goalkeeper">
-	<LexicalUnits>
-		<lu lemma="üle mängima" morf="_D_||_V_ main"/>
-	</LexicalUnits>
-	<Elements>
-		<element name="väravavaht" optional="true" morf="*_S_" />
-		<element name="lööja" selection="mängija, väravaht, ründaja, kaitsja, poolkaitsja" optional="true" morf="*_S_|||@SUBJ"/>
-		<element name="löök" optional="true" morf="_S_ com" />
-		<element name="allikas" optional="true" morf="*" />
-		<element name="saadud tulemus" optional="true" />
-		<element name="kehaosa" resource="true" optional="true" morf="*_S_ com" />
-	</Elements>
-  </frame>
-  <frame name="own goal">
-	<LexicalUnits>
-		<lu lemma="omavärav" morf="_S_ com"/>
-	</LexicalUnits>
-	<Elements>
-		<element name="lööja" selection="mängija, väravaht, ründaja, kaitsja, poolkaitsja" optional="true" morf="*_S_|||@SUBJ"/>
-		<element name="eelnev sündmus" optional="true" morf="*"/>
-	</Elements>
-  </frame>
-  <frame name="score goal">
-	<LexicalUnits>
-		<lu lemma="vormistama" morf="_V_ main"/>
-		<lu lemma="skoorima" morf="_V_ main"/>
-	</LexicalUnits>
-	<Elements>
-		<element name="värav" optional="true" morf="_S_ com" />
-		<element name="väravalööja" optional="true" morf="*_S_"/>
-		<element name="löök" optional="true" morf="_S_ com" />
-	</Elements>
-  </frame>
-  <frame name="beat">
-	<LexicalUnits>
-		<lu lemma="mööda mängima" morf="_D_||_V_ main"/>
-		<lu lemma="üle jooksma" morf="_D_||_V_ main"/>
-		<lu lemma="maha raputama" morf="_D_||_V_ main"/>
-	</LexicalUnits>
-	<Elements>
-		<element name="vastasmängija" optional="true" morf="*_S_"/>
-		<element name="palliga mängija" optional="true" morf="*_S_"/>
-		<element name="ala" optional="true" morf="*"/>
-		<element name="tegevus" optional="true" morf="*"/>
-		<element name="võitlus" optional="true" morf="*_S_ com"/>
-	</Elements>
-  </frame>
-  <frame name="challenge">
-	<LexicalUnits>
-		<lu lemma="võitlema" morf="_V_ main"/>
-		<lu lemma="võitlus" morf="_S_ com"/>
-		<lu lemma="libistamine" selection="libistus" morf="_S_ com"/>
-		<lu lemma="libistama" morf="_V_ main" />
-	</LexicalUnits>
-	<Elements>
-		<element name="palliga mängija" optional="true" morf="*_S_"/>
-		<element name="vastasmängija" optional="true" morf="*_S_"/>
-		<element name="ala" optional="true" morf="*"/>
-		<element name="võitlus" optional="true" morf="*_S_ com"/>
-	 	<element name="pall" optional="true" morf="*_S_" />
-		<element name="mängija" optional="true" morf="*_S_"/>
-		<element name="kaugus" optional="true" morf="*_N_|_S_"/>
-		<element name="sihtmärk" optional="true" morf="*_S_" />
-	</Elements>
-  </frame>
-  <frame name="lose ball">
-	<LexicalUnits>
-		<lu lemma="pall kaotama" morf="_S_ com||_V_ main"/>
-	</LexicalUnits>
-	<Elements>
-		<element name="palliga mängija" optional="true" morf="*_S_"/>
-		<element name="ala" optional="true" morf="*"/>
-	 	<element name="pall" optional="true" morf="*_S_" />
-		<element name="palliga meeskond" optional="true" morf="*_S_"/>
-		<element name="vastasmängija" optional="true" morf="*_S_"/>
-		<element name="võitlus" optional="true" morf="*_S_ com"/>
-		<element name="vastasmeeskond" optional="true" morf="*_S_"/>
-		<element name="rünnak" optional="true" morf="_S_ com"/>
-	</Elements>
-  </frame>
-  <frame name="one on one">
-	<LexicalUnits>
-		<lu lemma="üks ühele" morf="_A_||_S_ com"/>
-		<lu lemma="takerduma" selection="komistama" morf="_V_ main"/>
-		<lu lemma="õhuvõitlus" morf="_S_ com"/>
-	</LexicalUnits>
-	<Elements>
-		<element name="mängija" optional="true" morf="*_S_"/>
-		<element name="ala" optional="true" morf="*"/>
-	 	<element name="pall" optional="true" morf="*_S_" />
-		<element name="liikuv pall" optional="true" morf="_A_||_S_ com"/>
-		<element name="löök" optional="true" morf="_S_ com" />
-	</Elements>
-  </frame>
-  <frame name="take on">
-	<LexicalUnits>
-		<lu lemma="ette võtma" morf="_D_||_V_ main"/>
-		<lu lemma="surve all" morf="_A_"/>
-	</LexicalUnits>
-	<Elements>
-		<element name="palliga mängija" optional="true" morf="*_S_"/>
-		<element name="vastasmängija" optional="true" morf="*_S_"/>
-		<element name="ala" optional="true" morf="*"/>
-	</Elements>
-  </frame>
-  <frame name="trick">
-	<LexicalUnits>
-		<lu lemma="kõrvale astumine" morf="_S_ com||_S_ com"/>
-		<lu lemma="üleastumine" morf="_S_ com"/>
-	</LexicalUnits>
-	<Elements>
-		<element name="palliga mängija" optional="true" morf="*_S_"/>
-		<element name="ala" optional="true" morf="*"/>
-	</Elements>
-  </frame>
+	<frame name="finish">
+		<LexicalUnits>
+			<lu lemma="lõpetama" morf="_V_ main" />
+			<lu lemma="saatma" morf="_V_ main" />
+		</LexicalUnits>
+		<Elements>
+			<element name="lööja" selection="mängija, väravaht, ründaja, kaitsja, poolkaitsja" optional="true" morf="*_S_|||@SUBJ"/>
+			<element name="allikas" optional="true" morf="*_S_ abl|_S_ nom"/>
+			<element name="käik" optional="true" morf="*" />
+			<element name="kehaosa" resource="true" optional="true" morf="*_S_ com" />
+			<element name="sihtmärk" optional="true" morf="*_S_ all|_S_ ill|_S_ abl" />
+			<element name="teekond" optional="true" morf="*" />
+		</Elements>
+	</frame>
+	<frame name="start/end match">
+		<LexicalUnits>
+			<lu lemma="lõpuvile" morf="_S_ com" />
+			<lu lemma="avavile" morf="_S_ com" />
+			<lu lemma="avalöök" morf="_S_ com" />
+			<lu lemma="poolajavile" morf="_S_ com" />
+			<lu lemma="uuesti alustama" morf="_D_||_V_ main" />
+			<lu lemma="lõppema" morf="_V_ main" />
+		</LexicalUnits>
+		<Elements>
+			<element name="kohtunik" selection="vilemees" optional="true" morf="*_S_|||@SUBJ" />
+			<element name="mäng" optional="true" morf="_S_ com" />
+			<element name="meeskond" selection="võistkond" optional="true" morf="*_S_" />
+			<element name="põhjus" optional="true" morf="*" />
+		</Elements>
+	</frame>
+	<frame name="season">
+		<LexicalUnits>
+			<lu lemma="hooaeg" morf="_S_" />
+		</LexicalUnits>
+		<Elements>
+			<element name="aasta" optional="true" morf="_S_" />
+		</Elements>
+	</frame>
+	<frame name="match">
+		<LexicalUnits>
+			<lu lemma="mäng" selection="võistlus" morf="_S_ com" />
+			<lu lemma="kohtumine" morf="_S_ com" />
+			<lu lemma="vastasseis" morf="_S_ com" />
+			<lu lemma="mängima" morf="_V_ main" />
+			<lu lemma="võistlema" morf="_V_ main" />
+		</LexicalUnits>
+		<Elements>
+			<element name="meeskond" selection="võistkond, tiim" optional="true" morf="*_S_" />
+			<element name="väljak" selection="staadion, areen" optional="true" morf="*_S_" />
+			<element name="faas" optional="true" morf="*_S_" />
+			<element name="meeskonnad" optional="true" morf="*_S_" />
+			<element name="võistlus" optional="true" morf="_S_" />
+			<element name="aeg" optional="true" morf="*_S_|_N_" />
+			<element name="mäng" optional="true" morf="_S_" />
+		</Elements>
+	</frame>
+	<frame name="debut">
+		<LexicalUnits>
+			<lu lemma="debüüt" morf="_S_ com" />
+			<lu lemma="esmaesinemine" morf="_S_ com" />
+		</LexicalUnits>
+		<Elements>
+			<element name="mäng" optional="true" morf="_S_" />
+			<element name="aeg" optional="true" morf="_S_|_N_" />
+			<element name="meeskonnad" optional="true" morf="*_S_" />
+		</Elements>
+	</frame>
+	<frame name="defeat">
+		<LexicalUnits>
+			<lu lemma="kaotus" morf="_S_ com" />
+			<lu lemma="kaotama" morf="_V_ main" />
+			<lu lemma="lüüasaamine" morf="_S_ com" />
+			<lu lemma="nurjumine" morf="_S_ com" />
+		</LexicalUnits>
+		<Elements>
+			<element name="kaotaja" optional="true" morf="_S_" />
+			<element name="lõppskoor" optional="true" morf="*_S_ com|_N_" />
+			<element name="võitja" optional="true" morf="_S_" />
+			<element name="väljak" optional="true" morf="_S_ com" />
+			<element name="mäng" optional="true" morf="_S_" />
+			<element name="faas" optional="true" morf="*" />
+			<element name="võistlus" optional="true" morf="*" />
+		</Elements>
+	</frame>
+	<frame name="home game">
+		<LexicalUnits>
+			<lu lemma="kodumäng" morf="_S_ com"/>
+			<lu lemma="kodu" morf="_S_ in"/>
+			<lu lemma="võõrustaja" morf="_S_ com"/>
+		</LexicalUnits>
+		<Elements>
+			<element name="võõrustaja" selection="kodumeeskond" optional="true" morf="_S_" />
+			<element name="külaline" optional="true" morf="_S_" />
+			<element name="väljak" optional="true" morf="_S_" />
+			<element name="asukoht" optional="true" morf="_S_" />
+			<element name="aeg" optional="true" morf="_S_|_N_" />
+			<element name="mäng" optional="true" morf="_S_" />
+		</Elements>
+	</frame>
+	<frame name="national team">
+		<LexicalUnits>
+			<lu lemma="koondis" morf="_S_" />
+		</LexicalUnits>
+		<Elements>
+			<element name="treener" optional="true" morf="*_S_" />
+			<element name="mängija" selection="väravaht, ründaja, kaitsja, poolkaitsja" optional="true" morf="*_S_" />
+			<element name="riik" optional="true" morf="*_S_" />
+		</Elements>
+	</frame>
+	<frame name="score goal">
+		<LexicalUnits>
+			<lu lemma="tabama" morf="_V_ main" />
+			<lu lemma="skoorima" morf="_V_ main" />
+			<lu lemma="värav" morf="_S_" />
+		</LexicalUnits>
+		<Elements>
+			<element name="värav" optional="true" morf="_S_ com" />
+			<element name="lööja" selection="mängija, väravaht, ründaja, kaitsja, poolkaitsja" optional="true" morf="*_S_|||@SUBJ"/>
+			<element name="löök" optional="true" morf="_S_ com" />
+		</Elements>
+	</frame>
+	<frame name="chance">
+		<LexicalUnits>
+			<lu lemma="võimalus" morf="_S_ com" />
+			<lu lemma="šanss" morf="_S_ com" />
+		</LexicalUnits>
+		<Elements>
+			<element name="meeskond" optional="true" morf="_S_" />
+			<element name="mängija" optional="true" morf="_S_" />
+			<element name="värav" optional="true" morf="_S_ com" />
+		</Elements>
+	</frame>
+	<frame name="ball and goal">
+		<LexicalUnits>
+			<lu lemma="teravnurk" morf="*" />
+			<lu lemma="kaugel" morf="_A_" />
+			<lu lemma="lähedal" morf="_A_" />
+			<lu lemma="kitsas nurk" morf="*" />
+		</LexicalUnits>
+		<Elements>
+			<element name="värava osa" optional="true" morf="*_S_" />
+		</Elements>
+	</frame>
+	<frame name="feign">
+		<LexicalUnits>
+			<lu lemma="teesklema" morf="_V_ main" />
+			<lu lemma="sukelduma" morf="_V_ main" />
+			<lu lemma="näitlema" morf="_V_ main" />
+		</LexicalUnits>
+		<Elements>
+			<element name="lööja" selection="mängija, väravaht, ründaja, kaitsja, poolkaitsja" optional="true" morf="*_S_|||@SUBJ"/>
+			<element name="löök" optional="true" morf="_S_ com" />
+			<element name="liikuv pall" optional="true" morf="*_S_" />
+			<element name="kehaosa" resource="true" optional="true" morf="*_S_ com" />
+		</Elements>
+	</frame>
+	<frame name="follow up">
+		<LexicalUnits>
+			<lu lemma="järg" morf="_S_ com" />
+			<lu lemma="tagasipõrge" morf="_S_ com" />
+		</LexicalUnits>
+		<Elements>
+			<element name="teine lööja" optional="true" morf="*_S_" />
+			<element name="sihtmärk" optional="true" morf="*_S_" />
+			<element name="löök" optional="true" morf="_S_ com" />
+			<element name="teine löök" optional="true" morf="*_S_" />
+		</Elements>
+	</frame>
+	<frame name="goal kickoff">
+		<LexicalUnits>
+			<lu lemma="lahtilöök" morf="_S_ com" />
+			<lu lemma="väljavise" morf="_S_ com" />
+		</LexicalUnits>
+		<Elements>
+			<element name="väravavaht" optional="true" morf="_S_" />
+			<element name="kaugus" optional="true" morf="_S_|_A_|_N_" />
+			<element name="pall" optional="true" morf="_S_" />
+			<element name="sihtmärk" optional="true" morf="*_S_" />
+		</Elements>
+	</frame>
+	<frame name="hit">
+		<LexicalUnits>
+			<lu lemma="lööma" morf="_V_ main" />
+		</LexicalUnits>
+		<Elements>
+			<element name="lööja" selection="mängija, väravaht, ründaja, kaitsja, poolkaitsja" optional="true" morf="*_S_|||@SUBJ"/>
+			<element name="löök" optional="true" morf="_S_ com" />
+			<element name="sihtmärk" optional="true" morf="*_S_" />
+			<element name="pall" optional="true" morf="*_S_" />
+			<element name="allikas" optional="true" morf="*" />
+			<element name="lööja meeskond" optional="true" morf="*_S_" />
+			<element name="kehaosa" resource="true" optional="true" morf="*_S_ com" />
+		</Elements>
+	</frame>
+	<frame name="intervene">
+		<LexicalUnits>
+			<lu lemma="blokeerima" morf="_V_ main" />
+			<lu lemma="puhastama" morf="_V_ main" />
+			<lu lemma="sekkuma" morf="_V_ main" />
+		</LexicalUnits>
+		<Elements>
+			<element name="sekkuv mängija" optional="true" morf="*_S_" />
+			<element name="löök" optional="true" morf="_S_ com" />
+			<element name="pall" optional="true" morf="*_S_" />
+			<element name="sekkumise tulemus" optional="true" morf="*_S_" />
+			<element name="sekkumise sihtmärk" optional="true" morf="*_S_" />
+			<element name="sekkumise asukoht" optional="true" morf="*_S_" />
+			<element name="sekkumine" optional="true" morf="_S_" />
+			<element name="väravavaht" optional="true" morf="*_S_" />
+			<element name="lööja" selection="mängija, väravaht, ründaja, kaitsja, poolkaitsja" optional="true" morf="*_S_|||@SUBJ"/>
+			<element name="vastasmeeskond" optional="true" morf="*_S_" />
+			<element name="teekond" optional="true" morf="*" />
+		</Elements>
+	</frame>
+	<frame name="miss goal">
+		<LexicalUnits>
+			<lu lemma="möödalöök" morf="_S_ com" />
+			<lu lemma="mööda lööma" morf="_V_ main" />
+		</LexicalUnits>
+		<Elements>
+			<element name="lööja" selection="mängija, väravaht, ründaja, kaitsja, poolkaitsja" optional="true" morf="*_S_|||@SUBJ"/>
+			<element name="sihtmärk" optional="true" morf="*_S_" />
+			<element name="löök" optional="true" morf="_S_ com" />
+			<element name="allikas" optional="true" morf="*" />
+			<element name="kaugus" optional="true" morf="*_S_|_A_" />
+			<element name="pall" optional="true" morf="*_S_" />
+		</Elements>
+	</frame>
+	<frame name="save">
+		<LexicalUnits>
+			<lu lemma="püüdma" morf="_V_ main" />
+			<lu lemma="tõrjuma" morf="_V_ main" />
+			<lu lemma="päästma" morf="_V_ main" />
+			<lu lemma="tõrjetöö" morf="_S_ com" />
+		</LexicalUnits>
+		<Elements>
+			<element name="väravavaht" optional="true" morf="*_S_" />
+			<element name="löök" optional="true" morf="_S_ com" />
+	 		<element name="pall" optional="true" morf="*_S_" />
+			<element name="sekkumise sihtmärk" optional="true" morf="*_S_" />
+			<element name="lööja" selection="mängija, väravaht, ründaja, kaitsja, poolkaitsja" optional="true" morf="*_S_|||@SUBJ"/>
+			<element name="sekkumise asukoht" optional="true" morf="*" />
+			<element name="allikas" optional="true" morf="*" />
+			<element name="kehaosa" resource="true" optional="true" morf="*_S_ com" />
+			<element name="sekkumine" optional="true" morf="_S_" />
+		</Elements>
+	</frame>
+	<frame name="shoot at">
+		<LexicalUnits>
+			<lu lemma="vale jalg" morf="*" />
+		</LexicalUnits>
+		<Elements>
+			<element name="lööja" selection="mängija, väravaht, ründaja, kaitsja, poolkaitsja" optional="true" morf="*_S_|||@SUBJ"/>
+			<element name="löök" optional="true" morf="_S_ com" />
+			<element name="sekkuv mängija" optional="true" morf="*_S_" />
+			<element name="allikas" optional="true" morf="*" />
+			<element name="väravavaht" optional="true" morf="*_S_" />
+		</Elements>
+	</frame>
+	<frame name="shot">
+		<LexicalUnits>
+			<lu lemma="pealelöök" morf="_S_ com" />
+			<lu lemma="löök" morf="_S_ com" />
+			<lu lemma="üritus" morf="_S_ com" />
+			<lu lemma="üritamine" morf="_S_ com" />
+			<lu lemma="kannalöök" morf="_S_ com" />
+			<lu lemma="käärlöök" morf="_S_ com" />
+			<lu lemma="kõmmutus" morf="_S_ com" />
+			<lu lemma="kõmmutus" morf="_S_ com" />
+			<lu lemma="pealöök" morf="_S_ com" />
+		</LexicalUnits>
+		<Elements>
+			<element name="lööja" selection="mängija, väravaht, ründaja, kaitsja, poolkaitsja" optional="true" morf="*_S_|||@SUBJ"/>
+			<element name="sihtmärk" optional="true" morf="*_S_" />
+			<element name="allikas" optional="true" morf="*" />
+			<element name="pall" optional="true" morf="*_S_" />
+			<element name="kehaosa" resource="true" optional="true" morf="*_S_ com" />
+			<element name="liikuv_pall" optional="true" morf="*" />
+			<element name="teekond" optional="true" morf="*" />
+			<element name="sekkuv mängija" optional="true" morf="_S_" />
+			<element name="saaja" optional="true" morf="*_S_" />
+			<element name="löök" optional="true" morf="_S_ com" />
+		</Elements>
+	</frame>
+	<frame name="shot supports">
+		<LexicalUnits>
+			<lu lemma="vint" morf="_S_ com" />
+			<lu lemma="keerutama" morf="_V_ main" />
+		</LexicalUnits>
+		<Elements>
+			<element name="lööja" selection="mängija, väravaht, ründaja, kaitsja, poolkaitsja" optional="true" morf="*_S_|||@SUBJ"/>
+			<element name="löök" optional="true" morf="_S_ com" />
+		</Elements>
+	</frame>
+	<frame name="bad pass">
+		<LexicalUnits>
+			<lu lemma="halb sööt" morf="_A_||_S_ com" />
+		</LexicalUnits>
+		<Elements>
+			<element name="söötja" optional="true" morf="*_S_" />
+			<element name="piirkond" optional="true" morf="*" />
+		</Elements>
+	</frame>
+	<frame name="being free">
+		<LexicalUnits>
+			<lu lemma="vaba" morf="_A_" />
+			<lu lemma="katmata" morf="_A_" />
+		</LexicalUnits>
+		<Elements>
+			<element name="saaja" optional="true" morf="*_S_" />
+			<element name="sihtmärk" optional="true" morf="*_S_" />
+		</Elements>
+	</frame>
+	<frame name="connect">
+		<LexicalUnits>
+			<lu lemma="ühenduses olema" morf="_S_ com||_V_ main" />
+			<lu lemma="ühendus" morf="_S_ com" />
+			<lu lemma="kohtuma" morf="_V_ main" />
+		</LexicalUnits>
+		<Elements>
+			<element name="saaja" optional="true" morf="*_S_" />
+			<element name="sööt" optional="true" morf="_S_ com" />
+			<element name="löök" optional="true" morf="_S_ com" />
+			<element name="sihtmärk" optional="true" morf="*_S_" />
+			<element name="kehaosa" resource="true" optional="true" morf="*_S_ com" />
+	 		<element name="pall" optional="true" morf="*_S_" />
+		</Elements>
+	</frame>
+	<frame name="control">
+		<LexicalUnits>
+			<lu lemma="rinnaga võtma" morf="_S_||_V_ main" />
+			<lu lemma="kontrollima" morf="_V_ main" />
+			<lu lemma="eksima" morf="_V_ main" />
+			<lu lemma="üles korjama" morf="_S_||_V_ main" />
+			<lu lemma="ülesse korjama" morf="_S_||_V_ main" />
+			<lu lemma="saama" morf="_V_ main" />
+		</LexicalUnits>
+		<Elements>
+			<element name="saaja" optional="true" morf="*_S_" />
+			<element name="sööt" optional="true" morf="_S_ com" />
+	 		<element name="pall" optional="true" morf="*_S_" />
+			<element name="sihtmärk" optional="true" morf="*_S_" />
+			<element name="kehaosa" resource="true" optional="true" morf="*_S_ com" />
+			<element name="söötja" optional="true" morf="*_S_" />
+		</Elements>
+	</frame>
+	<frame name="intercept">
+		<LexicalUnits>
+			<lu lemma="vahelt lõikama" morf="???||_V_ main" />
+			<lu lemma="vaheltlõige" morf="_S_ com" />
+		</LexicalUnits>
+		<Elements>
+			<element name="vaheltlõikaja" optional="true" morf="*_S_" />
+			<element name="sööt" optional="true" morf="_S_ com" />
+			<element name="vaheltlõikamise asukoht" optional="true" morf="*" />
+	 		<element name="pall" optional="true" morf="*_S_" />
+			<element name="sihtmärk" optional="true" morf="*_S_" />
+		</Elements>
+	</frame>
+	<frame name="pass">
+		<LexicalUnits>
+			<lu lemma="söötma" morf="_V_ main" />
+			<lu lemma="tsenderdama" morf="_V_ main" />
+			<lu lemma="läbisööt" morf="_S_ com" />
+			<lu lemma="pikk sööt" morf="_A_||_S_ com" />
+		</LexicalUnits>
+		<Elements>
+			<element name="söötja" optional="true" morf="*_S_" />
+			<element name="saaja" optional="true" morf="*_S_" />
+			<element name="sihtmärk" optional="true" morf="*" />
+			<element name="allikas" optional="true" morf="*" />
+			<element name="suund" optional="true" morf="*_S_" />
+	 		<element name="pall" optional="true" morf="*_S_" />
+			<element name="kehaosa" resource="true" optional="true" morf="*_S_ com" />
+			<element name="sööt" optional="true" morf="_S_ com" />
+			<element name="kaugus" optional="true" morf="_A_|_N_|_S_" />
+			<element name="teekond" optional="true" morf="*" />
+			<element name="liikuv pall" optional="true" morf="_A_||_S_ com" />
+			<element name="löök" optional="true" morf="_S_ com" />
+		</Elements>
+	</frame>
+	<frame name="pass back">
+		<LexicalUnits>
+			<lu lemma="tagasisööt" morf="_S_ com" />
+		</LexicalUnits>
+		<Elements>
+			<element name="söötja" optional="true" morf="*_S_" />
+			<element name="väravavaht" optional="true" morf="*_S_" />
+		</Elements>
+	</frame>
+	<frame name="supply pass">
+		<LexicalUnits>
+			<lu lemma="tõstma" morf="_V_ main" />
+			<lu lemma="kohale toimetama" morf="_S_ com||_V_ main" />
+		</LexicalUnits>
+		<Elements>
+			<element name="sööt" optional="true" morf="_S_ com" />
+			<element name="söötja" optional="true" morf="*_S_" />
+		</Elements>
+	</frame>
+	<frame name="award goal">
+		<LexicalUnits>
+			<lu lemma="lugema väravat" morf="_V_ main||_S_ com" />
+			<lu lemma="tühistama väravat" morf="_V_ main||_S_ com" />
+		</LexicalUnits>
+		<Elements>
+			<element name="värav" optional="true" morf="_S_ com" />
+			<element name="kohtunik" selection="vilemees" optional="true" morf="*_S_|||@SUBJ" />
+			<element name="korrapäratus" optional="true" morf="_S_" />
+			<element name="lööja" selection="mängija, väravaht, ründaja, kaitsja, poolkaitsja" optional="true" morf="*_S_|||@SUBJ"/>
+		</Elements>
+	</frame>
+	<frame name="celebrate goal">
+		<LexicalUnits>
+			<lu lemma="tähistama" morf="_V_ main" />
+		</LexicalUnits>
+		<Elements>
+			<element name="värav" optional="true" morf="_S_ com" />
+			<element name="lööja" selection="mängija, väravaht, ründaja, kaitsja, poolkaitsja" optional="true" morf="*_S_|||@SUBJ"/>
+			<element name="meeskonnakaaslane" optional="true" morf="*_S_" />
+			<element name="lööja meeskond" optional="true" morf="*_S_||*_S_" />
+		</Elements>
+	</frame>
+	<frame name="concede goal">
+		<LexicalUnits>
+			<lu lemma="sisse laskma" morf="_S_ com||_V_ main" />
+		</LexicalUnits>
+		<Elements>
+			<element name="värav" optional="true" morf="_S_ com" />
+			<element name="sisselaskev meeskond" optional="true" morf="_A_||*_S_" />
+			<element name="väravavaht" optional="true" morf="*_S_" />
+		</Elements>
+	</frame>
+	<frame name="goal">
+		<LexicalUnits>
+			<lu lemma="värav" morf="_S_ com" />
+			<lu lemma="väravalööja" morf="*_S_" />
+			<lu lemma="viigistama" morf="_V_ main" />
+			<lu lemma="avavärav" morf="_S_ com" />
+		</LexicalUnits>
+		<Elements>
+			<element name="lööja" selection="mängija, väravaht, ründaja, kaitsja, poolkaitsja" optional="true" morf="*_S_|||@SUBJ"/>
+			<element name="lööja meeskond" optional="true" morf="*_S_||*_S_" />
+			<element name="löök" optional="true" morf="_S_ com" />
+			<element name="saadud tulemus" optional="true" morf="_S_ com|_N_" />
+			<element name="allikas" optional="true" morf="*" />
+			<element name="eelnev sündmus" optional="true" morf="*" />
+			<element name="eelnev tulemus" optional="true" morf="_S_ com|_N_" />
+			<element name="kehaosa" resource="true" optional="true" morf="*_S_ com" />
+			<element name="liikuv pall" optional="true" morf="*" />
+			<element name="sihtmärk" optional="true" morf="*_S_" />
+			<element name="värav" optional="true" morf="_S_ com" />
+			<element name="sisselaskev meeskond" optional="true" morf="*_S_" />
+	 		<element name="pall" optional="true" morf="*_S_" />
+			<element name="teekond" optional="true" morf="*" />
+		</Elements>
+	</frame>
+	<frame name="multiple goals">
+		<LexicalUnits>
+			<lu lemma="duubel" />
+			<lu lemma="kübaratrikk" />
+		</LexicalUnits>
+		<Elements>
+			<element name="lööja" selection="mängija, väravaht, ründaja, kaitsja, poolkaitsja" optional="true" morf="*_S_|||@SUBJ"/>
+			<element name="lööja meeskond" optional="true" />
+		</Elements>
+	</frame>
+	<frame name="overcome goalkeeper">
+		<LexicalUnits>
+			<lu lemma="üle mängima" morf="_D_||_V_ main"/>
+		</LexicalUnits>
+		<Elements>
+			<element name="väravavaht" optional="true" morf="*_S_" />
+			<element name="lööja" selection="mängija, väravaht, ründaja, kaitsja, poolkaitsja" optional="true" morf="*_S_|||@SUBJ"/>
+			<element name="löök" optional="true" morf="_S_ com" />
+			<element name="allikas" optional="true" morf="*" />
+			<element name="saadud tulemus" optional="true" />
+			<element name="kehaosa" resource="true" optional="true" morf="*_S_ com" />
+		</Elements>
+	</frame>
+	<frame name="own goal">
+		<LexicalUnits>
+			<lu lemma="omavärav" morf="_S_ com"/>
+		</LexicalUnits>
+		<Elements>
+			<element name="lööja" selection="mängija, väravaht, ründaja, kaitsja, poolkaitsja" optional="true" morf="*_S_|||@SUBJ"/>
+			<element name="eelnev sündmus" optional="true" morf="*"/>
+		</Elements>
+	</frame>
+	<frame name="score goal">
+		<LexicalUnits>
+			<lu lemma="vormistama" morf="_V_ main"/>
+			<lu lemma="skoorima" morf="_V_ main"/>
+		</LexicalUnits>
+		<Elements>
+			<element name="värav" optional="true" morf="_S_ com" />
+			<element name="väravalööja" optional="true" morf="*_S_"/>
+			<element name="löök" optional="true" morf="_S_ com" />
+		</Elements>
+	</frame>
+	<frame name="beat">
+		<LexicalUnits>
+			<lu lemma="mööda mängima" morf="_D_||_V_ main"/>
+			<lu lemma="üle jooksma" morf="_D_||_V_ main"/>
+			<lu lemma="maha raputama" morf="_D_||_V_ main"/>
+		</LexicalUnits>
+		<Elements>
+			<element name="vastasmängija" optional="true" morf="*_S_"/>
+			<element name="palliga mängija" optional="true" morf="*_S_"/>
+			<element name="ala" optional="true" morf="*"/>
+			<element name="tegevus" optional="true" morf="*"/>
+			<element name="võitlus" optional="true" morf="*_S_ com"/>
+		</Elements>
+	</frame>
+	<frame name="challenge">
+		<LexicalUnits>
+			<lu lemma="võitlema" morf="_V_ main"/>
+			<lu lemma="võitlus" morf="_S_ com"/>
+			<lu lemma="libistamine" selection="libistus" morf="_S_ com"/>
+			<lu lemma="libistama" morf="_V_ main" />
+		</LexicalUnits>
+		<Elements>
+			<element name="palliga mängija" optional="true" morf="*_S_"/>
+			<element name="vastasmängija" optional="true" morf="*_S_"/>
+			<element name="ala" optional="true" morf="*"/>
+			<element name="võitlus" optional="true" morf="*_S_ com"/>
+	 		<element name="pall" optional="true" morf="*_S_" />
+			<element name="mängija" optional="true" morf="*_S_"/>
+			<element name="kaugus" optional="true" morf="*_N_|_S_"/>
+			<element name="sihtmärk" optional="true" morf="*_S_" />
+		</Elements>
+	</frame>
+	<frame name="lose ball">
+		<LexicalUnits>
+			<lu lemma="pall kaotama" morf="_S_ com||_V_ main"/>
+		</LexicalUnits>
+		<Elements>
+			<element name="palliga mängija" optional="true" morf="*_S_"/>
+			<element name="ala" optional="true" morf="*"/>
+	 		<element name="pall" optional="true" morf="*_S_" />
+			<element name="palliga meeskond" optional="true" morf="*_S_"/>
+			<element name="vastasmängija" optional="true" morf="*_S_"/>
+			<element name="võitlus" optional="true" morf="*_S_ com"/>
+			<element name="vastasmeeskond" optional="true" morf="*_S_"/>
+			<element name="rünnak" optional="true" morf="_S_ com"/>
+		</Elements>
+	</frame>
+	<frame name="one on one">
+		<LexicalUnits>
+			<lu lemma="üks ühele" morf="_A_||_S_ com"/>
+			<lu lemma="takerduma" selection="komistama" morf="_V_ main"/>
+			<lu lemma="õhuvõitlus" morf="_S_ com"/>
+		</LexicalUnits>
+		<Elements>
+			<element name="mängija" optional="true" morf="*_S_"/>
+			<element name="ala" optional="true" morf="*"/>
+	 		<element name="pall" optional="true" morf="*_S_" />
+			<element name="liikuv pall" optional="true" morf="_A_||_S_ com"/>
+			<element name="löök" optional="true" morf="_S_ com" />
+		</Elements>
+	</frame>
+	<frame name="take on">
+		<LexicalUnits>
+			<lu lemma="ette võtma" morf="_D_||_V_ main"/>
+			<lu lemma="surve all" morf="_A_"/>
+		</LexicalUnits>
+		<Elements>
+			<element name="palliga mängija" optional="true" morf="*_S_"/>
+			<element name="vastasmängija" optional="true" morf="*_S_"/>
+			<element name="ala" optional="true" morf="*"/>
+		</Elements>
+	</frame>
+	<frame name="trick">
+		<LexicalUnits>
+			<lu lemma="kõrvale astumine" morf="_S_ com||_S_ com"/>
+			<lu lemma="üleastumine" morf="_S_ com"/>
+		</LexicalUnits>
+		<Elements>
+			<element name="palliga mängija" optional="true" morf="*_S_"/>
+			<element name="ala" optional="true" morf="*"/>
+		</Elements>
+	</frame>
 <frame name="advantage">
-	<LexicalUnits>
-	  <lu lemma="edasi mängima" morf="_D_||_V_ main"/>
-	</LexicalUnits>
-	<Elements>
-	  <element name="kohtunik" selection="vilemees" optional="true" morf="*_S_|||@SUBJ" />
-	  <element name="süüdistus" optional="true" morf="_S_"/>
-	  <element name="kannatanud meeskond" optional="true" morf="_V_ main|||_S_"/>
-	</Elements>
-  </frame>
-  <frame name="concede compensation">
-	<LexicalUnits>
-	  <lu lemma="teenima" morf="_V_ main"/>
-	</LexicalUnits>
-	<Elements>
-	  <element name="kompensatsioon" optional="true" morf="_S_"/>
-	  <element name="põhjustaja" optional="true" morf="_S_|||@SUBJ"/>
-	  <element name="kannatanud mängija" optional="true" morf="_V_ main|||_S_"/>
-	  <element name="piirkond" selection="väljak, plats, karistusala, viiekast, väravavahiala, kesktsoon, esimene kolmandik, kolmas kolmandik, keskjoon, külg" optional="true" morf="*"/>
-	  <element name="süüdistaja" optional="true" morf="_S_"/>
-	</Elements>
-  </frame>
-  <frame name="dissent">
-	<LexicalUnits>
-	  <lu lemma="apelleerima" morf="_V_ main"/>
-	  <lu lemma="vaidlema" morf="_V_ main" />
-	  <lu lemma="protesteerima" morf="_V_ main" />
-	</LexicalUnits>
-	<Elements>
-	  <element name="treener" optional="true" morf="*_S_"/>
-	  <element name="otsus" optional="true" morf="_S_ com gen|_S_ com nom|_S_ com part"/>
-	  <element name="süüdistus" optional="true" morf="_S_ com gen|_S_ com nom|_S_ com part"/>
-	  <element name="kannatanud meeskond" optional="true" morf="_V_ main||_S_"/>
-	  <element name="kannatanud mängija" optional="true" morf="_V_ main||_S_"/>
-	  <element name="kohtunik" selection="vilemees" optional="true" morf="*_S_|||@SUBJ" />
-	  <element name="kompensatsioon" selection="raha" optional="true" morf="_S_ com"/>
-	  <element name="põhjustaja" optional="true" morf="*_S_"/>
-	</Elements>
-  </frame>
-  <frame name="foul">
-	<LexicalUnits>
-	  <lu lemma="tõmbama maha" morf="_V_ main||_D_"/>
-	  <lu lemma="küünarnukiga lööma" morf="_S com||_V_ main"/>
-	  <lu lemma="viga" morf="_S_ com"/>
-	  <lu lemma="tegema viga" morf="_V_ main||_S_ com"/>
-	  <lu lemma="käega mäng" morf="_S_ com kom||_S_ com"/>
-	  <lu lemma="käega mängima" morf="_S_ com kom||_V_ main"/>
-	  <lu lemma="tõmbama tagasi" morf="_V_ main||_D_"/>
-	  <lu lemma="hiline viga" morf="_A_||_S_ com"/>
-	  <lu lemma="tõukama" morf="_V_ main"/>
-	  <lu lemma="kättemaks" morf="_S_ com" />
-	  <lu lemma="kukutama" morf="_V_ main" />
-	  <lu lemma="ebasportlik käitumine" morf="_A_||_S_ com"/>
-	  <lu lemma="vägivaldne käitumine" morf="_A_||_S_ com"/>
-	</LexicalUnits>
-	<Elements>
-	  <element name="kannatama mängija" optional="true" morf="_V_ main||_S_"/>
-	  <element name="põhjustaja" optional="true" morf="_S_|||@SUBJ"/>
-	  <element name="piirkond" selection="väljak, plats, karistusala, viiekast, väravavahiala, kesktsoon, esimene kolmandik, kolmas kolmandik, keskjoon, külg" optional="true" morf="*"/>
-	  <element name="allikas" optional="true" morf="*"/>
-	  <element name="kehaosa" resource="true" optional="true" morf="*_S_ com" />
-	  <element name="pall" optional="true" morf="_S_ com"/>
-	  <element name="tegevus" selection="libistamine, viga, maha tõmbamine" optional="true" morf="_S_"/>
-	</Elements>
-  </frame>
-  <frame name="give card">
-	<LexicalUnits>
-	  <lu lemma="andma" morf="_V_ main"/>
-	  <lu lemma="näitama" morf="_V_ main"/>
-	</LexicalUnits>
-	<Elements>
-	  <element name="kaart" selection="punane, kollane" optional="true" morf="_S_ com"/>
-	  <element name="põhjustaja" selection="mängija" optional="true" morf="_S_ nom|_S_ all|||@ADVL"/>
-	  <element name="kohtunik" selection="vilemees" optional="true" morf="*_S_|||@SUBJ" />
-	</Elements>
-  </frame>
-  <frame name="offside">
-	<LexicalUnits>
-	  <lu lemma="suluseis" morf="_S_ com"/>
-	</LexicalUnits>
-	<Elements>
-	  <element name="põhjustaja" optional="true" morf="_S_|||@SUBJ"/>
-	</Elements>
-  </frame>
-  <frame name="receive card">
-	<LexicalUnits>
-	  <lu lemma="korjama" morf="_V_ main"/>
-	  <lu lemma="teenima" morf="_V_ main"/>
-	  <lu lemma="saama" morf="_V_ main"/>
-	</LexicalUnits>
-	<Elements>
-	  <element name="kaart" selection="punane, kollane" optional="true" morf="_S_ com||_A_"/>
-	  <element name="põhjustaja" optional="true" morf="_S_|||@SUBJ"/>
-	</Elements>
-  </frame>
-  <frame name="referee decision">
-	<LexicalUnits>
-	  <lu lemma="andma" morf="_V_ main"/>
-	  <lu lemma="määrama" morf="_V_ main"/>
-	  <lu lemma="fikseerima" morf="_V_ main"/>
-	</LexicalUnits>
-	<Elements>
-	  <element name="kohtunik" selection="vilemees" optional="true" morf="*_S_|||@SUBJ" />
-	  <element name="süüdistus" selection="viga" optional="true" morf="_S_ com"/>
-	  <element name="kompensatsioon" optional="true" morf="_S_"/>
-	  <element name="kaart" selection="punane, kollane" optional="true" morf="_S_ com"/>
-	  <element name="põhjustaja" selection="mängija" optional="true" morf="_S_ nom|_S_ all|||@ADVL"/>
-	</Elements>
-  </frame>
-  <frame name="sanction">
-	<LexicalUnits>
-	  <lu lemma="hoiatus" morf="_S_ com"/>
-	  <lu lemma="hoiatama" morf="_V_ main"/>
-	  <lu lemma="eemaldama" morf="_V_ main"/>
-	  <lu lemma="eemaldus" morf="_S_ com"/>
-	  <lu lemma="punane kaart" morf="_A_||_S_ com"/>
-	  <lu lemma="punane" morf="_A_"/>
-	  <lu lemma="teine kollane kaart" morf="_N_||_A_||_S_ com"/>
-	  <lu lemma="kollane kaart" morf="_A_||_S_ com"/>
-	  <lu lemma="kollane"  morf="_A_"/>
-	</LexicalUnits>
-	<Elements>
-	  <element name="põhjustaja" optional="true" morf="_S_ nom|_S_ gen|_S_ all"/>
-	  <element name="süüdistus" optional="true" morf="_S_"/>
-	  <element name="kohtunik" selection="vilemees" optional="true" morf="*_S_|||@SUBJ" />
-	  <element name="kaart" selection="punane, kollane" optional="true" morf="_S_ com"/>
-	</Elements>
-  </frame>
-  <frame name="set piece">
-	<LexicalUnits>
-	  <lu lemma="nurgalöök" morf="_S_ com"/>
-	  <lu lemma="kaitsemüür" selection="müür" morf="_S_ com"/>
-	  <lu lemma="karistuslöök" morf="_S_ com" />
-	  <lu lemma="väravavaht lahtilöök" morf="_S_ com||_S_ com"/>
-	  <lu lemma="penalti eksimus" morf="_S_ com||_S_ com"/>
-	  <lu lemma="penalti eksima" morf="_S_ com||_S_ com"/>
-	  <lu lemma="penalti" morf="_S_ com"/>
-	  <lu lemma="vise" morf="_S_ com"/>
-	  <lu lemma="sissevise" morf="_S_ com" />
-	</LexicalUnits>
-	<Elements>
-	  <element name="lahtimängiv mängija" optional="true" morf="_A_||_S_ com"/>
-	  <element name="sihtmärk" optional="true" morf="_S_ all|_S_ ill|_S_ term"/>
-	  <element name="allikas" optional="true" morf="*"/>
-	  <element name="kaugus" optional="true" morf="_N_"/>
-	  <element name="saaja" optional="true" morf="_S_ all|_S_ ill|_S_ term"/>
-	  <element name="penalti" optional="true" morf="_S_ com"/>
-	  <element name="mängija" selection="ründaja, poolkaitsja, kaitsja, väravavaht, sportlane" optional="true" morf="_S_"/>
-	  <element name="kehaosa" resource="true" optional="true" morf="*_S_ com" />
-	  <element name="teekond" optional="true" morf="*"/>
-	</Elements>
-  </frame>
-  <frame name="simulation">
-	<LexicalUnits>
-	  <lu lemma="sukelduma" morf="_V_ main"/>
-	  <lu lemma="simuleerimine" morf="_S_ com"/>
-	  <lu lemma="simuleerima" morf="_V_ main"/>
-	</LexicalUnits>
-	<Elements>
-	  <element name="põhjustaja" optional="true" morf="_S_ gen" />
-	  <element name="piirkond" selection="väljak, plats, karistusala, viiekast, väravavahiala, kesktsoon, esimene kolmandik, kolmas kolmandik, keskjoon, külg" optional="true" morf="*"/>
-	  <element name="kannataja" selection="mängija, ründaja, poolkaitsja, kaitsja, väravavaht, sportlane" optional="true" morf="_S_"/>
-	  <element name="süüdistus" optional="true" morf="_S_"/>
-	</Elements>
-  </frame>
-  <frame name="win compensation">
-	<LexicalUnits>
-	  <lu lemma="teenima viga" morf="_V_ main||_S_"/>
-	</LexicalUnits>
-	<Elements>
-	  <element name="kompensatsioon" optional="true" morf="_S_"/>
-	  <element name="kannataja" optional="true" morf="_S_"/>
-	  <element name="põhjustaja" optional="true" morf="_S_|_S_ abl" />
-	</Elements>
-  </frame>
-  <frame name="Chance">
-	<LexicalUnits>
-	  <lu lemma="võimalus" morf="_S_"/>
-	  <lu lemma="juhus" morf="_S_"/>
-	  <lu lemma="šanss" morf="_S_"/>
-	</LexicalUnits>
-	<Elements>
-	  <element name="meeskond" optional="true" morf="_S_" />
-	  <element name="mängija" selection="ründaja, poolkaitsja, kaitsja, väravavaht, sportlane" optional="true" morf="_S_||_S_ ad||_S_ nom" />
-	  <element name="värav" optional="true" morf="_S_"/> <!-- tuleks kohustuslikuks teha-->
-	</Elements>
-  </frame>
-  <frame name="create chance">
-	<LexicalUnits>
-	  <lu lemma="looma" morf="_V_ main"/>
-	  <lu lemma="tekitama" morf="_V_ main"/>
-	</LexicalUnits>
-	<Elements>
-	  <element name="meeskond" optional="true" morf="_S_"/>
-	  <element name="võimalus" optional="true" morf="_S_"/>
-	  <element name="mängija" selection="ründaja, poolkaitsja, kaitsja, väravavaht, sportlane" optional="true" morf="_S_"/>
-	  <element name="löök" optional="true" morf="_S_"/>
-	</Elements>
-  </frame>
-  <frame name="miss chance">
-	<LexicalUnits>
-	  <lu lemma="eksima" morf="_V_ main" />
-	  <lu lemma="raiskama" morf="_V_ main"/>
-	  <lu lemma="luhtama" morf="_V_ main"/>
-	  <lu lemma="ei õnnestuma" morf="_V_||_V_ main"/>
-	</LexicalUnits>
-	<Elements>
-	  <element name="võimalus" optional="true" morf="_S_"/>
-	  <element name="mängija" selection="ründaja, poolkaitsja, kaitsja, väravavaht, sportlane" optional="true" morf="_S_"/>
-	  <element name="meeskond" selection="klubi, tiim, võistkond" optional="true" morf="_S_"/>
-	  <element name="allikas" optional="true" morf="*"/>
-	</Elements>
-  </frame>
-  <frame name="ball bounce">
-	<LexicalUnits>
-	  <lu lemma="põrkama" morf="_V_ main"/>
-	  <lu lemma="tagasipõrge" morf="_S_"/>
-	  <lu lemma="tagasi põrkama" morf="_D_||_V_ main"/>
-	  <lu lemma="rikošett" morf="_S_"/>
-	</LexicalUnits>
-	<Elements>
-	  <element name="pall" optional="true" morf="*_S_"/>
-	  <element name="liikuv pall" optional="true" morf="_A_||_S_"/>
-	  <element name="sihtmärk" optional="true" morf="*_S_|_S_ all"/>
-	  <element name="allikas" optional="true" morf="*"/>
-	  <element name="eelnev sündmus" optional="true" morf="_A_|_S_"/>
-	  <element name="suund" selection="otse, paremale, vasakule, tagasi, edasi" optional="true" morf="_S_"/>
-	</Elements>
-  </frame>
-  <frame name="ball escape">
-	<LexicalUnits>
-	  <lu lemma="vastane vältima" morf="_S_||_V_ main"/>
-	  <lu lemma="pall edestama" morf="_S_||_V_ main"/>
-	</LexicalUnits>
-	<Elements>
-	  <element name="saaja" selection="ründaja, poolkaitsja, kaitsja, väravavaht, sportlane, mängija" optional="true" morf="_S_"/>
-	  <element name="pall" optional="true" morf="_S_"/>
-	  <element name="liikuv pall" optional="true" morf="_A_||_S_"/>
-	  <element name="piirkond" selection="väljak, plats, karistusala, viiekast, väravavahiala, kesktsoon, esimene kolmandik, kolmas kolmandik, keskjoon, külg" optional="true" morf="*"/>
-	  <element name="kehaosa" resource="true" optional="true" morf="*_S_ com" />
-	</Elements>
-  </frame>
-  <frame name="ball land">
-	<LexicalUnits>
-	  <lu lemma="vastu võtma" morf="_D_||_V_ main"/>
-	  <lu lemma="pall maanduma" morf="_S_||_V_ main"/>
-	</LexicalUnits>
-	<Elements>
-	  <element name="liikuv pall" optional="true" morf="_A_||_S_"/>
-	  <element name="sihtmärk" optional="true" morf="*"/>
-	  <element name="pall" optional="true" morf="_S_"/>
-	  <element name="saaja" selection="ründaja, poolkaitsja, kaitsja, väravavaht, sportlane, mängija" optional="true" morf="_S_"/>
-	</Elements>
-  </frame>
-  <frame name="ball move">
-	<LexicalUnits>
-	  <lu lemma="vint" morf="_S_"/>
-	  <lu lemma="pall minema" morf="_S_||_V_ main"/>
-	  <lu lemma="pall veerema" morf="_S_||_V_ main"/>
-	</LexicalUnits>
-	<Elements>
-	  <element name="sihtmärk" optional="true" morf="*_S_ all|_S_ term|_S_ gen"/>
-	  <element name="pall" optional="true" morf="_S_"/>
-	  <element name="liikuv pall" optional="true" morf="_A_||_S_" />
-	  <element name="teekond" optional="true" morf="*"/>
-	  <element name="allikas" optional="true" morf="*_S_ abl"/>
-	  <element name="piirkond" selection="väljak, plats, karistusala, viiekast, väravavahiala, kesktsoon, esimene kolmandik, kolmas kolmandik, keskjoon, külg" optional="true" morf="*"/>
-	  <element name="suund" selection="otse, paremale, vasakule, tagasi, edasi" optional="true" morf="_S_"/>
-	</Elements>
-  </frame>
-  <frame name="goalkeeper advance">
-	<LexicalUnits>
-	  <lu lemma="väravavaht edasi liikuma" morf="_S_||_D_||_V_ main"/>
-	</LexicalUnits>
-	<Elements>
-	  <element name="väravavaht" selection="kollkiiper" optional="true" morf="*_S_"/>
-	  <element name="allikas" optional="true" morf="*_S_ abl"/>
-	  <element name="kaugus" optional="true" morf="_D_"/>
-	  <element name="sihtmärk" optional="true" morf="*_S_ all|_S_ term|_S_ gen"/>
-	</Elements>
-  </frame>
-  <frame name="player move">
-	<LexicalUnits>
-	  <lu lemma="sukelduma" morf="_V_ main"/>
-	  <lu lemma="liikuma" morf="_V_ main"/>
-	  <lu lemma="sprintima" morf="_V_ main"/>
-	</LexicalUnits>
-	<Elements>
-	  <element name="mängija" selection="väravaht, ründaja, kaitsja, poolkaitsja" optional="true" morf="_S_|||@SUBJ"/>
-	  <element name="sihtmärk" optional="true"  morf="*_S_ all|_S_ term|_S_ gen"/>
-	  <element name="meeskond" selection="tiim, võistkond, klubi" optional="true" morf="*_S_"/>
-	  <element name="allikas" optional="true" morf="*_S_ abl|_S_ nom"/>
-	  <element name="suund" selection="otse, paremale, vasakule, tagasi, edasi" optional="true" morf="_S_"/>
-	  <element name="piirkond" selection="väljak, plats, karistusala, viiekast, väravavahiala, kesktsoon, esimene kolmandik, kolmas kolmandik, keskjoon, külg" optional="true" morf="*"/>
-	  <element name="liikuv pall" optional="true" morf="_A_||_S_"/>
-	  <element name="teekond" optional="true" morf="*"/>
-	</Elements>
-  </frame>
-  <frame name="player move with ball">
-	<LexicalUnits>
-	  <lu lemma="sööstma" morf="_V_ main" />
-	  <lu lemma="vedama" morf="_V_ main" />
-	  <lu lemma="tribling" morf="_S_"/>
-	  <lu lemma="triblama" morf="_V_ main"/>
-	</LexicalUnits>
-	<Elements>
-	  <element name="mängija" selection="väravaht, ründaja, kaitsja, poolkaitsja" optional="true" morf="_S_|||@SUBJ"/>
-	  <element name="piirkond" selection="väljak, plats, karistusala, viiekast, väravavahiala, kesktsoon, esimene kolmandik, kolmas kolmandik, keskjoon, külg" optional="true" morf="*"/>
-	  <element name="sihtmärk" optional="true" morf="*_S_ all|_S_ term|_S_ gen"/>
-	  <element name="allikas" optional="true" morf="*_S_ abl|_S_ nom"/>
-	  <element name="teekond" optional="true" morf="*"/>
-	  <element name="kaugus" optional="true" morf="_D_"/>
-	  <element name="pall" optional="true" morf="_S_"/>
-	  <element name="vastasmängija" selection="vastane, rivaal, opponent" optional="true" morf="_S_"/>
-	  <element name="kehaosa" resource="true" optional="true" morf="*_S_ com" />
-	</Elements>
-  </frame>
-  <frame name="bring off">
-	<LexicalUnits>
-	  <lu lemma="ära tooma" morf="_D_||_V_ main" />
-	  <lu lemma="ära võtma" morf="_D_||_V_ main" />
-	  <lu lemma="välja võtma" morf="_D_||_V_ main"/>
-	  <lu lemma="väljavõtmine" morf="_S_ com"/>
-	</LexicalUnits>
-	<Elements>
-	  <element name="mängija vahetama" selection="väravaht, ründaja, kaitsja, poolkaitsja" optional="true" morf="_S_||_V_ main|||@OBJ||"/>
-	  <element name="treener" optional="true" morf="*_S_"/>
-	  <element name="meeskond"  selection="tiim, võistkond, klubi" optional="true" morf="*_S_"/>
-	</Elements>
-  </frame>
-  <frame name="bring on">
-	<LexicalUnits>
-	  <lu lemma="sissa tooma" morf="_D_||_V_ main" />
-	  <lu lemma="sisse tulema" morf="_D_||_V_ main" />
-	  <lu lemma="sisenema" morf="_V_ main" />
-	  <lu lemma="sisenemine" morf="_S_ com" />
-	</LexicalUnits>
-	<Elements>
-	  <element name="mängija vahetatama" selection="väravaht, ründaja, kaitsja, poolkaitsja" optional="true" morf="_S_||_V_ main|||@OBJ||"/>
-	  <element name="meeskond" optional="true" selection="tiim, võistkond, klubi" morf="*_S_"/>
-	  <element name="treener" selection="abitreener" optional="true" morf="*_S_"/>
-	</Elements>
-  </frame>
-  <frame name="substitute">
-	<LexicalUnits>
-	  <lu lemma="vahetama" morf="_V_ main"/>
-	  <lu lemma="vahetus" morf="_S_ com"/>
-	</LexicalUnits>
-	<Elements>
-	  <element name="treener" selection="abitreener" optional="true" morf="*_S_"/>
-	  <element name="mängija vahetatama" selection="väravaht, ründaja, kaitsja, poolkaitsja" optional="true" morf="_S_||_V_ main|||@OBJ||"/>
-	  <element name="meeskond" optional="true" selection="tiim, võistkond, klubi" morf="*_S_"/>
-	  <element name="rivistus" selection="koosseis" optional="true" morf="_S_"/>
-	</Elements>
-  </frame>
-  <frame name="move">
-	<LexicalUnits>
-	  <lu lemma="rünnak" morf="_S_"/>
-	  <lu lemma="ründama" morf="_V_ main"/>
-	  <lu lemma="vasturünnak" morf="_S_"/>
-	  <lu lemma="kontrarünnak" morf="_S_"/>
-	  <lu lemma="vasturünnak minema" morf="_S_||_V_ main"/>
-	  <lu lemma="käik" morf="_S_"/>
-	</LexicalUnits>
-	<Elements>
+		<LexicalUnits>
+			<lu lemma="edasi mängima" morf="_D_||_V_ main"/>
+		</LexicalUnits>
+		<Elements>
+			<element name="kohtunik" selection="vilemees" optional="true" morf="*_S_|||@SUBJ" />
+			<element name="süüdistus" optional="true" morf="_S_"/>
+			<element name="kannatanud meeskond" optional="true" morf="_V_ main|||_S_"/>
+		</Elements>
+	</frame>
+	<frame name="concede compensation">
+		<LexicalUnits>
+			<lu lemma="teenima" morf="_V_ main"/>
+		</LexicalUnits>
+		<Elements>
+			<element name="kompensatsioon" optional="true" morf="_S_"/>
+			<element name="põhjustaja" optional="true" morf="_S_|||@SUBJ"/>
+			<element name="kannatanud mängija" optional="true" morf="_V_ main|||_S_"/>
+			<element name="piirkond" selection="väljak, plats, karistusala, viiekast, väravavahiala, kesktsoon, esimene kolmandik, kolmas kolmandik, keskjoon, külg" optional="true" morf="*"/>
+			<element name="süüdistaja" optional="true" morf="_S_"/>
+		</Elements>
+	</frame>
+	<frame name="dissent">
+		<LexicalUnits>
+			<lu lemma="apelleerima" morf="_V_ main"/>
+			<lu lemma="vaidlema" morf="_V_ main" />
+			<lu lemma="protesteerima" morf="_V_ main" />
+		</LexicalUnits>
+		<Elements>
+			<element name="treener" optional="true" morf="*_S_"/>
+			<element name="otsus" optional="true" morf="_S_ com gen|_S_ com nom|_S_ com part"/>
+			<element name="süüdistus" optional="true" morf="_S_ com gen|_S_ com nom|_S_ com part"/>
+			<element name="kannatanud meeskond" optional="true" morf="_V_ main||_S_"/>
+			<element name="kannatanud mängija" optional="true" morf="_V_ main||_S_"/>
+			<element name="kohtunik" selection="vilemees" optional="true" morf="*_S_|||@SUBJ" />
+			<element name="kompensatsioon" selection="raha" optional="true" morf="_S_ com"/>
+			<element name="põhjustaja" optional="true" morf="*_S_"/>
+		</Elements>
+	</frame>
+	<frame name="foul">
+		<LexicalUnits>
+			<lu lemma="tõmbama maha" morf="_V_ main||_D_"/>
+			<lu lemma="küünarnukiga lööma" morf="_S com||_V_ main"/>
+			<lu lemma="viga" morf="_S_ com"/>
+			<lu lemma="tegema viga" morf="_V_ main||_S_ com"/>
+			<lu lemma="käega mäng" morf="_S_ com kom||_S_ com"/>
+			<lu lemma="käega mängima" morf="_S_ com kom||_V_ main"/>
+			<lu lemma="tõmbama tagasi" morf="_V_ main||_D_"/>
+			<lu lemma="hiline viga" morf="_A_||_S_ com"/>
+			<lu lemma="tõukama" morf="_V_ main"/>
+			<lu lemma="kättemaks" morf="_S_ com" />
+			<lu lemma="kukutama" morf="_V_ main" />
+			<lu lemma="ebasportlik käitumine" morf="_A_||_S_ com"/>
+			<lu lemma="vägivaldne käitumine" morf="_A_||_S_ com"/>
+		</LexicalUnits>
+		<Elements>
+			<element name="kannatama mängija" optional="true" morf="_V_ main||_S_"/>
+			<element name="põhjustaja" optional="true" morf="_S_|||@SUBJ"/>
+			<element name="piirkond" selection="väljak, plats, karistusala, viiekast, väravavahiala, kesktsoon, esimene kolmandik, kolmas kolmandik, keskjoon, külg" optional="true" morf="*"/>
+			<element name="allikas" optional="true" morf="*"/>
+			<element name="kehaosa" resource="true" optional="true" morf="*_S_ com" />
+			<element name="pall" optional="true" morf="_S_ com"/>
+			<element name="tegevus" selection="libistamine, viga, maha tõmbamine" optional="true" morf="_S_"/>
+		</Elements>
+	</frame>
+	<frame name="give card">
+		<LexicalUnits>
+			<lu lemma="andma" morf="_V_ main"/>
+			<lu lemma="näitama" morf="_V_ main"/>
+		</LexicalUnits>
+		<Elements>
+			<element name="kaart" selection="punane, kollane" optional="true" morf="_S_ com"/>
+			<element name="põhjustaja" selection="mängija" optional="true" morf="_S_ nom|_S_ all|||@ADVL"/>
+			<element name="kohtunik" selection="vilemees" optional="true" morf="*_S_|||@SUBJ" />
+		</Elements>
+	</frame>
+	<frame name="offside">
+		<LexicalUnits>
+			<lu lemma="suluseis" morf="_S_ com"/>
+		</LexicalUnits>
+		<Elements>
+			<element name="põhjustaja" optional="true" morf="_S_|||@SUBJ"/>
+		</Elements>
+	</frame>
+	<frame name="receive card">
+		<LexicalUnits>
+			<lu lemma="korjama" morf="_V_ main"/>
+			<lu lemma="teenima" morf="_V_ main"/>
+			<lu lemma="saama" morf="_V_ main"/>
+		</LexicalUnits>
+		<Elements>
+			<element name="kaart" selection="punane, kollane" optional="true" morf="_S_ com||_A_"/>
+			<element name="põhjustaja" optional="true" morf="_S_|||@SUBJ"/>
+		</Elements>
+	</frame>
+	<frame name="referee decision">
+		<LexicalUnits>
+			<lu lemma="andma" morf="_V_ main"/>
+			<lu lemma="määrama" morf="_V_ main"/>
+			<lu lemma="fikseerima" morf="_V_ main"/>
+		</LexicalUnits>
+		<Elements>
+			<element name="kohtunik" selection="vilemees" optional="true" morf="*_S_|||@SUBJ" />
+			<element name="süüdistus" selection="viga" optional="true" morf="_S_ com"/>
+			<element name="kompensatsioon" optional="true" morf="_S_"/>
+			<element name="kaart" selection="punane, kollane" optional="true" morf="_S_ com"/>
+			<element name="põhjustaja" selection="mängija" optional="true" morf="_S_ nom|_S_ all|||@ADVL"/>
+		</Elements>
+	</frame>
+	<frame name="sanction">
+		<LexicalUnits>
+			<lu lemma="hoiatus" morf="_S_ com"/>
+			<lu lemma="hoiatama" morf="_V_ main"/>
+			<lu lemma="eemaldama" morf="_V_ main"/>
+			<lu lemma="eemaldus" morf="_S_ com"/>
+			<lu lemma="punane kaart" morf="_A_||_S_ com"/>
+			<lu lemma="punane" morf="_A_"/>
+			<lu lemma="teine kollane kaart" morf="_N_||_A_||_S_ com"/>
+			<lu lemma="kollane kaart" morf="_A_||_S_ com"/>
+			<lu lemma="kollane"	morf="_A_"/>
+		</LexicalUnits>
+		<Elements>
+			<element name="põhjustaja" optional="true" morf="_S_ nom|_S_ gen|_S_ all"/>
+			<element name="süüdistus" optional="true" morf="_S_"/>
+			<element name="kohtunik" selection="vilemees" optional="true" morf="*_S_|||@SUBJ" />
+			<element name="kaart" selection="punane, kollane" optional="true" morf="_S_ com"/>
+		</Elements>
+	</frame>
+	<frame name="set piece">
+		<LexicalUnits>
+			<lu lemma="nurgalöök" morf="_S_ com"/>
+			<lu lemma="kaitsemüür" selection="müür" morf="_S_ com"/>
+			<lu lemma="karistuslöök" morf="_S_ com" />
+			<lu lemma="väravavaht lahtilöök" morf="_S_ com||_S_ com"/>
+			<lu lemma="penalti eksimus" morf="_S_ com||_S_ com"/>
+			<lu lemma="penalti eksima" morf="_S_ com||_S_ com"/>
+			<lu lemma="penalti" morf="_S_ com"/>
+			<lu lemma="vise" morf="_S_ com"/>
+			<lu lemma="sissevise" morf="_S_ com" />
+		</LexicalUnits>
+		<Elements>
+			<element name="lahtimängiv mängija" optional="true" morf="_A_||_S_ com"/>
+			<element name="sihtmärk" optional="true" morf="_S_ all|_S_ ill|_S_ term"/>
+			<element name="allikas" optional="true" morf="*"/>
+			<element name="kaugus" optional="true" morf="_N_"/>
+			<element name="saaja" optional="true" morf="_S_ all|_S_ ill|_S_ term"/>
+			<element name="penalti" optional="true" morf="_S_ com"/>
+			<element name="mängija" selection="ründaja, poolkaitsja, kaitsja, väravavaht, sportlane" optional="true" morf="_S_"/>
+			<element name="kehaosa" resource="true" optional="true" morf="*_S_ com" />
+			<element name="teekond" optional="true" morf="*"/>
+		</Elements>
+	</frame>
+	<frame name="simulation">
+		<LexicalUnits>
+			<lu lemma="sukelduma" morf="_V_ main"/>
+			<lu lemma="simuleerimine" morf="_S_ com"/>
+			<lu lemma="simuleerima" morf="_V_ main"/>
+		</LexicalUnits>
+		<Elements>
+			<element name="põhjustaja" optional="true" morf="_S_ gen" />
+			<element name="piirkond" selection="väljak, plats, karistusala, viiekast, väravavahiala, kesktsoon, esimene kolmandik, kolmas kolmandik, keskjoon, külg" optional="true" morf="*"/>
+			<element name="kannataja" selection="mängija, ründaja, poolkaitsja, kaitsja, väravavaht, sportlane" optional="true" morf="_S_"/>
+			<element name="süüdistus" optional="true" morf="_S_"/>
+		</Elements>
+	</frame>
+	<frame name="win compensation">
+		<LexicalUnits>
+			<lu lemma="teenima viga" morf="_V_ main||_S_"/>
+		</LexicalUnits>
+		<Elements>
+			<element name="kompensatsioon" optional="true" morf="_S_"/>
+			<element name="kannataja" optional="true" morf="_S_"/>
+			<element name="põhjustaja" optional="true" morf="_S_|_S_ abl" />
+		</Elements>
+	</frame>
+	<frame name="Chance">
+		<LexicalUnits>
+			<lu lemma="võimalus" morf="_S_"/>
+			<lu lemma="juhus" morf="_S_"/>
+			<lu lemma="šanss" morf="_S_"/>
+		</LexicalUnits>
+		<Elements>
+			<element name="meeskond" optional="true" morf="_S_" />
+			<element name="mängija" selection="ründaja, poolkaitsja, kaitsja, väravavaht, sportlane" optional="true" morf="_S_||_S_ ad||_S_ nom" />
+			<element name="värav" optional="true" morf="_S_"/> <!-- tuleks kohustuslikuks teha-->
+		</Elements>
+	</frame>
+	<frame name="create chance">
+		<LexicalUnits>
+			<lu lemma="looma" morf="_V_ main"/>
+			<lu lemma="tekitama" morf="_V_ main"/>
+		</LexicalUnits>
+		<Elements>
+			<element name="meeskond" optional="true" morf="_S_"/>
+			<element name="võimalus" optional="true" morf="_S_"/>
+			<element name="mängija" selection="ründaja, poolkaitsja, kaitsja, väravavaht, sportlane" optional="true" morf="_S_"/>
+			<element name="löök" optional="true" morf="_S_"/>
+		</Elements>
+	</frame>
+	<frame name="miss chance">
+		<LexicalUnits>
+			<lu lemma="eksima" morf="_V_ main" />
+			<lu lemma="raiskama" morf="_V_ main"/>
+			<lu lemma="luhtama" morf="_V_ main"/>
+			<lu lemma="ei õnnestuma" morf="_V_||_V_ main"/>
+		</LexicalUnits>
+		<Elements>
+			<element name="võimalus" optional="true" morf="_S_"/>
+			<element name="mängija" selection="ründaja, poolkaitsja, kaitsja, väravavaht, sportlane" optional="true" morf="_S_"/>
+			<element name="meeskond" selection="klubi, tiim, võistkond" optional="true" morf="_S_"/>
+			<element name="allikas" optional="true" morf="*"/>
+		</Elements>
+	</frame>
+	<frame name="ball bounce">
+		<LexicalUnits>
+			<lu lemma="põrkama" morf="_V_ main"/>
+			<lu lemma="tagasipõrge" morf="_S_"/>
+			<lu lemma="tagasi põrkama" morf="_D_||_V_ main"/>
+			<lu lemma="rikošett" morf="_S_"/>
+		</LexicalUnits>
+		<Elements>
+			<element name="pall" optional="true" morf="*_S_"/>
+			<element name="liikuv pall" optional="true" morf="_A_||_S_"/>
+			<element name="sihtmärk" optional="true" morf="*_S_|_S_ all"/>
+			<element name="allikas" optional="true" morf="*"/>
+			<element name="eelnev sündmus" optional="true" morf="_A_|_S_"/>
+			<element name="suund" selection="otse, paremale, vasakule, tagasi, edasi" optional="true" morf="_S_"/>
+		</Elements>
+	</frame>
+	<frame name="ball escape">
+		<LexicalUnits>
+			<lu lemma="vastane vältima" morf="_S_||_V_ main"/>
+			<lu lemma="pall edestama" morf="_S_||_V_ main"/>
+		</LexicalUnits>
+		<Elements>
+			<element name="saaja" selection="ründaja, poolkaitsja, kaitsja, väravavaht, sportlane, mängija" optional="true" morf="_S_"/>
+			<element name="pall" optional="true" morf="_S_"/>
+			<element name="liikuv pall" optional="true" morf="_A_||_S_"/>
+			<element name="piirkond" selection="väljak, plats, karistusala, viiekast, väravavahiala, kesktsoon, esimene kolmandik, kolmas kolmandik, keskjoon, külg" optional="true" morf="*"/>
+			<element name="kehaosa" resource="true" optional="true" morf="*_S_ com" />
+		</Elements>
+	</frame>
+	<frame name="ball land">
+		<LexicalUnits>
+			<lu lemma="vastu võtma" morf="_D_||_V_ main"/>
+			<lu lemma="pall maanduma" morf="_S_||_V_ main"/>
+		</LexicalUnits>
+		<Elements>
+			<element name="liikuv pall" optional="true" morf="_A_||_S_"/>
+			<element name="sihtmärk" optional="true" morf="*"/>
+			<element name="pall" optional="true" morf="_S_"/>
+			<element name="saaja" selection="ründaja, poolkaitsja, kaitsja, väravavaht, sportlane, mängija" optional="true" morf="_S_"/>
+		</Elements>
+	</frame>
+	<frame name="ball move">
+		<LexicalUnits>
+			<lu lemma="vint" morf="_S_"/>
+			<lu lemma="pall minema" morf="_S_||_V_ main"/>
+			<lu lemma="pall veerema" morf="_S_||_V_ main"/>
+		</LexicalUnits>
+		<Elements>
+			<element name="sihtmärk" optional="true" morf="*_S_ all|_S_ term|_S_ gen"/>
+			<element name="pall" optional="true" morf="_S_"/>
+			<element name="liikuv pall" optional="true" morf="_A_||_S_" />
+			<element name="teekond" optional="true" morf="*"/>
+			<element name="allikas" optional="true" morf="*_S_ abl"/>
+			<element name="piirkond" selection="väljak, plats, karistusala, viiekast, väravavahiala, kesktsoon, esimene kolmandik, kolmas kolmandik, keskjoon, külg" optional="true" morf="*"/>
+			<element name="suund" selection="otse, paremale, vasakule, tagasi, edasi" optional="true" morf="_S_"/>
+		</Elements>
+	</frame>
+	<frame name="goalkeeper advance">
+		<LexicalUnits>
+			<lu lemma="väravavaht edasi liikuma" morf="_S_||_D_||_V_ main"/>
+		</LexicalUnits>
+		<Elements>
+			<element name="väravavaht" selection="kollkiiper" optional="true" morf="*_S_"/>
+			<element name="allikas" optional="true" morf="*_S_ abl"/>
+			<element name="kaugus" optional="true" morf="_D_"/>
+			<element name="sihtmärk" optional="true" morf="*_S_ all|_S_ term|_S_ gen"/>
+		</Elements>
+	</frame>
+	<frame name="player move">
+		<LexicalUnits>
+			<lu lemma="sukelduma" morf="_V_ main"/>
+			<lu lemma="liikuma" morf="_V_ main"/>
+			<lu lemma="sprintima" morf="_V_ main"/>
+		</LexicalUnits>
+		<Elements>
+			<element name="mängija" selection="väravaht, ründaja, kaitsja, poolkaitsja" optional="true" morf="_S_|||@SUBJ"/>
+			<element name="sihtmärk" optional="true"	morf="*_S_ all|_S_ term|_S_ gen"/>
+			<element name="meeskond" selection="tiim, võistkond, klubi" optional="true" morf="*_S_"/>
+			<element name="allikas" optional="true" morf="*_S_ abl|_S_ nom"/>
+			<element name="suund" selection="otse, paremale, vasakule, tagasi, edasi" optional="true" morf="_S_"/>
+			<element name="piirkond" selection="väljak, plats, karistusala, viiekast, väravavahiala, kesktsoon, esimene kolmandik, kolmas kolmandik, keskjoon, külg" optional="true" morf="*"/>
+			<element name="liikuv pall" optional="true" morf="_A_||_S_"/>
+			<element name="teekond" optional="true" morf="*"/>
+		</Elements>
+	</frame>
+	<frame name="player move with ball">
+		<LexicalUnits>
+			<lu lemma="sööstma" morf="_V_ main" />
+			<lu lemma="vedama" morf="_V_ main" />
+			<lu lemma="tribling" morf="_S_"/>
+			<lu lemma="triblama" morf="_V_ main"/>
+		</LexicalUnits>
+		<Elements>
+			<element name="mängija" selection="väravaht, ründaja, kaitsja, poolkaitsja" optional="true" morf="_S_|||@SUBJ"/>
+			<element name="piirkond" selection="väljak, plats, karistusala, viiekast, väravavahiala, kesktsoon, esimene kolmandik, kolmas kolmandik, keskjoon, külg" optional="true" morf="*"/>
+			<element name="sihtmärk" optional="true" morf="*_S_ all|_S_ term|_S_ gen"/>
+			<element name="allikas" optional="true" morf="*_S_ abl|_S_ nom"/>
+			<element name="teekond" optional="true" morf="*"/>
+			<element name="kaugus" optional="true" morf="_D_"/>
+			<element name="pall" optional="true" morf="_S_"/>
+			<element name="vastasmängija" selection="vastane, rivaal, opponent" optional="true" morf="_S_"/>
+			<element name="kehaosa" resource="true" optional="true" morf="*_S_ com" />
+		</Elements>
+	</frame>
+	<frame name="bring off">
+		<LexicalUnits>
+			<lu lemma="ära tooma" morf="_D_||_V_ main" />
+			<lu lemma="ära võtma" morf="_D_||_V_ main" />
+			<lu lemma="välja võtma" morf="_D_||_V_ main"/>
+			<lu lemma="väljavõtmine" morf="_S_ com"/>
+		</LexicalUnits>
+		<Elements>
+			<element name="mängija vahetama" selection="väravaht, ründaja, kaitsja, poolkaitsja" optional="true" morf="_S_||_V_ main|||@OBJ||"/>
+			<element name="treener" optional="true" morf="*_S_"/>
+			<element name="meeskond"	selection="tiim, võistkond, klubi" optional="true" morf="*_S_"/>
+		</Elements>
+	</frame>
+	<frame name="bring on">
+		<LexicalUnits>
+			<lu lemma="sissa tooma" morf="_D_||_V_ main" />
+			<lu lemma="sisse tulema" morf="_D_||_V_ main" />
+			<lu lemma="sisenema" morf="_V_ main" />
+			<lu lemma="sisenemine" morf="_S_ com" />
+		</LexicalUnits>
+		<Elements>
+			<element name="mängija vahetatama" selection="väravaht, ründaja, kaitsja, poolkaitsja" optional="true" morf="_S_||_V_ main|||@OBJ||"/>
+			<element name="meeskond" optional="true" selection="tiim, võistkond, klubi" morf="*_S_"/>
+			<element name="treener" selection="abitreener" optional="true" morf="*_S_"/>
+		</Elements>
+	</frame>
+	<frame name="substitute">
+		<LexicalUnits>
+			<lu lemma="vahetama" morf="_V_ main"/>
+			<lu lemma="vahetus" morf="_S_ com"/>
+		</LexicalUnits>
+		<Elements>
+			<element name="treener" selection="abitreener" optional="true" morf="*_S_"/>
+			<element name="mängija vahetatama" selection="väravaht, ründaja, kaitsja, poolkaitsja" optional="true" morf="_S_||_V_ main|||@OBJ||"/>
+			<element name="meeskond" optional="true" selection="tiim, võistkond, klubi" morf="*_S_"/>
+			<element name="rivistus" selection="koosseis" optional="true" morf="_S_"/>
+		</Elements>
+	</frame>
+	<frame name="move">
+		<LexicalUnits>
+			<lu lemma="rünnak" morf="_S_"/>
+			<lu lemma="ründama" morf="_V_ main"/>
+			<lu lemma="vasturünnak" morf="_S_"/>
+			<lu lemma="kontrarünnak" morf="_S_"/>
+			<lu lemma="vasturünnak minema" morf="_S_||_V_ main"/>
+			<lu lemma="käik" morf="_S_"/>
+		</LexicalUnits>
+		<Elements>
 	 <element name="meeskond" optional="true" selection="tiim, võistkond, klubi" morf="*_S_|||@SUBJ"/>
-	  <element name="piirkond" selection="väljak, plats, karistusala, viiekast, väravavahiala, kesktsoon, esimene kolmandik, kolmas kolmandik, keskjoon, külg" optional="true" morf="*"/>
-	  <element name="mängija" selection="mängija, väravaht, ründaja, kaitsja, poolkaitsja" optional="true" morf="*_S_|||@SUBJ"/>
-	  <element name="sihtmärk" optional="true"  morf="*_S_"/>
-	</Elements>
-  </frame>
-  <frame name="confusion">
-	<LexicalUnits>
-	  <lu lemma="segadus" morf="_S_ com"/>
-	  <lu lemma="arusaamatus" morf="_S_ com"/>
-	  <lu lemma="rüselus" morf="_S_ com"/>
-	</LexicalUnits>
-	<Elements>
-	  <element name="mängija" selection="mängija, väravaht, ründaja, kaitsja, poolkaitsja" optional="true" morf="*_S_|||@SUBJ"/>
-	  <element name="meeskond" optional="true" selection="tiim, võistkond, klubi" morf="*_S_|||@SUBJ"/>
-	  <element name="piirkond" selection="väljak, plats, karistusala, viiekast, väravavahiala, kesktsoon, esimene kolmandik, kolmas kolmandik, keskjoon, külg" optional="true" morf="*"/>
-	</Elements>
-  </frame>
-  <frame name="defence shot">
-	<LexicalUnits>
-	  <lu lemma="puhastama" morf="_V_ main"/>
-	  <lu lemma="puhastamine" morf="_S_ com"/>
-	</LexicalUnits>
-	<Elements>
-	  <element name="mängija" selection="lööja, väravaht, ründaja, kaitsja, poolkaitsja" optional="true" morf="*_S_|||@SUBJ"/>
-	  <element name="meeskond" optional="true" selection="tiim, võistkond, klubi" morf="*_S_"/>
-	  <element name="sihtmärk" optional="true" morf="*"/>
-	  <element name="allikas" optional="true" morf="*_S_ abl|_S_ nom"/>
-	  <element name="kaugus" optional="true" morf="_N_"/>
-	</Elements>
-  </frame>
-  <frame name="mistake">
-	<LexicalUnits>
-	  <lu lemma="viga" morf="_S_ com"/>
-	  <lu lemma="eksimus" morf="_S_ com"/>
-	  <lu lemma="vääratus" morf="_S_ com"/>
-	</LexicalUnits>
-	<Elements>
-	  <element name="mängija" selection="mängija, väravaht, ründaja, kaitsja, poolkaitsja" optional="true" morf="*_S_|||@SUBJ"/>
-	  <element name="sündmus" selection="toimumine" optional="true" morf="*_S_"/>
-	  <element name="piirkond" optional="true" morf="*" />
-	  <element name="vastasmängija" optional="true" morf="_S_"/>
-	  <element name="meeskond" optional="true" selection="tiim, võistkond, klubi" morf="*_S_"/>
-	</Elements>
-  </frame>
-  <frame name="lead">
-    <LexicalUnits>
-      <lu lemma="ees" />
-	  <lu lemma="juhtimine" />
-	  <lu lemma="juhtima" />
-	  <lu lemma="kinnitama" />
-	</LexicalUnits>
-	<Elements>
-	  <element name="liider" optional="true" />
-	  <element name="skoor" optional="true" />
-	  <element name="vahe" optional="true" />
-	</Elements>
-  </frame>
-    <frame name="match quality">
-    <LexicalUnits>
-      <lu lemma="domineerivus" />
-	  <lu lemma="ülekaal" />
-	  <lu lemma="domineerima" />
-	  <lu lemma="tasavägine" />
-	</LexicalUnits>
-	<Elements>
-	  <element name="mäng" optional="true" />
-	  <element name="domineeriv meeskond" optional="true" />
-	  <element name="mänguperiood" optional="true" />
-	  <element name="meeskonnad" optional="true" />
-	</Elements>
-  </frame>
-    <frame name="possession">
-    <LexicalUnits>
-      <lu lemma="valdamine" />
-	</LexicalUnits>
-	<Elements>
-	  <element name="palliga meeskond" optional="true" />
-	  <element name="palliga mängija" optional="true" />
-	</Elements>
-  </frame>
-    <frame name="score">
-    <LexicalUnits>
-      <lu lemma="skoor" />
-	  <lu lemma="tulemus" />
-	  <lu lemma="seis" />
-	</LexicalUnits>
-	<Elements>
-	  <element name="skoor" optional="true" />
-	  <element name="liider" optional="true" />
-	  <element name="meeskonnad" optional="true" />
-	</Elements>
-  </frame>
-   <frame name="spectator activity">
-    <LexicalUnits>
-      <lu lemma="välja vilistama" />
-	  <lu lemma="hõiskama" />
-	  <lu lemma="kannustama" />
-	</LexicalUnits>
-	<Elements>
-	  <element name="pealtvaatajad" optional="true" />
-	  <element name="meeskond" optional="true" />
-	  <element name="tegevus" optional="true" />
-	  <element name="pealtvaataja tegevus" optional="true" />
-	</Elements>
-  </frame>
-    <frame name="tactics">
-    <LexicalUnits>
-      <lu lemma="ründav" />
-	  <lu lemma="kaitsma" />
-	  <lu lemma="kaitsev" />
-	  <lu lemma="suruma" />
-	</LexicalUnits>
-	<Elements>
-	  <element name="meeskond" optional="true" />
-	  <element name="piirkond" optional="true" />
-	  <element name="mängijad" optional="true" />
-	  <element name="suund" optional="true" />
-	</Elements>
-  </frame>
-    <frame name="trail">
-    <LexicalUnits>
-      <lu lemma="taga" />
-	  <lu lemma="maas" />
-	  <lu lemma="maha jääma" />
-	</LexicalUnits>
-	<Elements>
-	  <element name="skoor" optional="true" />
-	  <element name="mahajääja" optional="true" />
-	  <element name="vahe" optional="true" />
-	  <element name="liider" optional="true" />
-	</Elements>
-  </frame>
-    <frame name="away game">
-    <LexicalUnits>
-      <lu lemma="võõrsil mäng" />
-	  <lu lemma="võõrsil" />
-	  <lu lemma="reisima" />
-	  <lu lemma="sõitma" />
-	  <lu lemma="külastama" />
-	  <lu lemma="külalised" />
-	</LexicalUnits>
-	<Elements>
-	  <element name="külaline" optional="true" />
-	  <element name="mängu asukoht" optional="true" />
-	  <element name="võõrustaja" optional="true" />
-	  <element name="aeg" optional="true" />
-	  <element name="võistlusfaas" optional="true" />
-	</Elements>
-  </frame>
-    <frame name="defeat">
-    <LexicalUnits>
-      <lu lemma="lüüasaamine" />
-	  <lu lemma="kaotama" />
-	  <lu lemma="kaotus" />
-	</LexicalUnits>
-	<Elements>
-	  <element name="kaotaja" optional="true" />
-	  <element name="lõppskoor" optional="true" />
-	  <element name="võitja" optional="true" />
-	  <element name="mängu asukoht" optional="true" />
-	  <element name="mäng" optional="true" />
-	  <element name="võistlusfaas" optional="true" />
-	  <element name="võistlus" optional="true" />
-	</Elements>
-  </frame>
-    <frame name="draw">
-    <LexicalUnits>
-      <lu lemma="viik" />
-	  <lu lemma="viigistama" />
-	</LexicalUnits>
-	<Elements>
-	  <element name="meeskond2" optional="true" />
-	  <element name="meeskond1" optional="true" />
-	  <element name="lõppskoor" optional="true" />
-	  <element name="mängu asukoht" optional="true" />
-	  <element name="meeskonnad" optional="true" />
-	  <element name="mäng" optional="true" />
-	  <element name="võistlusfaas" optional="true" />
-	  <element name="otsustav sündmus" optional="true" />
-	  <element name="võistlus" optional="true" />
-	</Elements>
-  </frame>
-    <frame name="elimination">
-    <LexicalUnits>
-      <lu lemma="elimineerimine" />
-	  <lu lemma="kõrvaldamine" />
-	  <lu lemma="eemaldamine" />
-	  <lu lemma="väljalangemine" />
-	</LexicalUnits>
-	<Elements>
-	  <element name="kaotaja" optional="true" />
-	  <element name="võitja" optional="true" />
-	  <element name="võistlus" optional="true" />
-	  <element name="võistlusfaas" optional="true" />
-	  <element name="põhjus" optional="true" />
-	</Elements>
-  </frame>
-    <frame name="home game">
-    <LexicalUnits>
-      <lu lemma="kodus" />
-	  <lu lemma="kodumäng" />
-	  <lu lemma="kodumatš" />
-	  <lu lemma="kodumeeskond" />
-	  <lu lemma="võõrustama" />
-	  <lu lemma="vastu võtma" />
-	</LexicalUnits>
-	<Elements>
-	  <element name="võõrustaja" optional="true" />
-	  <element name="külaline" optional="true" />
-	  <element name="mängu asukoht" optional="true" />
-	  <element name="aeg" optional="true" />
-	  <element name="mäng" optional="true" />
-	</Elements>
-  </frame>
-    <frame name="match">
-    <LexicalUnits>
-      <lu lemma="derbi" />
-	  <lu lemma="kohtumine" />
-	  <lu lemma="kohtuma" />
-	  <lu lemma="esimene mäng" />
-	  <lu lemma="mäng" />
-	  <lu lemma="matš" />
-	  <lu lemma="mängima" />
-	  <lu lemma="korduskohtumine" />
-	  <lu lemma="teine mäng" />
-	</LexicalUnits>
-	<Elements>
-	  <element name="meeskond2" optional="true" />
-	  <element name="meeskond1" optional="true" />
-	  <element name="mängu asukoht" optional="true" />
-	  <element name="võistlusfaas" optional="true" />
-	  <element name="meeskonnad" optional="true" />
-	  <element name="võistlus" optional="true" />
-	  <element name="aeg" optional="true" />
-	  <element name="mäng" optional="true" />
-	</Elements>
-  </frame>
-    <frame name="match temporal subdivision">
-    <LexicalUnits>
-      <lu lemma="lisaaeg" />
-	  <lu lemma="vaheaeg" />
-	  <lu lemma="pool" />
-	  <lu lemma="poolaja paus" />
-	  <lu lemma="poolaeg" />
-	  <lu lemma="penaltid" />
-	  <lu lemma="periood" />
-	</LexicalUnits>
-	<Elements>
-	  <element name="esimene või teine" optional="true" />
-	</Elements>
-  </frame>
-    <frame name="progression">
-    <LexicalUnits>
-      <lu lemma="edasi pääsema" />
-	  <lu lemma="elimineerima" />
-	  <lu lemma="edasi liikuma" />
-	  <lu lemma="edasiminek" />
-	  <lu lemma="kvalifikatsioon" />
-	  <lu lemma="kvalifitseeruma" />
-	</LexicalUnits>
-	<Elements>
-	  <element name="võitja" optional="true" />
-	  <element name="järgmine ring" optional="true" />
-	  <element name="võistlusfaas" optional="true" />
-	  <element name="kaotaja" optional="true" />
-	  <element name="põhjus" optional="true" />
-	  <element name="võistlus" optional="true" />
-	</Elements>
-  </frame>
-    <frame name="result">
-    <LexicalUnits>
-      <lu lemma="lõppema" />
-	</LexicalUnits>
-	<Elements>
-	  <element name="mäng" optional="true" />
-	  <element name="lõppskoor" optional="true" />
-	</Elements>
-  </frame>
-    <frame name="start end match">
-    <LexicalUnits>
-      <lu lemma="lõpuvile" />
-	  <lu lemma="avavile" />
-	  <lu lemma="poolajavile" />
-	  <lu lemma="avalöök" />
-	</LexicalUnits>
-	<Elements>
-	  <element name="kohtunik" optional="true" />
-	  <element name="mäng" optional="true" />
-	  <element name="meeskond" optional="true" />
-	  <element name="põhjus" optional="true" />
-	</Elements>
-  </frame>
-    <frame name="victory">
-    <LexicalUnits>
-      <lu lemma="kaotus" />
-	  <lu lemma="kaotama" />
-	  <lu lemma="edu" />
-	  <lu lemma="purustama" />
-	  <lu lemma="võit" />
-	  <lu lemma="võitma" />
-	  <lu lemma="võitjad" />
-	  <lu lemma="üle olema" />
-	  <lu lemma="tegema otsad" />
-	  <lu lemma="toime tulema" />
-	  <lu lemma="ära kindlustama" />
-	</LexicalUnits>
-	<Elements>
-	  <element name="võitja" optional="true" />
-	  <element name="kaotaja" optional="true" />
-	  <element name="lõppskoor" optional="true" />
-	  <element name="mängu asukoht" optional="true" />
-	  <element name="mäng" optional="true" />
-	  <element name="otsustav sündmus" optional="true" />
-	  <element name="võistlusfaas" optional="true" />
-	  <element name="võistlus" optional="true" />
-	</Elements>
-  </frame>
-    <frame name="competition">
-    <LexicalUnits>
-      <lu lemma="võistlus" />
-	  <lu lemma="tiitlikaitsja" />
-	</LexicalUnits>
-	<Elements>
-	  <element name="meeskond" optional="true" />
-	  <element name="võistlus" optional="true" />
-	</Elements>
-  </frame>
-    <frame name="competition stage">
-    <LexicalUnits>
-      <lu lemma="finaal" />
-	  <lu lemma="alagrupifaas" />
-	  <lu lemma="playoffid" />
-	  <lu lemma="viimased 16" />
-	  <lu lemma="viimased 32" />
-	  <lu lemma="veerandfinaalid" />
-	  <lu lemma="ring" />
-	  <lu lemma="poolfinaalid" />
-	</LexicalUnits>
-	<Elements>
-	<Elements>
-	  <element name="võistlus" optional="true" />
-	  <element name="täpsustaja" optional="true" />
-	</Elements>
-  </frame>
-    <frame name="deploy">
-    <LexicalUnits>
-      <lu lemma="sisse tooma" />
-	  <lu lemma="valima" />
-	  <lu lemma="puhkama" />
-	  <lu lemma="puhkus" />
-	</LexicalUnits>
-	<Elements>
-	  <element name="mängija" optional="true" />
-	  <element name="treener" optional="true" />
-	  <element name="meeskonna osa" optional="true" />
-	  <element name="meeskond" optional="true" />
-	  <element name="mitte mängija" optional="true" />
-	  <element name="rivistus" optional="true" />
-	  <element name="mäng" optional="true" />
-	  <element name="mittemängimise põhjus" optional="true" />
-	</Elements>
-  </frame>
-    <frame name="start">
-    <LexicalUnits>
-      <lu lemma="kapten" />
-	  <lu lemma="debüteerima" />
-	  <lu lemma="kõrvale jääma" />
-	  <lu lemma="välja jätma" />
-	  <lu lemma="alustama" />
-	</LexicalUnits>
-	<Elements>
-	  <element name="mängija" optional="true" />
-	  <element name="mitte mängija" optional="true" />
-	  <element name="meeskonna osa" optional="true" />
-	  <element name="mittemängimise põhjus" optional="true" />
-	  <element name="meeskond" optional="true" />
-	  <element name="mäng" optional="true" />
-	</Elements>
-  </frame>
-    <frame name="suspension">
-    <LexicalUnits>
-      <lu lemma="keelatud" />
-	  <lu lemma="kõrvaldatud" />
-	  <lu lemma="kõrvaldamine" />
-	</LexicalUnits>
-	<Elements>
-	  <element name="mitte mängija" optional="true" />
-	  <element name="sanktsioon" optional="true" />
-	  <element name="mäng" optional="true" />
-	  <element name="autoriteet" optional="true" />
-	  <element name="meeskond" optional="true" />
-	</Elements>
-  </frame>
-    <frame name="ball">
-    <LexicalUnits>
-      <lu lemma="pall" />
-	</LexicalUnits>
-	<Elements>
-	</Elements>
-  </frame>
-    <frame name="body parts">
-    <LexicalUnits>
-      <lu lemma="putsa" />
-	  <lu lemma="rind" />
-	  <lu lemma="sõrmeots" />
-	  <lu lemma="jalg" />
-	  <lu lemma="käsi" />
-	  <lu lemma="pea" />
-	  <lu lemma="kand" />
-	  <lu lemma="põlv" />
-	  <lu lemma="varvas" />
-	</LexicalUnits>
-	<Elements>
-	  <element name="mängija" optional="true" />
-	  <element name="orientatsioon" optional="true" />
-	</Elements>
-  </frame>
-    <frame name="coach">
-    <LexicalUnits>
-      <lu lemma="treener" />
-	  <lu lemma="juht" />
-	</LexicalUnits>
-	<Elements>
-	  <element name="meeskond" optional="true" />
-	  <element name="treener" optional="true" />
-	</Elements>
-  </frame>
-    <frame name="equipment">
-    <LexicalUnits>
-      <lu lemma="kaptenipael" />
-	  <lu lemma="lipp" />
-	  <lu lemma="särk" />
-	  <lu lemma="vile" />
-	</LexicalUnits>
-	<Elements>
-	  <element name="kohtunik" optional="true" />
-	  <element name="mängija" optional="true" />
-	  <element name="meeskond" optional="true" />
-	</Elements>
-  </frame>
-    <frame name="player">
-    <LexicalUnits>
-      <lu lemma="ründaja" />
-	  <lu lemma="kapten" />
-	  <lu lemma="keskkaitse" />
-	  <lu lemma="kaitsja" />
-	  <lu lemma="väravavaht" />
-	  <lu lemma="vasakkaitse" />
-	  <lu lemma="vasakäär" />
-	  <lu lemma="vasak poolkaitse" />
-	  <lu lemma="poolkaitse" />
-	  <lu lemma="vastane" />
-	  <lu lemma="mängija" />
-	  <lu lemma="põhimees" />
-	  <lu lemma="reserv" />
-	  <lu lemma="paremkaitse" />
-	  <lu lemma="paremäär" />
-	  <lu lemma="parem poolkaitse" />
-	  <lu lemma="varumees" />
-	  <lu lemma="meeskonnakaaslane" />
-	  <lu lemma="veteran" />
-	  <lu lemma="äärekaitse" />
-	  <lu lemma="ääremängija" />
-	</LexicalUnits>
-	<Elements>
-	  <element name="mängija" optional="true" />
-	  <element name="meeskond" optional="true" />
-	  <element name="positsiooni täpsustus" optional="true" />
-	  <element name="meeskonnakaaslane" optional="true" />
-	  <element name="vastasmängija" optional="true" />
-	  <element name="treener" optional="true" />
-	</Elements>
-  </frame>
-  <frame name="referee">
-    <LexicalUnits>
-      <lu lemma="abikohtunik" />
-	  <lu lemma="neljas kohtunik" />
-	  <lu lemma="äärekohtunik" />
-	  <lu lemma="kohtunik" />
-	</LexicalUnits>
-	<Elements>
-	  <element name="kohtunik" optional="true" />
-	</Elements>
-  </frame>
-  <frame name="spectators">
-    <LexicalUnits>
-      <lu lemma="rahvas" />
-	  <lu lemma="publik" />
-	  <lu lemma="fänn" />
-	  <lu lemma="pealtvaataja" />
-	  <lu lemma="toetaja" />
-	</LexicalUnits>
-	<Elements>
-	  <element name="meeskond" optional="true" />
-	  <element name="mängu asukoht" optional="true" />
-	</Elements>
-  </frame>
-  <frame name="team">
-    <LexicalUnits>
-      <lu lemma="rünnak" />
-	  <lu lemma="kaitseliin" />
-	  <lu lemma="keskkaitse" />
-	  <lu lemma="kaitse" />
-	  <lu lemma="rivistus" />
-	  <lu lemma="keskväli" />
-	  <lu lemma="meeskond" />
-	  <lu lemma="algkoosseis" />
-	  <lu lemma="võistkond" />
-	</LexicalUnits>
-	<Elements>
-	  <element name="meeskond" optional="true" />
-	  <element name="treener" optional="true" />
-	  <element name="väravavaht" optional="true" />
-	  <element name="mängija" optional="true" />
-	</Elements>
-  </frame>
-  <frame name="bench">
-    <LexicalUnits>
-      <lu lemma="pink" />
-	  <lu lemma="varumeeste pink" />
-	</LexicalUnits>
-	<Elements>
-	  <element name="meeskond" optional="true" />
-	</Elements>
-  </frame>
-  <frame name="field">
-    <LexicalUnits>
-      <lu lemma="piirkond" />
-	  <lu lemma="kast" />
-	  <lu lemma="otsajoon" />
-	  <lu lemma="keskring" />
-	  <lu lemma="keskpunkt" />
-	  <lu lemma="nurgalipp" />
-	  <lu lemma="väljak" />
-	  <lu lemma="külg" />
-	  <lu lemma="värava-ala" />
-	  <lu lemma="väravajoon" />
-	  <lu lemma="pool" />
-	  <lu lemma="keskjoon" />
-	  <lu lemma="joon" />
-	  <lu lemma="mängust väljas" />
-	  <lu lemma="karistusala" />
-	  <lu lemma="penaltipunkt" />
-	  <lu lemma="plats" />
-	  <lu lemma="väravavahi ala" />
-	  <lu lemma="küljeaut" />
-	  <lu lemma="küljejoon" />
-	  <lu lemma="äär" />
-	</LexicalUnits>
-	<Elements>
-	  <element name="meeskond" optional="true" />
-	  <element name="orientatsioon" optional="true" />
-	  <element name="väravavaht" optional="true" />
-	</Elements>
-  </frame>
-  <frame name="goal target">
-    <LexicalUnits>
-      <lu lemma="latt" />
-	  <lu lemma="nurk" />
-	  <lu lemma="põiklatt" />
-	  <lu lemma="värav" />
-	  <lu lemma="võrk" />
-	  <lu lemma="post" />
-	  <lu lemma="küljevõrk" />
-	  <lu lemma="väravaraam" />
-	</LexicalUnits>
-	<Elements>
-	  <element name="väravavaht" optional="true" />
-	  <element name="meeskond" optional="true" />
-	  <element name="orientatsioon" optional="true" />
-	  <element name="värava sihtmärk" optional="true" />
-	  <element name="kaugus pallini" optional="true" />
-	  <element name="üles alla orientatsioon" optional="true" />
-	</Elements>
-  </frame>
-  <frame name="stadium">
-    <LexicalUnits>
-      <lu lemma="riietusruum" />
-	  <lu lemma="staadion" />
-	  <lu lemma="tribüün" />
-	</LexicalUnits>
-	<Elements>
-	</Elements>
-  </frame>
+			<element name="piirkond" selection="väljak, plats, karistusala, viiekast, väravavahiala, kesktsoon, esimene kolmandik, kolmas kolmandik, keskjoon, külg" optional="true" morf="*"/>
+			<element name="mängija" selection="mängija, väravaht, ründaja, kaitsja, poolkaitsja" optional="true" morf="*_S_|||@SUBJ"/>
+			<element name="sihtmärk" optional="true"	morf="*_S_"/>
+		</Elements>
+	</frame>
+	<frame name="confusion">
+		<LexicalUnits>
+			<lu lemma="segadus" morf="_S_ com"/>
+			<lu lemma="arusaamatus" morf="_S_ com"/>
+			<lu lemma="rüselus" morf="_S_ com"/>
+		</LexicalUnits>
+		<Elements>
+			<element name="mängija" selection="mängija, väravaht, ründaja, kaitsja, poolkaitsja" optional="true" morf="*_S_|||@SUBJ"/>
+			<element name="meeskond" optional="true" selection="tiim, võistkond, klubi" morf="*_S_|||@SUBJ"/>
+			<element name="piirkond" selection="väljak, plats, karistusala, viiekast, väravavahiala, kesktsoon, esimene kolmandik, kolmas kolmandik, keskjoon, külg" optional="true" morf="*"/>
+		</Elements>
+	</frame>
+	<frame name="defence shot">
+		<LexicalUnits>
+			<lu lemma="puhastama" morf="_V_ main"/>
+			<lu lemma="puhastamine" morf="_S_ com"/>
+		</LexicalUnits>
+		<Elements>
+			<element name="mängija" selection="lööja, väravaht, ründaja, kaitsja, poolkaitsja" optional="true" morf="*_S_|||@SUBJ"/>
+			<element name="meeskond" optional="true" selection="tiim, võistkond, klubi" morf="*_S_"/>
+			<element name="sihtmärk" optional="true" morf="*"/>
+			<element name="allikas" optional="true" morf="*_S_ abl|_S_ nom"/>
+			<element name="kaugus" optional="true" morf="_N_"/>
+		</Elements>
+	</frame>
+	<frame name="mistake">
+		<LexicalUnits>
+			<lu lemma="viga" morf="_S_ com"/>
+			<lu lemma="eksimus" morf="_S_ com"/>
+			<lu lemma="vääratus" morf="_S_ com"/>
+		</LexicalUnits>
+		<Elements>
+			<element name="mängija" selection="mängija, väravaht, ründaja, kaitsja, poolkaitsja" optional="true" morf="*_S_|||@SUBJ"/>
+			<element name="sündmus" selection="toimumine" optional="true" morf="*_S_"/>
+			<element name="piirkond" optional="true" morf="*" />
+			<element name="vastasmängija" optional="true" morf="_S_"/>
+			<element name="meeskond" optional="true" selection="tiim, võistkond, klubi" morf="*_S_"/>
+		</Elements>
+	</frame>
+	<frame name="lead">
+		<LexicalUnits>
+			<lu lemma="ees" morf="_D_|_S_"/>
+			<lu lemma="juhtimine" morf="_S_ com"/>
+			<lu lemma="juhtima" morf="_V_ main"/>
+			<lu lemma="kinnitama" morf="_V_ main"/>
+		</LexicalUnits>
+		<Elements>
+			<element name="liider" selection="juhtija" optional="true" morf="*_S_|||@SUBJ"/>
+			<element name="skoor" optional="true" selection="vahe, tulemus, seis" morf="*_N_|_S_"/>
+		</Elements>
+	</frame>
+	<frame name="match quality">
+		<LexicalUnits>
+			<lu lemma="domineerivus" morf="_S_ com"/>
+			<lu lemma="ülekaal" morf="_S_ com"/>
+			<lu lemma="domineerima" morf="_V_ main"/>
+			<lu lemma="tasavägine" morf="_A_"/>
+		</LexicalUnits>
+		<Elements>
+			<element name="mäng" optional="true" morf="_S_"/>
+			<element name="domineerija" optional="true" morf="_S_"/>
+			<element name="mänguperiood" optional="true" morf="*_S_"/>
+			<element name="meeskonnad" optional="true" selection="meeskond, vastane" morf="_S_"/>
+		</Elements>
+	</frame>
+	<frame name="possession">
+		<LexicalUnits>
+			<lu lemma="valdamine" morf="_S_ com"/>
+			<lu lemma="valdama" morf="_V_ main"/>
+		</LexicalUnits>
+		<Elements>
+			<element name="pall meeskond" optional="true" morf="*_S_||_S_"/>
+			<element name="pall mängija" optional="true" morf="*_S_||_S_"/>
+		</Elements>
+	</frame>
+	<frame name="score">
+		<LexicalUnits>
+			<lu lemma="skoor" morf="_N_|_S_"/>
+			<lu lemma="tulemus" morf="_N_|_S_"/>
+			<lu lemma="seis" morf="_N_|_S_"/>
+		</LexicalUnits>
+		<Elements>
+			<element name="liider" optional="true" morf="*_S_|||@SUBJ"/>
+			<element name="meeskonnad" optional="true" selection="meeskond" morf="*_S_"/>
+		</Elements>
+	</frame>
+	<frame name="spectator activity">
+		<LexicalUnits>
+			<lu lemma="välja vilistama" morf="_D_||_V_ main"/>
+			<lu lemma="hõiskama" morf="_V_ main"/>
+			<lu lemma="kannustama" morf="_V_ main"/>
+		</LexicalUnits>
+		<Elements>
+			<element name="pealtvaataja" optional="true" selection="publik, fänn, toetaja" morf="_S_ com|||@SUBJ"/>
+			<element name="meeskond" optional="true" morf="_S_"/>
+			<element name="tegevus" optional="true" morf="*"/>
+			<element name="pealtvaataja tegevus" optional="true" morf="*_S_ com||_S_"/>
+		</Elements>
+	</frame>
+	<frame name="tactics">
+		<LexicalUnits>
+			<lu lemma="ründav" morf="_A_"/>
+			<lu lemma="ründama" morf="_V_ main"/>
+			<lu lemma="kaitsma" morf="_V_ main"/>
+			<lu lemma="kaitsev" morf="_A_"/>
+			<lu lemma="suruma" morf="_V_ main"/>
+		</LexicalUnits>
+		<Elements>
+			<element name="meeskond" optional="true" selection="tiim, võistkond" morf="*_S_|||@SUBJ"/>
+			<element name="piirkond" optional="true" selection="ala, koht" morf="_S_"/>
+			<element name="mängija" optional="true" morf="_S_"/>
+			<element name="suund" optional="true" morf="_S_"/>
+		</Elements>
+	</frame>
+	<frame name="trail">
+		<LexicalUnits>
+			<lu lemma="taga" morf="_D_"/>
+			<lu lemma="maas" morf="_D_"/>
+			<lu lemma="maha jääma" morf="_D_||_V_ main"/>
+		</LexicalUnits>
+		<Elements>
+			<element name="skoor" optional="true" morf="_N_|_S_"/>
+			<element name="mahajääja" optional="true" morf="_S_"/>
+			<element name="vahe" optional="true" morf="_N_|_S_"/>
+			<element name="liider" optional="true" selection="juhtija" morf="_S_"/>
+		</Elements>
+	</frame>
+	<frame name="away game">
+		<LexicalUnits>
+			<lu lemma="võõrsil mäng" morf="_D_||_S_"/>
+			<lu lemma="võõrsil" morf="_D_"/>
+			<lu lemma="reisima" morf="_V_ main"/>
+			<lu lemma="sõitma" morf="_V_ main"/>
+			<lu lemma="külastama" morf="_V_ main"/>
+			<lu lemma="külaline" morf="_S_"/>
+		</LexicalUnits>
+		<Elements>
+			<element name="asukoht" selection="koht" optional="true" morf="*_S_"/>
+			<element name="võõrustaja" optional="true" selection="kodumeeskond" morf="_S_"/>
+			<element name="aeg" optional="true" morf="_N_"/>
+			<element name="võistlusfaas" optional="true" morf="_S_"/>
+		</Elements>
+	</frame>
+	<frame name="draw">
+		<LexicalUnits>
+			<lu lemma="viik" />
+			<lu lemma="viigistama" />
+		</LexicalUnits>
+		<Elements>
+			<element name="meeskond2" optional="true" />
+			<element name="meeskond1" optional="true" />
+			<element name="lõppskoor" optional="true" />
+			<element name="mängu asukoht" optional="true" />
+			<element name="meeskonnad" optional="true" />
+			<element name="mäng" optional="true" />
+			<element name="võistlusfaas" optional="true" />
+			<element name="otsustav sündmus" optional="true" />
+			<element name="võistlus" optional="true" />
+		</Elements>
+	</frame>
+	<frame name="elimination">
+		<LexicalUnits>
+			<lu lemma="elimineerimine" />
+			<lu lemma="kõrvaldamine" />
+			<lu lemma="eemaldamine" />
+			<lu lemma="väljalangemine" />
+		</LexicalUnits>
+		<Elements>
+			<element name="kaotaja" optional="true" />
+			<element name="võitja" optional="true" />
+			<element name="võistlus" optional="true" />
+			<element name="võistlusfaas" optional="true" />
+			<element name="põhjus" optional="true" />
+		</Elements>
+	</frame>
+	<frame name="home game">
+		<LexicalUnits>
+			<lu lemma="kodus" />
+			<lu lemma="kodumäng" />
+			<lu lemma="kodumatš" />
+			<lu lemma="kodumeeskond" />
+			<lu lemma="võõrustama" />
+			<lu lemma="vastu võtma" />
+		</LexicalUnits>
+		<Elements>
+			<element name="võõrustaja" optional="true" />
+			<element name="külaline" optional="true" />
+			<element name="mängu asukoht" optional="true" />
+			<element name="aeg" optional="true" />
+			<element name="mäng" optional="true" />
+		</Elements>
+	</frame>
+	<frame name="match">
+		<LexicalUnits>
+			<lu lemma="derbi" />
+			<lu lemma="kohtumine" />
+			<lu lemma="kohtuma" />
+			<lu lemma="esimene mäng" />
+			<lu lemma="mäng" />
+			<lu lemma="matš" />
+			<lu lemma="mängima" />
+			<lu lemma="korduskohtumine" />
+			<lu lemma="teine mäng" />
+		</LexicalUnits>
+		<Elements>
+			<element name="meeskond1" optional="true" />
+			<element name="mängu asukoht" optional="true" />
+			<element name="võistlusfaas" optional="true" />
+			<element name="meeskonnad" optional="true" />
+			<element name="võistlus" optional="true" />
+			<element name="aeg" optional="true" />
+			<element name="mäng" optional="true" />
+		</Elements>
+	</frame>
+	<frame name="match temporal subdivision">
+		<LexicalUnits>
+			<lu lemma="lisaaeg" />
+			<lu lemma="vaheaeg" />
+			<lu lemma="pool" />
+			<lu lemma="poolaja paus" />
+			<lu lemma="poolaeg" />
+			<lu lemma="penaltid" />
+			<lu lemma="periood" />
+		</LexicalUnits>
+		<Elements>
+			<element name="esimene või teine" optional="true" />
+		</Elements>
+	</frame>
+	<frame name="progression">
+		<LexicalUnits>
+			<lu lemma="edasi pääsema" />
+			<lu lemma="elimineerima" />
+			<lu lemma="edasi liikuma" />
+			<lu lemma="edasiminek" />
+			<lu lemma="kvalifikatsioon" />
+			<lu lemma="kvalifitseeruma" />
+		</LexicalUnits>
+		<Elements>
+			<element name="võitja" optional="true" />
+			<element name="järgmine ring" optional="true" />
+			<element name="võistlusfaas" optional="true" />
+			<element name="kaotaja" optional="true" />
+			<element name="põhjus" optional="true" />
+			<element name="võistlus" optional="true" />
+		</Elements>
+	</frame>
+	<frame name="result">
+		<LexicalUnits>
+			<lu lemma="lõppema" />
+		</LexicalUnits>
+		<Elements>
+			<element name="mäng" optional="true" />
+			<element name="lõppskoor" optional="true" />
+		</Elements>
+	</frame>
+	<frame name="start end match">
+		<LexicalUnits>
+			<lu lemma="lõpuvile" />
+			<lu lemma="avavile" />
+			<lu lemma="poolajavile" />
+			<lu lemma="avalöök" />
+		</LexicalUnits>
+		<Elements>
+			<element name="kohtunik" optional="true" />
+			<element name="mäng" optional="true" />
+			<element name="meeskond" optional="true" />
+			<element name="põhjus" optional="true" />
+		</Elements>
+	</frame>
+	<frame name="victory">
+		<LexicalUnits>
+			<lu lemma="kaotus" />
+			<lu lemma="kaotama" />
+			<lu lemma="edu" />
+			<lu lemma="purustama" />
+			<lu lemma="võit" />
+			<lu lemma="võitma" />
+			<lu lemma="võitjad" />
+			<lu lemma="üle olema" />
+			<lu lemma="tegema otsad" />
+			<lu lemma="toime tulema" />
+			<lu lemma="ära kindlustama" />
+		</LexicalUnits>
+		<Elements>
+			<element name="võitja" optional="true" />
+			<element name="kaotaja" optional="true" />
+			<element name="lõppskoor" optional="true" />
+			<element name="mängu asukoht" optional="true" />
+			<element name="mäng" optional="true" />
+			<element name="otsustav sündmus" optional="true" />
+			<element name="võistlusfaas" optional="true" />
+			<element name="võistlus" optional="true" />
+		</Elements>
+	</frame>
+	<frame name="competition">
+		<LexicalUnits>
+			<lu lemma="võistlus" />
+			<lu lemma="tiitlikaitsja" />
+		</LexicalUnits>
+		<Elements>
+			<element name="meeskond" optional="true" />
+			<element name="võistlus" optional="true" />
+		</Elements>
+	</frame>
+	<frame name="competition stage">
+		<LexicalUnits>
+			<lu lemma="finaal" />
+			<lu lemma="alagrupifaas" />
+			<lu lemma="playoffid" />
+			<lu lemma="viimased 16" />
+			<lu lemma="viimased 32" />
+			<lu lemma="veerandfinaalid" />
+			<lu lemma="ring" />
+			<lu lemma="poolfinaalid" />
+		</LexicalUnits>
+		<Elements>
+			<element name="võistlus" optional="true" />
+			<element name="täpsustaja" optional="true" />
+		</Elements>
+	</frame>
+	<frame name="deploy">
+		<LexicalUnits>
+			<lu lemma="sisse tooma" />
+			<lu lemma="valima" />
+			<lu lemma="puhkama" />
+			<lu lemma="puhkus" />
+		</LexicalUnits>
+		<Elements>
+			<element name="mängija" optional="true" />
+			<element name="treener" optional="true" />
+			<element name="meeskonna osa" optional="true" />
+			<element name="meeskond" optional="true" />
+			<element name="mitte mängija" optional="true" />
+			<element name="rivistus" optional="true" />
+			<element name="mäng" optional="true" />
+			<element name="mittemängimise põhjus" optional="true" />
+		</Elements>
+	</frame>
+	<frame name="start">
+		<LexicalUnits>
+			<lu lemma="kapten" />
+			<lu lemma="debüteerima" />
+			<lu lemma="kõrvale jääma" />
+			<lu lemma="välja jätma" />
+			<lu lemma="alustama" />
+		</LexicalUnits>
+		<Elements>
+			<element name="mängija" optional="true" />
+			<element name="mitte mängija" optional="true" />
+			<element name="meeskonna osa" optional="true" />
+			<element name="mittemängimise põhjus" optional="true" />
+			<element name="meeskond" optional="true" />
+			<element name="mäng" optional="true" />
+		</Elements>
+	</frame>
+	<frame name="suspension">
+		<LexicalUnits>
+			<lu lemma="keelatud" />
+			<lu lemma="kõrvaldatud" />
+			<lu lemma="kõrvaldamine" />
+		</LexicalUnits>
+		<Elements>
+			<element name="mitte mängija" optional="true" />
+			<element name="sanktsioon" optional="true" />
+			<element name="mäng" optional="true" morf="_S_"/>
+			<element name="autoriteet" optional="true" />
+			<element name="meeskond" optional="true" />
+		</Elements>
+	</frame>
+	<frame name="ball">
+		<LexicalUnits>
+			<lu lemma="pall" />
+		</LexicalUnits>
+		<Elements>
+		</Elements>
+	</frame>
+	<frame name="body parts">
+		<LexicalUnits>
+			<lu lemma="putsa" />
+			<lu lemma="rind" />
+			<lu lemma="sõrmeots" />
+			<lu lemma="jalg" />
+			<lu lemma="käsi" />
+			<lu lemma="pea" />
+			<lu lemma="kand" />
+			<lu lemma="põlv" />
+			<lu lemma="varvas" />
+		</LexicalUnits>
+		<Elements>
+			<element name="mängija" optional="true" />
+			<element name="orientatsioon" optional="true" />
+		</Elements>
+	</frame>
+	<frame name="coach">
+		<LexicalUnits>
+			<lu lemma="treener" />
+			<lu lemma="juht" />
+		</LexicalUnits>
+		<Elements>
+			<element name="meeskond" optional="true" />
+			<element name="treener" optional="true" />
+		</Elements>
+	</frame>
+	<frame name="equipment">
+		<LexicalUnits>
+			<lu lemma="kaptenipael" />
+			<lu lemma="lipp" />
+			<lu lemma="särk" />
+			<lu lemma="vile" />
+		</LexicalUnits>
+		<Elements>
+			<element name="kohtunik" optional="true" />
+			<element name="mängija" optional="true" />
+			<element name="meeskond" optional="true" />
+		</Elements>
+	</frame>
+	<frame name="player">
+		<LexicalUnits>
+			<lu lemma="ründaja" />
+			<lu lemma="kapten" />
+			<lu lemma="keskkaitse" />
+			<lu lemma="kaitsja" />
+			<lu lemma="väravavaht" />
+			<lu lemma="vasakkaitse" />
+			<lu lemma="vasakäär" />
+			<lu lemma="vasak poolkaitse" />
+			<lu lemma="poolkaitse" />
+			<lu lemma="vastane" />
+			<lu lemma="mängija" />
+			<lu lemma="põhimees" />
+			<lu lemma="reserv" />
+			<lu lemma="paremkaitse" />
+			<lu lemma="paremäär" />
+			<lu lemma="parem poolkaitse" />
+			<lu lemma="varumees" />
+			<lu lemma="meeskonnakaaslane" />
+			<lu lemma="veteran" />
+			<lu lemma="äärekaitse" />
+			<lu lemma="ääremängija" />
+		</LexicalUnits>
+		<Elements>
+			<element name="mängija" optional="true" />
+			<element name="meeskond" optional="true" />
+			<element name="positsiooni täpsustus" optional="true" />
+			<element name="meeskonnakaaslane" optional="true" />
+			<element name="vastasmängija" optional="true" />
+			<element name="treener" optional="true" />
+		</Elements>
+	</frame>
+	<frame name="referee">
+		<LexicalUnits>
+			<lu lemma="abikohtunik" />
+			<lu lemma="neljas kohtunik" />
+			<lu lemma="äärekohtunik" />
+			<lu lemma="kohtunik" />
+		</LexicalUnits>
+		<Elements>
+			<element name="kohtunik" optional="true" />
+		</Elements>
+	</frame>
+	<frame name="spectators">
+		<LexicalUnits>
+			<lu lemma="rahvas" />
+			<lu lemma="publik" />
+			<lu lemma="fänn" />
+			<lu lemma="pealtvaataja" />
+			<lu lemma="toetaja" />
+		</LexicalUnits>
+		<Elements>
+			<element name="meeskond" optional="true" />
+			<element name="mängu asukoht" optional="true" />
+		</Elements>
+	</frame>
+	<frame name="team">
+		<LexicalUnits>
+			<lu lemma="rünnak" />
+			<lu lemma="kaitseliin" />
+			<lu lemma="keskkaitse" />
+			<lu lemma="kaitse" />
+			<lu lemma="rivistus" />
+			<lu lemma="keskväli" />
+			<lu lemma="meeskond" />
+			<lu lemma="algkoosseis" />
+			<lu lemma="võistkond" />
+		</LexicalUnits>
+		<Elements>
+			<element name="meeskond" optional="true" />
+			<element name="treener" optional="true" />
+			<element name="väravavaht" optional="true" />
+			<element name="mängija" optional="true" />
+		</Elements>
+	</frame>
+	<frame name="bench">
+		<LexicalUnits>
+			<lu lemma="pink" />
+			<lu lemma="varumeeste pink" />
+		</LexicalUnits>
+		<Elements>
+			<element name="meeskond" optional="true" />
+		</Elements>
+	</frame>
+	<frame name="field">
+		<LexicalUnits>
+			<lu lemma="piirkond" />
+			<lu lemma="kast" />
+			<lu lemma="otsajoon" />
+			<lu lemma="keskring" />
+			<lu lemma="keskpunkt" />
+			<lu lemma="nurgalipp" />
+			<lu lemma="väljak" />
+			<lu lemma="külg" />
+			<lu lemma="värava-ala" />
+			<lu lemma="väravajoon" />
+			<lu lemma="pool" />
+			<lu lemma="keskjoon" />
+			<lu lemma="joon" />
+			<lu lemma="mängust väljas" />
+			<lu lemma="karistusala" />
+			<lu lemma="penaltipunkt" />
+			<lu lemma="plats" />
+			<lu lemma="väravavahi ala" />
+			<lu lemma="küljeaut" />
+			<lu lemma="küljejoon" />
+			<lu lemma="äär" />
+		</LexicalUnits>
+		<Elements>
+			<element name="meeskond" optional="true" />
+			<element name="orientatsioon" optional="true" />
+			<element name="väravavaht" optional="true" />
+		</Elements>
+	</frame>
+	<frame name="goal target">
+		<LexicalUnits>
+			<lu lemma="latt" />
+			<lu lemma="nurk" />
+			<lu lemma="põiklatt" />
+			<lu lemma="värav" />
+			<lu lemma="võrk" />
+			<lu lemma="post" />
+			<lu lemma="küljevõrk" />
+			<lu lemma="väravaraam" />
+		</LexicalUnits>
+		<Elements>
+			<element name="väravavaht" optional="true" />
+			<element name="meeskond" optional="true" />
+			<element name="orientatsioon" optional="true" />
+			<element name="värava sihtmärk" optional="true" />
+			<element name="kaugus pallini" optional="true" />
+			<element name="üles alla orientatsioon" optional="true" />
+		</Elements>
+	</frame>
+	<frame name="stadium">
+		<LexicalUnits>
+			<lu lemma="riietusruum" />
+			<lu lemma="staadion" />
+			<lu lemma="tribüün" />
+		</LexicalUnits>
+		<Elements>
+		</Elements>
+	</frame>
 </framelexicon>
