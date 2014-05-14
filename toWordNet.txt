@@ -184,7 +184,7 @@ väravaraam - väravakonstruktsioon, mille moodustavad postid ja latt
 maha raputama - tegema midagi nii hästi, et vastane ei suuda järel püsida
 
 
-Kahtlased:
+Kahtluse all:
 kaarti korjama - teenis kollase kaardi
 hiline viga - viga mis on tehtud väravale lähedal
 mööda mängima - vastasest mööduma
