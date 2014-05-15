@@ -1,9 +1,9 @@
 Lisada Wordnetti. Kujul mõiste - seletus(, näide):
 käärlöök - löök, kus mängija lööb palli üle enda pea võimalikult madalale, kasutades selleks jalgadega kääridena vibutusest tulenevat hoogu
-kübaratrikk - ühe mänmgija poolt kolm väravat ühes mängus
+kübaratrikk - ühe mängija poolt kolm väravat ühes mängus
 silm - punkt
 noorteakadeemia - kooli taoline koht, kus ka õpetatakse noori, kuid põhirõhk on spordil
-spodiakadeemia - noortakadeemia
+spordiakadeemia - noortakadeemia
 mängujärgne - pärast mängu toimuv
 ülevaade - mängujärgne analüüs/kokkuvõte
 avapoolaeg - jalgpalli esimene poolaeg
@@ -18,17 +18,17 @@ võidupunkt - punkt, mille saab võitja, sõltuvalt alast on punktide arv erinev
 tabelirida - koht tabelis
 sööt - palli veeretamine väljakut mööda kaasmängijale
 meeskonnakaaslane - samas meeskonna mängija 
-liigatabel - liiga meeskonade järjestuse tabel
+liigatabel - liiga meeskondade järjestuse tabel
 koduväljak - väljak, kus mängib kodumeeskond
 vigastuspaus - periood, kus mängija ei saa mängida vigastuse tõttu
 karikafinaal - karikaturniiri finaalmäng
-karikasari - karikavõstlus
+karikasari - karikavõistlus
 esiliigameeskond - meeskond, kes mängib esiliigas
 täiskäik - meeskond mängib nii kõvasti kui võimalik
 külalismeeskond - meeskond, kes mängib võõrsil
 sats - meeskond
 eeltöö - töö, mis tehakse enne mingi asja saavutamist
-kõrgliigameeskond
+kõrgliigameeskond - meskond, kes mängib kõrgliigas
 üleminut - minutid, mis lisatakse põhiajale korvamaks põhiajal olnud katkestusi
 väravakütt - ründaja
 tipuründaja - ründaja
@@ -38,7 +38,7 @@ liigahooaeg - periood, mille jooksul kestab üks liiga aasta
 hoolealune - treeneri hoole all olev võistkond/mängija
 viigipunkt - viigi korral antav üks punkt
 varuväravavaht - varumängija, kelle poolt mängitav positsioon on väravavaht
-suurklubi - klubi, kes on utntud ing on palju võitnud
+suurklubi - klubi, kes on tuntud ning on palju võitnud
 linnarivaal - meeskonna rivaal, kes asub samas linnas
 libastuma - punkte kaotama või platsil libisema
 avavärav - mängu või meeskonna esimene värav
@@ -78,7 +78,7 @@ võõrustama - spordis koduväljakul/staadionil võistlema
 poolajavile -  vile, mis märgib poolaja lõppu
 üleaeg - üleminutid
 punane kaart - kaart, mille tõttu peab mängija platsilt lahkuma, tavaliselt teise mängija tõsise vigastamise tõttu
-turniiritabel - turniiri meeskonande paremusjärjestus
+turniiritabel - turniiri meeskondade paremusjärjestus
 avamäng - esimene mäng
 viigiseis - kui seis on viigiline
 igirivaal  - meeskond, kes on ajalooliselt suur rivaal
@@ -126,7 +126,7 @@ maha tõmbama - vastasmängijat maha kukutama, viga tegema
 eemaldama - platsilt minema saatma punase kaardi tõttu
 müür - mängijatest moodustatud sein, karistuslöögi ajal
 kaistemüür - mängijatest moodustatud sein, karistuslöögi ajal
-vedama - joostes palli endaga kaasas hoidama 
+vedama - joostes palli endaga kaasas hoidma 
 väravavahiala - värava ümber olev joontega märgitud piirkond suurusega  5.5 x 18.32 m, mille seest peab tegema lahtilööke
 viiekast - väravavahiala
 ära tooma/ära võtma - mängijat välja vahetama
@@ -135,13 +135,13 @@ kontrarünnak - vasturünnak
 rüselus - kerge kaklus
 kinnitama - kindlamaks tegema, nt eduseisu
 tasavägine - võrdne
-välja vilistama - vlistamise teel ebasoosingut näitama
+välja vilistama - vilistamise teel ebasoosingut näitama
 võistlusfaas - mingi võistluse etapp
 väljalangemine - turniiri reeglitest tulenev otsus, mis lõpetab võistkonna võimlause veel mänge pidada
 vastu võtma - võõrustama
 derbi - rivaalide kohtumine
 korduskohtumine - teine kohtumine, kus sama meeskonnaga on juba samas võistlusfaasis mängitud
-lisaeg - viigilise tulemuse puhul võitja selgiamiseks mängitav aeg mõne turniiri puhul
+lisaaeg - viigilise tulemuse puhul võitja selgitamiseks mängitav aeg mõne turniiri puhul
 edasipääs - edenemine järgmisesse ringi
 alagrupifaas - turniiri faas, kus meeskonnad on jaotatud alagruppidesse ning kõik mängivad kõikidega läbi
 puhkama võtma - välja vahetatud mängijad võetakse puhkama
@@ -159,15 +159,15 @@ vasakäär - vasak poolkaitsja
 paremäär - parem poolkaitsja
 keskpoolkaitsja - poolkaitsja, kes mängib keskväljakul
 põhimees - mängija kes põhikoosseisus või kes mängib suurt rolli meeskonna edus
-resermeeskond - klubi tugevuselt teine meeskond
-duubelmeeskond - revermeeskond
+reservmeeskond - klubi tugevuselt teine meeskond
+duubelmeeskond - reservmeeskond
 varumees - mängija, kes ei alusta põhikoosseisus
 äärekaitsja - kaitsja, kes ei ole keskaitsja
 ääremängija - mängija, kes mängib äärel
 vastasmängija - vastasmeeskonna mängija
-abikohtunik - äärekohunik
+abikohtunik - äärekohtunik
 otsakohtunik - kohtunik, kes on otsajoone taga ning kelle ülesanne on jälgida, kas pall ületas väravajoont
-neljas kohtnuik - kohtunik, kes vahetab välja teisi kohtunikke, kui need peaksid ennast vigastama, ning näitab lisaaega ja vahetab mängijaid
+neljas kohtunik - kohtunik, kes vahetab välja teisi kohtunikke, kui need peaksid ennast vigastama, ning näitab lisaaega ja vahetab mängijaid
 ründeliin - grupp, mille moodustavad ründajad
 kaitseliin - grupp, mille moodustavad kaitsjad
 poolkaitseliin  - grupp, mille moodustavad poolkaitsjad
@@ -177,7 +177,7 @@ nurgalipp - lipp, mis tähistab väljaku nurka
 väravaala - väravavahiala
 penaltipunkt - koht väljakul, kust lüüakse penalteid
 küljeaut - kahe käe vahel üle pea palli väljakule sisseviskamine
-latt - värava horontaalne osa
+latt - värava horisontaalne osa
 põiklatt - posti ja lati ristumiskoht jalgpallis
 küljevõrk - jalgpalliväraval postide taga olev võrk
 väravaraam - väravakonstruktsioon, mille moodustavad postid ja latt
@@ -202,15 +202,15 @@ alla jääma - kaotama
 koheselt vastama - hrl. kohe vastu värava lööma
 tabloole tooma - skoorima
 juppideks võtma - kõvasti võitma või vastase positsioone ning mängijaid segadusse ajama
-kinni hoidma - mingit abstrakstet olukorda säilitama, nt. eduseisust kinni hoidma
-kollast kaarti teenima - kui kohtunk näitab mängijale kollast kaarti
-kollast kaarti andma  - kui kohtunk annab mängijale kollase kaardi
+kinni hoidma - mingit abstraksset olukorda säilitama, nt. eduseisust kinni hoidma
+kollast kaarti teenima - kui kohtunik näitab mängijale kollast kaarti
+kollast kaarti andma  - kui kohtunik annab mängijale kollase kaardi
 võõras väljak - kui meeskond ei mängi koduväljakul
 ette minema - värava löömise abil juhtima minema
 täpne olema - skoorima
 paremini alustama - paremini mängima kui vastasmeeskond mängu algfaasis
 tuliseks minema - kui mäng on pingeline või agressiivne
-läbi jala - skoorima kellegi poolt või väravavhi jalgade vahelt, nt. läbi James Murphy jala ühe tagasi lüüa
+läbi jala - skoorima kellegi poolt või väravavahi jalgade vahelt, nt. läbi James Murphy jala ühe tagasi lüüa
 lukku panema - võitma või väga hästi kaitsma
 võitjana väljuma - võitma mängu, mis võis olla tasavägine
 mängu astuma - sekkuma
@@ -231,11 +231,11 @@ väravateta viik - mäng, mis jääb 0:0
 kuues olema jne - liigatabelis koht
 pingile vahetama - mängijat platsilt välja vahetama
 läbi mängima - vastasest mööduma
-väravas seisma - väravaht olema
+väravas seisma - väravavaht olema
 vahetusest sekkuma - kui mängija vahetatakse sisse
 ohtlik tsoon - väljakukkumistsoon
 ohutu tsoon - kui liigatabelis ei ohtusta väljakukkumine 
 väljakule jooksma - mängu minema, kas põhikoosseisus või vahetusest
 pingil istuma - varumees olema
-suurt sammu astuma - saama tulemuse, mis aitab kõvasti soovitud suunas liikumisks, nt. astus suure sammu finaali suunad
-konkurensist langema - kaotama, mille tulemusel ei saa enam edasi võistelda turniiril
+suurt sammu astuma - saama tulemuse, mis aitab kõvasti soovitud suunas liikumiseks, nt. astus suure sammu finaali suunad
+konkurentsist langema - kaotama, mille tulemusel ei saa enam edasi võistelda turniiril

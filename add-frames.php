@@ -12,11 +12,10 @@ syntaxile minig märk, et ta ei ole kohustuslik vaid soovitatav
 
 error_reporting(-1);
 mb_internal_encoding("UTF-8");
-const FRAMES_PATH = 'C:\Users\Lauri\Desktop\Baka asjad\gitBaka\jalgpalliFreimNet\frames_with_morf.xml';
-const TEXT_PATH = 'C:\Users\Lauri\Desktop\Baka asjad\gitBaka\jalgpalliFreimNet\korpused\soccernet.snx';
-const OVERALL_PATH = 'C:\Users\Lauri\Desktop\Baka asjad\gitBaka\jalgpalliFreimNet';
-const RETURN_PATH = 'C:\Users\Lauri\Desktop\Baka asjad\gitBaka\jalgpalliFreimNet\laused.kym';
-const DO_WORD_DISAMBIGUATION = false;
+const FRAMES_PATH = 'C:\Users\Kasutaja\Desktop\...\frames_with_morf.xml';
+const TEXT_PATH = 'C:\Users\Kasutaja\Desktop\...\korpused\soccernet.snx';
+const OVERALL_PATH = 'C:\Users\Kasutaja\Desktop\...\jalgpalliFreimNet';
+const RETURN_PATH = 'C:\Users\Kasutaja\Desktop\...\laused.kym';
 //No ö, ä, ü, õ allowed in path
 $morphedText = file_get_contents(TEXT_PATH);
 $textRows = explode("\n", $morphedText);
@@ -368,7 +367,6 @@ function readFramesToArray($framesPath) {
 			}
 			else if ($resource == true){
 				$frames[$frameName]['elements'][$name] = array();
-				//print_r(getResource(OVERALL_PATH . '\\' . $name . '.txt'));die;
 				$frames[$frameName]['elements'][$name] = array_merge(array('morf' => $xml->getAttribute('morf')), getResource(OVERALL_PATH . '\\' . $name . '.txt'));
 				$frames[$frameName]['elements'][$name][] = $name;
 			}

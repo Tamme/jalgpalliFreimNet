@@ -9,4 +9,8 @@ Legend:
 ...||... - elemendi nimes on kaks sõna ning nende kohta morf eraldi
 ...|||... - morf JA süntaktiline info
 
-Kui lemma koosneb kahest osast siis vaadatakse neid eraldi ning morf peaks olema kujul morf="esimese morf || teise morf"
+Kasulikud lingid:
+http://www.cl.ut.ee/korpused/morfliides/seletus - Morpho-syntactic categories
+http://www.cl.ut.ee/korpused/morfkorpus/myh01/ - morfkorpus/myh01/
+http://math.ut.ee/~kaili/thesis/pt3_4.html - ESTKG süntaktilised märgendid
+http://math.ut.ee/~kaili/thesis/pt3_2.html - Ülevaade morfoloogilistest märgenditest
