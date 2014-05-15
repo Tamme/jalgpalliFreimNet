@@ -217,11 +217,13 @@ Vaðtðuk    Vaðtðuk+0 // _S_ prop sg nom  #cap #? //  **CLB  @SUBJ
 lõbutses    lõbutse+s // _V_ main indic impf ps3 sg ps af  #FinV #Intr //   @+FMV
 Blackburni    Blackburni+0 // _S_ prop sg gen #cap #? //   @NN>    Blackburn+0 // _S_ prop sg adit #cap #? //   @ADVL    Blackburn+0 // _S_ prop sg gen #cap #? //   @NN> 
 vastu    vastu+0 // _D_ //   @ADVL 
+$LL$    #### @???
+$LA$    #### @???
 Readingu    Readingu+0 // _S_ prop sg gen #cap #? //   @NN>    Reading+0 // _S_ prop sg gen  #cap #? //   @NN> 
 noorteakadeemiat    noor+te_akadeemia+t // _S_ com sg part  //   @OBJ 
 esindav    esinda=v+0 // _A_ pos sg nom  #v partic //   @VN> 
-Bogdan    Bogdan+0 // _S_ prop sg nom  #cap #? //   @NN> 
-Vaðtðuk    Vaðtðuk+0 // _S_ prop sg nom  #cap #? //   @<NN 
+Bogdan    Bogdan+0 // _S_ prop sg nom  #cap #? //   @NN> // Element lööja
+Vaðtðuk    Vaðtðuk+0 // _S_ prop sg nom  #cap #? //   @<NN // Element lööja 
 võttis    võt+is // _V_ main indic impf ps3 sg ps af  #FinV #NGP-P //   @+FMV
 ainuisikuliselt    ainu_isiku=liselt+0 // _D_ //   @ADVL 
 juppideks    jupp+deks // _S_ com pl tr  //   @ADVL 
@@ -233,26 +235,26 @@ mängides    mängi+des // _V_ main ger af  #Part-P //  **CLB  @ADVL
 võidus    võidu+s // _V_ main indic impf ps3 sg ps af  #FinV #Intr  //   @+FMV
 rolli    roll+0 // _S_ com sg adit //   @ADVL @NN>    roll+0 // _S_ com sg gen  //   @OBJ @NN> 
 kahe    kaks+0 // _N_ card sg gen  l //   @P> 
-värava    värav+0 // _S_ com sg gen  //   @<Q 
+värava    värav+0 // _S_ com sg gen  //   @<Q // Freim score goal // Element värav
 juures    juures+0 // _K_ post #gen //   @ADVL 
 $.    . // _Z_ Fst //  
 $LL$    #### @???
 $LA$    #### @???
 $"    " // _Z_ Quo //  
-3:1    3:1+0 // _N_ card ?  digit //  **CLB  @ADVL 
-võitsime    võit+sime // _V_ main indic impf ps1 pl ps af  #FinV #NGP-P #in //   @+FMV
-Blackburni    Blackburn+0 // _S_ prop sg part #cap #? //   @OBJ 
+3:1    3:1+0 // _N_ card ?  digit //  **CLB  @ADVL // Element lõppskoor
+võitsime    võit+sime // _V_ main indic impf ps1 pl ps af  #FinV #NGP-P #in //   @+FMV // Freim victory
+Blackburni    Blackburn+0 // _S_ prop sg part #cap #? //   @OBJ // Element kaotaja
 $,    , // _Z_ Com //  
 täna    täna+0 // _D_ //  **CLB  @ADVL 
 oli    ole+i // _V_ main indic impf ps3 sg ps af  #FinV #Intr //   @+FMV
 minu    mina+0 // _P_ pers ps1 sg gen  //   @NN> 
 päev    päev+0 // _S_ com sg nom  //   @SUBJ 
 $,    , // _Z_ Com //  
-lõin    loo+in // _V_ main indic impf ps1 sg ps af  #FinV #NGP-P //  **CLB  @+FMV    löö+in // _V_ main indic impf ps1 sg ps af  #FinV #NGP-P //  **CLB  @+FMV
-värava    värav+0 // _S_ com sg gen  //   @OBJ 
+lõin    loo+in // _V_ main indic impf ps1 sg ps af  #FinV #NGP-P //  **CLB  @+FMV    löö+in // _V_ main indic impf ps1 sg ps af  #FinV #NGP-P //  **CLB  @+FMV // Element otsustav sündmus
+värava    värav+0 // _S_ com sg gen  //   @OBJ  // Element otsustav sündmus
 ja    ja+0 // _J_ crd //  **CLB  @J
-andsin    and+sin // _V_ main indic impf ps1 sg ps af  #FinV #NGP-P #InfP #all #tr //   @+FMV
-söödu    söödu+0 // _S_ com sg gen //   @OBJ    sööt+0 // _S_ com sg gen  //   @OBJ 
+andsin    and+sin // _V_ main indic impf ps1 sg ps af  #FinV #NGP-P #InfP #all #tr //   @+FMV // Element otsustav sündmus
+söödu    söödu+0 // _S_ com sg gen //   @OBJ    sööt+0 // _S_ com sg gen  //   @OBJ  // Element otsustav sündmus
 $,    , // _Z_ Com //  
 $"    " // _Z_ Quo //  
 teatas    teata+s // _V_ main indic impf ps3 sg ps af  #FinV #NGP-P //  **CLB  @+FMV
@@ -284,7 +286,7 @@ märgib    märki+b // _V_ main indic pres ps3 sg ps af  #FinV #Part //   @+FMV
 $,    , // _Z_ Com //  
 et    et+0 // _J_ sub //  **CLB  @J
 kuigi    kuigi+0 // _J_ sub //   @J
-kodumeeskond    kodu_meeskond+0 // _S_ com sg nom  //   @SUBJ 
+kodumeeskond    kodu_meeskond+0 // _S_ com sg nom  //   @SUBJ // Element liider
 läks    mine+s // _V_ main indic impf ps3 sg ps af  #FinV #Intr #ill #all //   @+FMV
 väravateta    värav+teta // _S_ com pl abes  //   @ADVL @NN> 
 avapoolaja    ava_pool_aeg+0 // _S_ com sg gen  //   @P> 
@@ -293,7 +295,7 @@ teisel    teine+l // _N_ ord sg ad  l //   @AN>
 kolmveerandtunnil    kolm_veerand_tund+l // _S_ com sg ad  //   @ADVL @<NN
 õige    õige+0 // _D_ //   @ADVL 
 pea    pea+0 // _D_ //   @ADVL 
-juhtima    juhti+ma // _V_ main sup ps ill  #NGP-P //   @ADVL 
+juhtima    juhti+ma // _V_ main sup ps ill  #NGP-P //   @ADVL // Freim lead
 $,    , // _Z_ Com //  
 vastasid    vasta+sid // _V_ main indic impf ps3 pl ps af  #FinV #NGP-P //  **CLB  @+FMV
 külalised    külaline+d // _S_ com pl nom  #line //   @SUBJ 
@@ -314,19 +316,18 @@ lõppskoori    lõpp_skoor+0 // _S_ com sg gen  //  **CLB  @OBJ
 tõi    too+i // _V_ main indic impf ps3 sg ps af  #FinV #NGP-P //   @+FMV
 tabloole    tabloo+le // _S_ com sg all  //   @ADVL 
 aga    aga+0 // _J_ crd //   @J
-Blackburni    Blackburni+0 // _S_ prop sg gen #cap #? //   @NN>    Blackburn+0 // _S_ prop sg gen #cap #? //   @NN> 
+Blackburni    Blackburni+0 // _S_ prop sg gen #cap #? //   @NN>    Blackburn+0 // _S_ prop sg gen #cap #? //   @NN> // Element meeskond
 omavärav    oma_värav+0 // _S_ com sg nom  //   @SUBJ 
-omavärav    kohtunik+0 // _S_ com sg nom  //   @SUBJ 
 mõni    mõni+0 // _P_ indef sg nom  //   @NN> 
 minut    minut+0 // _S_ com sg nom  //   @ADVL 
 enne    enne+0 // _K_ pre #part //   @ADVL 
-lõpuvilet    lõpu_vile+t // _S_ com sg part  //   @<P 
+lõpuvilet    lõpu_vile+t // _S_ com sg part  //   @<P // Freim start/end of match
 $.    . // _Z_ Fst //  
 $LL$    #### @???
 $LA$    #### @???
 Kumma    kumb+0 // _P_ inter rel sg gen  #cap //  **CLB  @OBJ @NN> 
-värava    värav+0 // _S_ com sg gen  //   @NN> 
-Vaðtðuk    Vaðtðuk+0 // _S_ prop sg nom  #cap #? //   @SUBJ 
+värava    värav+0 // _S_ com sg gen  //   @NN> // Freim score goal
+Vaðtðuk    Vaðtðuk+0 // _S_ prop sg nom  #cap #? //   @SUBJ // Element lööja
 lõi    loo+i // _V_ main indic impf ps3 sg ps af  #FinV #NGP-P //   @+FMV    löö+i // _V_ main indic impf ps3 sg ps af  #FinV #NGP-P //   @+FMV
 ja    ja+0 // _J_ crd //  **CLB  @J
 millisele    milline+le // _P_ inter rel sg all  //  **CLB  @ADVL 
@@ -340,17 +341,17 @@ teada    tead+a // _V_ main inf  #NGP-P #InfP //   @-FMV
 $.    . // _Z_ Fst //  
 $LL$    #### @???
 $LA$    #### @???
-U-18    U-18+0 // _Y_ ?  #cap #? //  **CLB  @SUBJ @OBJ @ADVL @NN>
-vanuseklassi    vanuse_klass+0 // _S_ com sg gen  //   @NN> 
-meistrivõistlustel    meistri_võistlus+tel // _S_ com pl ad  //   @ADVL @<NN
+U-18    U-18+0 // _Y_ ?  #cap #? //  **CLB  @SUBJ @OBJ @ADVL @NN> // Element võistlus
+vanuseklassi    vanuse_klass+0 // _S_ com sg gen  //   @NN>  // Element võistlus
+meistrivõistlustel    meistri_võistlus+tel // _S_ com pl ad  //   @ADVL @<NN // Element võistlus
 on    ole+0 // _V_ main indic pres ps3 sg ps af  #FinV #Intr //   @+FMV
-Readingul    Readingul+0 // _S_ prop sg nom  #cap #? //   @SUBJ @PRD @OBJ 
+Readingul    Readingul+0 // _S_ prop sg nom  #cap #? //   @SUBJ @PRD @OBJ // Element meeskond
 pidada    pida+da // _V_ main inf  #NGP-P //   @-FMV @SUBJ @PRD @<INF_N @ADVL
 veel    veel+0 // _D_ //   @ADVL 
 kaks    kaks+0 // _N_ card sg nom  l //   @SUBJ @OBJ @PRD @ADVL 
-kohtumist    kohtumine+t // _S_ com sg part  //   @<Q 
+kohtumist    kohtumine+t // _S_ com sg part  //   @<Q // Freim match
 $,    , // _Z_ Com //  
-hooaeg    hoo_aeg+0 // _S_ com sg nom  //  **CLB  @OBJ 
+hooaeg    hoo_aeg+0 // _S_ com sg nom  //  **CLB  @OBJ // Freim season
 lõpetatakse    lõpeta+takse // _V_ main indic pres imps af  #FinV #NGP-P //   @+FMV
 lõunatsooni    lõuna_tsoon+0 // _S_ com sg adit //   @ADVL @NN>    lõuna_tsoon+0 // _S_ com sg part //   @ADVL    lõuna_tsoon+0 // _S_ com sg gen  //   @NN> 
 11    11+0 // _N_ card ?  digit //   @P> 
@@ -361,9 +362,6 @@ keskel    keskel+0 // _K_ post #gen //   @ADVL
 $,    , // _Z_ Com //  
 tõenäoliselt    tõe_näo=liselt+0 // _D_ //   @ADVL 
 4-6    4-6+0 // _N_ card ?  digit //   @SUBJ @OBJ @ADVL 
-$.    . // _Z_ Fst //  
-$LL$    #### @???
-$LA$    #### @???
 koha    koha+0 // _V_ main imper pres ps2 sg ps af  #FinV //  **CLB  @+FMV
 vahemikus    vahemik+s // _S_ com sg in  //   @ADVL 
 $.    . // _Z_ Fst //  
